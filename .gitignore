@@ -1,0 +1,3 @@
+#Esta carpeta se puede reconstruir con 'npm install'
+node_modules/
+.env
