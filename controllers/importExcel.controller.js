@@ -95,7 +95,8 @@ function formatearFechaExcel(fechaExcel) {
   var minutos = Math.floor(totalSegundosDia / 60) % 60;
 
   // Convertidos a 2 dígitos
-  var dia = ('0' + (infoFecha.getDate() + 1)).slice(-2);
+  infoFecha.setDate(infoFecha.getDate() + 1);
+  var dia = ('0' + infoFecha.getDate()).slice(-2);
   var mes = ('0' + (infoFecha.getMonth() + 1)).slice(-2);
   var anio = infoFecha.getFullYear();
 
