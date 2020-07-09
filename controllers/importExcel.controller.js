@@ -7,7 +7,6 @@ const Uds = require('../models/uds.model');
 
 var controller = {
   importarBeneficiarios: (req, res) => {
-    console.log(req.files);
     if (!req.files) {
       return res.status(400).json({
         ok: false,
@@ -28,7 +27,6 @@ var controller = {
     const fecha = `${new Date().getFullYear()}-${new Date().getMonth()}-${new Date().getDate()}`;
     const nuevoNombre = `import-${fecha}-${new Date().getMilliseconds()}.${extencion}`;
     const rutaArchivo = `./documents/${nuevoNombre}`;
-
     archivo.mv(rutaArchivo, (error, archivoGuardado) => {
       if (error) {
         return res.status(500).json({
@@ -52,7 +50,6 @@ var controller = {
             registro.respDocumento,
             registro.respTipoDoc
           ),
-          estado: 'Vinculado',
           respNacimiento: formatearFechaExcel(registro.respNacimiento),
           documento: separadorMiles(registro.documento, registro.tipoDoc),
           nacimiento: formatearFechaExcel(registro.nacimiento),
@@ -68,15 +65,18 @@ var controller = {
       // Eliminamos el archivo después de obtener los datos
       fs.unlinkSync(rutaArchivo);
 
-      importarRegistros(jDatos).then(result => {
-        return res.status(200).json({
-          ok: true,
-          mensaje: 'Importación realizada correctamente',
-          registrosAImportar: jDatos.length,
-          registrosImportados: result.registrosImportados.length,
-          importado: result
-        });
-      });
+      importarRegistros(jDatos).then(
+        result => {
+          return res.status(200).json({
+            ok: true,
+            mensaje: 'Importación realizada correctamente',
+            registrosAImportar: jDatos.length,
+            registrosImportados: result.registrosImportados.length,
+            importado: result
+          });
+        },
+        error => console.log(error)
+      );
     });
   }
 };
@@ -335,6 +335,7 @@ function importarRegistros(arrayData) {
         autorreconocimiento: data.autorreconocimiento,
         tipoResponsable: data.tipoResponsable,
         responsableId: null,
+        estado: 'Vinculado',
         criterio: data.criterio,
         infoCriterio: data.infoCriterio,
         comentario: null,
