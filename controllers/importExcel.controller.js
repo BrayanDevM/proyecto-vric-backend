@@ -52,6 +52,7 @@ var controller = {
             registro.respDocumento,
             registro.respTipoDoc
           ),
+          estado: 'Vinculado',
           respNacimiento: formatearFechaExcel(registro.respNacimiento),
           documento: separadorMiles(registro.documento, registro.tipoDoc),
           nacimiento: formatearFechaExcel(registro.nacimiento),
