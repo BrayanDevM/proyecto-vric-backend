@@ -1,6 +1,7 @@
 var express = require('express');
 var ruta = express();
 var loginController = require('../controllers/login.controller');
+var authMiddleware = require('../middlewares/auth.middleware');
 
 // Passport lib verify
 const passport = require('passport');
@@ -20,6 +21,12 @@ ruta.get(
   '/login/google/callback',
   passport.authenticate('google', { failureRedirect: '/failed' }),
   loginController.googleSuccess
+);
+
+ruta.get(
+  '/renuevaToken',
+  authMiddleware.verificarToken,
+  loginController.renuevaToken
 );
 
 module.exports = ruta;

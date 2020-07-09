@@ -93,6 +93,17 @@ var controller = {
   logout: (req, res) => {
     req.logout();
     res.redirect('/');
+  },
+  renuevaToken: (req, res) => {
+    // Creación de Jason Web Token
+    var usuario = req.solicitadoPor;
+    var token = jwt.sign({ usuario: usuario }, process.env.TOKEN_SEED, {
+      expiresIn: 14400
+    }); // 4 horas
+    res.status(200).json({
+      ok: true,
+      nuevoToken: token
+    });
   }
 };
 

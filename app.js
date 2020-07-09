@@ -64,7 +64,7 @@ mongoose.connect(
     console.log(
       '\x1b[32m%s\x1b[0m \x1b[33m%s\x1b[0m conectado',
       'MongoDB online',
-      '[hospitalDB]'
+      '[Proyecto-VRIC]'
     );
   }
 );
