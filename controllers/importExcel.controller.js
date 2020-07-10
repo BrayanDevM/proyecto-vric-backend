@@ -344,9 +344,6 @@ function importarRegistros(arrayData) {
         creadoPor: data.creadoPor,
         creadoEl: data.fechaCargue
       };
-      if (data.barrio === undefined) {
-        beneficiario.barrio = 'sin barrio';
-      }
       let resultResp = await crearResponsable(respBen);
       resultResp.existente
         ? (responsablesExistentes += 1)

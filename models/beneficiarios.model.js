@@ -8,7 +8,7 @@ docValidacion = {
 };
 
 sexoValidacion = {
-  values: ['Femenino', 'Masculino', 'Otro'],
+  values: ['Mujer', 'Hombre', 'Intersex', 'Otro'],
   message: '{VALUE} no es un tipo de sexo permitido'
 };
 
@@ -101,7 +101,6 @@ var beneficiariosSchema = new Schema({
   },
   barrio: {
     type: String,
-    required: [true, 'El barrio es obligatoria'],
     default: ''
   },
   telefono: {
@@ -156,7 +155,6 @@ var beneficiariosSchema = new Schema({
   },
   infoDiscapacidad: {
     type: String,
-    required: false,
     default: ''
   },
   comentario: {

@@ -3,12 +3,12 @@ var uniqueValidator = require('mongoose-unique-validator');
 var Schema = mongoose.Schema;
 
 docValidacion = {
-  values: ['RC', 'TI', 'CC', 'CE', 'PEP', 'SD'],
+  values: ['RC', 'TI', 'CC', 'CE', 'PEP', 'PA', 'CE', 'SD'],
   message: '{VALUE} no es un tipo de documento permitido'
 };
 
 sexoValidacion = {
-  values: ['Femenino', 'Masculino', 'Otro'],
+  values: ['Mujer', 'Hombre', 'Intersex', 'Otro'],
   message: '{VALUE} no es un tipo de sexo permitido'
 };
 
