@@ -9,6 +9,16 @@ ruta.get(
   authMiddleware.verificarToken,
   udsController.obtenerUnidad
 );
+ruta.get(
+  '/uds/disponibles/:contratoId',
+  // authMiddleware.verificarToken,
+  udsController.obtenerUdsDisponiblesPorContrato
+);
+ruta.get(
+  '/uds/disponibles',
+  // authMiddleware.verificarToken,
+  udsController.obtenerUdsDisponibles
+);
 ruta.post(
   '/uds',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],

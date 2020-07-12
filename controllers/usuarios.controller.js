@@ -32,6 +32,23 @@ var controller = {
         });
       });
   },
+  obtenerUsuario: (req, res) => {
+    const id = req.params.id;
+    Usuarios.findOne({ _id: id }, (error, usuario) => {
+      if (error) {
+        return res.status(500).json({
+          ok: false,
+          mensaje: 'Error al buscar usuario',
+          error
+        });
+      }
+      return res.status(200).json({
+        ok: true,
+        mensaje: 'Usuario obtenido correctamente',
+        usuario
+      });
+    });
+  },
   crearUsuario: (req, res) => {
     var body = req.body;
     var usuario = new Usuarios({

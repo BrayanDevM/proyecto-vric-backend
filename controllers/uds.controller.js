@@ -39,6 +39,44 @@ var controller = {
         });
       });
   },
+  obtenerUdsDisponiblesPorContrato: (req, res) => {
+    const contratoId = req.params.contratoId;
+
+    Uds.find()
+      .or([{ enContrato: null }, { enContrato: contratoId }])
+      .exec((error, udsDisponibles) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        return res.status(200).json({
+          ok: true,
+          mensjae: 'Unidades disponibles en contrato',
+          udsDisponibles
+        });
+      });
+  },
+  obtenerUdsDisponibles: (req, res) => {
+    Uds.find()
+      .or([{ enContrato: null }])
+      .exec((error, udsDisponibles) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        return res.status(200).json({
+          ok: true,
+          mensjae: 'Unidades disponibles en contrato',
+          udsDisponibles
+        });
+      });
+  },
   obtenerUnidad: (req, res) => {
     var unidadId = req.params.id;
     Uds.findById(unidadId)
@@ -86,7 +124,6 @@ var controller = {
       docentes: body.docentes,
       gestor: body.gestor,
       ubicacion: body.ubicacion,
-      enContrato: body.enContrato,
       creadoPor: req.solicitadoPor,
       creadoEl: body.creadoEl,
       activa: body.activa

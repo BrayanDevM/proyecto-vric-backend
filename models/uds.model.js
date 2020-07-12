@@ -46,7 +46,11 @@ var udsSchema = new Schema({
     default: null
   },
   ubicacion: { type: String, required: true, default: '' },
-  enContrato: { type: Schema.Types.ObjectId, ref: 'Contrato', default: null },
+  enContrato: {
+    type: Schema.Types.ObjectId,
+    ref: 'Contrato',
+    default: null
+  },
   creadoEl: { type: String, required: false, default: '08/05/2020' },
   creadoPor: {
     type: Schema.Types.ObjectId,

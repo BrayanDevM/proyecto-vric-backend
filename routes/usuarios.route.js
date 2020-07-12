@@ -8,6 +8,11 @@ ruta.get(
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
   usuariosController.obtenerUsuarios
 );
+ruta.get(
+  '/usuarios/:id',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  usuariosController.obtenerUsuario
+);
 ruta.post(
   '/usuarios',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
