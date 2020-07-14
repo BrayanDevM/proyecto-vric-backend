@@ -5,6 +5,11 @@ var authMiddleware = require('../middlewares/auth.middleware');
 
 ruta.get('/uds', authMiddleware.verificarToken, udsController.obtenerUds);
 ruta.get(
+  '/uds/datos',
+  authMiddleware.verificarToken,
+  udsController.obtenerDatosUds
+);
+ruta.get(
   '/uds/unidad/:id',
   authMiddleware.verificarToken,
   udsController.obtenerUnidad
