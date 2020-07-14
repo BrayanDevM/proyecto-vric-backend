@@ -10,22 +10,24 @@ var controller = {
       desde = 0;
     }
 
-    Uds.find({}).exec((error, uds) => {
-      if (error) {
-        return res.status(500).json({
-          ok: false,
-          mensaje: 'Error al traer UDS',
-          error
-        });
-      }
-      Uds.countDocuments({}, (error, registros) => {
-        return res.status(200).json({
-          ok: true,
-          uds,
-          registros
+    Uds.find({})
+      .populate('enContrato')
+      .exec((error, uds) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        Uds.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            uds,
+            registros
+          });
         });
       });
-    });
   },
   obtenerDatosUds: (req, res) => {
     var desde = req.query.desde || 0; // Variable para realizar paginación (desde)
