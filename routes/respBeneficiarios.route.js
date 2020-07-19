@@ -9,6 +9,11 @@ ruta.get(
   authMiddleware.verificarToken,
   respBeneficiariosController.obtenerResponsable
 );
+ruta.get(
+  '/respBeneficiarios/documento/:documento',
+  // authMiddleware.verificarToken,
+  respBeneficiariosController.buscarResponsablePorDoc
+);
 ruta.post(
   '/respBeneficiarios',
   authMiddleware.verificarToken,

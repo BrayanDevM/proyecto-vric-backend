@@ -14,6 +14,7 @@ var controller = {
     Beneficiarios.find({})
       .skip(desde)
       // .limit(5)
+      .sort('nombre1')
       .populate('uds', 'cupos codigo nombre arriendo ubicacion')
       .exec((error, beneficiarios) => {
         if (error) {
@@ -54,6 +55,28 @@ var controller = {
         res.status(200).json({
           ok: true,
           beneficiario
+        });
+      });
+  },
+  obtenerBeneficiariosPorEstado: (req, res) => {
+    const estado = req.params.estado;
+    const regex = new RegExp(estado, 'i');
+    Beneficiarios.find({ estado: regex })
+      .sort('nombre1')
+      .populate('uds')
+      .populate('responsableId')
+      .populate('creadoPor', 'nombre correo')
+      .exec((error, beneficiarios) => {
+        if (error) {
+          res.status(500).json({
+            ok: false,
+            mensaje: 'error al buscar beneficiarios',
+            error
+          });
+        }
+        res.status(200).json({
+          ok: true,
+          beneficiarios
         });
       });
   },

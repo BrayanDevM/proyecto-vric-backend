@@ -11,7 +11,9 @@ var controller = {
     }
 
     Uds.find({})
-      .populate('enContrato')
+      .sort('nombre')
+      .populate('enContrato', 'codigo')
+      .populate('coordinador', 'nombre')
       .exec((error, uds) => {
         if (error) {
           return res.status(500).json({
@@ -36,18 +38,13 @@ var controller = {
       desde = 0;
     }
 
-    Uds.find({})
+    Uds.find({}, 'arriendo cupos nombre ubicacion')
       .skip(desde)
-      .limit(50)
-      .populate('beneficiarios')
-      .populate('enContrato')
-      .populate({
-        path: 'beneficiarios',
-        populate: [
-          { path: 'creadoPor', select: 'nombre correo' },
-          { path: 'responsableId' }
-        ]
-      })
+      .sort('nombre')
+      .populate(
+        'beneficiarios',
+        'estado nacimiento autorreconocimiento discapacidad ingreso egreso paisNacimiento sexo uds'
+      )
       .exec((error, uds) => {
         if (error) {
           return res.status(500).json({
@@ -106,13 +103,13 @@ var controller = {
   obtenerUnidad: (req, res) => {
     var unidadId = req.params.id;
     Uds.findById(unidadId)
-      .populate('beneficiarios')
       .populate('docentes', 'nombre correo documento')
       .populate('coordinador', 'nombre correo documento')
       .populate('gestor', 'nombre correo documento')
       .populate('creadoPor', 'nombre correo documento')
       .populate({
         path: 'beneficiarios',
+        options: { sort: 'nombre1' },
         populate: [
           { path: 'creadoPor', select: 'nombre correo' },
           { path: 'responsableId' }

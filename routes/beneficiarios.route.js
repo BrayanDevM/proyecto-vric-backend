@@ -13,6 +13,11 @@ ruta.get(
   authMiddleware.verificarToken,
   beneficiariosController.obtenerBeneficiario
 );
+ruta.get(
+  '/beneficiarios/estado/:estado',
+  authMiddleware.verificarToken,
+  beneficiariosController.obtenerBeneficiariosPorEstado
+);
 ruta.post(
   '/beneficiarios',
   authMiddleware.verificarToken,

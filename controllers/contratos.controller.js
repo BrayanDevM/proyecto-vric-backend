@@ -12,7 +12,7 @@ var controller = {
 
     Contratos.find({})
       .skip(desde)
-      .limit(5)
+      // .limit(5)
       .exec((error, contratos) => {
         if (error) {
           return res.status(500).json({
@@ -64,6 +64,7 @@ var controller = {
       cupos: body.cupos,
       eas: body.eas,
       nit: body.nit,
+      activo: body.activo,
       creadoPor: req.solicitadoPor,
       creadoEl: body.creadoEl,
       uds: body.uds

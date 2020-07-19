@@ -51,6 +51,30 @@ var controller = {
       });
     });
   },
+  buscarResponsablePorDoc: (req, res) => {
+    const documento = req.params.documento;
+    const regex = new RegExp(documento, 'i');
+
+    RespBeneficiario.find({ documento }).exec((error, responsable) => {
+      if (error) {
+        return res.status(500).json({
+          ok: false,
+          mensaje: 'Error al buscar responsable',
+          error
+        });
+      }
+      if (!responsable) {
+        return res.status(404).json({
+          ok: false,
+          mensaje: 'Responsable no existe'
+        });
+      }
+      return res.status(200).json({
+        ok: true,
+        responsable
+      });
+    });
+  },
   crearRespBeneficiario: (req, res) => {
     var body = req.body;
     var responsableBeneficiario = new RespBeneficiario({
