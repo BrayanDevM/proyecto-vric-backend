@@ -50,6 +50,28 @@ tipoResponsableValidacion = {
   message: '{VALUE} no es un tipo de responsable permitido'
 };
 
+motivosEgreso = {
+  values: [
+    'Retiro voluntario del programa',
+    'Tránsito a otro programa',
+    'Traslado de municipio',
+    'Cambio de grupo familiar',
+    'Distancia del centro de atención',
+    'Edad cumplida',
+    'Enfermedad',
+    'Fallecimiento',
+    'No le gusta la comida',
+    'En casa hay quien lo cuide',
+    'Alto costo para la familia (transporte)',
+    'Cambio vigencia',
+    'Conflicto armado',
+    'Desplazamiento forzado',
+    'Pasó al SIMAT',
+    'Otro'
+  ],
+  message: '{VALUE} no es un motivo de egreso permitido'
+};
+
 var beneficiariosSchema = new Schema({
   tipoDoc: {
     type: String,
@@ -149,6 +171,11 @@ var beneficiariosSchema = new Schema({
     required: [true, 'Debe asignar una Unidad de servicio']
   },
   egreso: {
+    type: String,
+    required: false,
+    default: ''
+  },
+  motivoEgreso: {
     type: String,
     required: false,
     default: ''

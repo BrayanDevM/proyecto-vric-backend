@@ -200,17 +200,18 @@ var controller = {
         (beneficiario.uds = body.uds),
         (beneficiario.estado = body.estado),
         (beneficiario.egreso = body.egreso),
+        (beneficiario.motivoEgreso = body.motivoEgreso),
         beneficiario.save((error, beneficiarioActualizado) => {
           if (error) {
             return res.status(500).json({
               ok: false,
-              mensaje: 'Error al actualizar responsable de beneficiario',
+              mensaje: 'Error al actualizar beneficiario',
               error
             });
           }
           return res.status(200).json({
             ok: true,
-            mensaje: 'Responsable de beneficiario actualizado correctamente',
+            mensaje: 'Beneficiario actualizado correctamente',
             beneficiarioActualizado
           });
         });

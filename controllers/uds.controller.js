@@ -160,6 +160,34 @@ var controller = {
           error
         });
       }
+      // console.log(uds);
+      /**
+       * Si algun coord, gestor o docentes no se envían se recibe null
+       * Por si se quiere hacer una modificación para guardarlos, es decir
+       * se debe crear la UDS sin asignar responsables y luego editarla y asignarlos
+       * así se asegura que se envíen los 3 responsables en una sola petición
+       */
+      // Promise.all([
+      //   asignarUdsACoord(uds.coordinador, udsCreada._id),
+      //   asignarUdsAGestor(uds.gestor, udsCreada._id),
+      //   asignarUdsADocentes(uds.docentes, udsCreada._id)
+      // ]).then(usuariosActualizados => {
+      //   if (error) {
+      //     return res.status(500).json({
+      //       ok: false,
+      //       mensaje: 'Error al actualizar UDS',
+      //       error
+      //     });
+      //   }
+      //   return res.status(200).json({
+      //     ok: true,
+      //     mensaje: 'UDS creada correctamente',
+      //     udsCreada,
+      //     coordinadorActualizado: usuariosActualizados[0],
+      //     GestorActualizado: usuariosActualizados[1],
+      //     DocentesActualizadas: usuariosActualizados[2]
+      //   });
+      // });
       return res.status(201).json({
         ok: true,
         udsCreada
@@ -183,6 +211,11 @@ var controller = {
           mensaje: 'La UDS no existe'
         });
       }
+      /**
+       * Se debe tener en cuenta que se reasignan a la UDS lo que se envía desde
+       * el formulario de edición y luego se asigna el _id de la UDS al usuario
+       * pero! no estamos eliminando el _id de la UDS al usuario que ya no la tiene...!?
+       */
       uds.arriendo = body.arriendo;
       uds.codigo = body.codigo;
       uds.nombre = body.nombre;
