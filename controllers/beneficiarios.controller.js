@@ -200,6 +200,7 @@ var controller = {
         (beneficiario.uds = body.uds),
         (beneficiario.estado = body.estado),
         (beneficiario.egreso = body.egreso),
+        (beneficiario.creadoPor = body.creadoPor),
         (beneficiario.motivoEgreso = body.motivoEgreso),
         beneficiario.save((error, beneficiarioActualizado) => {
           if (error) {

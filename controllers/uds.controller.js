@@ -31,7 +31,7 @@ var controller = {
         });
       });
   },
-  obtenerDatosUds: (req, res) => {
+  obtenerUdsConBeneficiarios: (req, res) => {
     var desde = req.query.desde || 0; // Variable para realizar paginación (desde)
     desde = Number(desde);
     if (isNaN(desde)) {
@@ -102,6 +102,28 @@ var controller = {
   },
   obtenerUnidad: (req, res) => {
     var unidadId = req.params.id;
+    Uds.findById(unidadId).exec((error, unidad) => {
+      if (error) {
+        return res.status(500).json({
+          ok: false,
+          mensaje: 'Error al buscar UDS',
+          error
+        });
+      }
+      if (!unidad) {
+        return res.status(400).json({
+          ok: false,
+          mensaje: 'La UDS no existe'
+        });
+      }
+      res.status(200).json({
+        ok: true,
+        unidad
+      });
+    });
+  },
+  obtenerUnidadInfoCompleta: (req, res) => {
+    var unidadId = req.params.id;
     Uds.findById(unidadId)
       .populate('docentes', 'nombre correo documento')
       .populate('coordinador', 'nombre correo documento')
@@ -112,7 +134,8 @@ var controller = {
         options: { sort: 'nombre1' },
         populate: [
           { path: 'creadoPor', select: 'nombre correo' },
-          { path: 'responsableId' }
+          { path: 'responsableId' },
+          { path: 'uds', select: 'nombre' }
         ]
       })
       .populate('enContrato')

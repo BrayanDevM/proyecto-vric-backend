@@ -7,12 +7,17 @@ ruta.get('/uds', authMiddleware.verificarToken, udsController.obtenerUds);
 ruta.get(
   '/uds/datos',
   authMiddleware.verificarToken,
-  udsController.obtenerDatosUds
+  udsController.obtenerUdsConBeneficiarios
 );
 ruta.get(
   '/uds/unidad/:id',
   authMiddleware.verificarToken,
   udsController.obtenerUnidad
+);
+ruta.get(
+  '/uds/unidad/datos/:id',
+  authMiddleware.verificarToken,
+  udsController.obtenerUnidadInfoCompleta
 );
 ruta.get(
   '/uds/disponibles/:contratoId',
