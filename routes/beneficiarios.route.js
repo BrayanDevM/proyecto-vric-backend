@@ -1,23 +1,33 @@
-var express = require('express');
-var ruta = express();
-var beneficiariosController = require('../controllers/beneficiarios.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const beneficiariosController = require('../controllers/beneficiarios.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
+// Peticiones GET de beneficiarios
 ruta.get(
   '/beneficiarios',
   authMiddleware.verificarToken,
-  beneficiariosController.obtenerBeneficiarios
+  beneficiariosController.traerBeneficiarios
 );
+ruta.get(
+  '/beneficiarios/responsables',
+  authMiddleware.verificarToken,
+  beneficiariosController.traerBeneficiarios_responsables
+);
+
+// Peticiones GET de un beneficiario
 ruta.get(
   '/beneficiarios/:id',
   authMiddleware.verificarToken,
-  beneficiariosController.obtenerBeneficiario
+  beneficiariosController.traerBeneficiario
 );
 ruta.get(
-  '/beneficiarios/estado/:estado',
+  '/beneficiarios/:id/responsables',
   authMiddleware.verificarToken,
-  beneficiariosController.obtenerBeneficiariosPorEstado
+  beneficiariosController.traerBeneficiario_responsables
 );
+
+// Peticiones POST, PUT, DELETE
 ruta.post(
   '/beneficiarios',
   authMiddleware.verificarToken,

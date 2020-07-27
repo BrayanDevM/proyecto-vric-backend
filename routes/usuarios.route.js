@@ -1,18 +1,43 @@
-var express = require('express');
-var ruta = express();
-var usuariosController = require('../controllers/usuarios.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const usuariosController = require('../controllers/usuarios.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
+// Peticiones GET de usuarios
 ruta.get(
   '/usuarios',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
-  usuariosController.obtenerUsuarios
+  usuariosController.traerUsuarios
 );
+ruta.get(
+  '/usuarios/uds',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  usuariosController.traerUsuarios_uds
+);
+ruta.get(
+  '/usuarios/contratos',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  usuariosController.traerUsuarios_contratos
+);
+ruta.get(
+  '/usuarios/contratos/uds',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  usuariosController.traerUsuarios_uds_contratos
+);
+ruta.get(
+  '/usuarios/uds/contratos',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  usuariosController.traerUsuarios_uds_contratos
+);
+
+// Peticiones GET de usuario
 ruta.get(
   '/usuarios/:id',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
   usuariosController.obtenerUsuario
 );
+
+// Peticiones POST, PUT, DELETE de usuarios
 ruta.post(
   '/usuarios',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],

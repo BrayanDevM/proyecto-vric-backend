@@ -1,33 +1,37 @@
-var express = require('express');
-var ruta = express();
-var udsController = require('../controllers/uds.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const udsController = require('../controllers/uds.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
-ruta.get('/uds', authMiddleware.verificarToken, udsController.obtenerUds);
+// Devuelve UUDDSS sin info de beneficiarios
 ruta.get(
-  '/uds/datos',
-  authMiddleware.verificarToken,
-  udsController.obtenerUdsConBeneficiarios
-);
-ruta.get(
-  '/uds/unidad/:id',
-  authMiddleware.verificarToken,
-  udsController.obtenerUnidad
-);
-ruta.get(
-  '/uds/unidad/datos/:id',
-  authMiddleware.verificarToken,
-  udsController.obtenerUnidadInfoCompleta
-);
-ruta.get(
-  '/uds/disponibles/:contratoId',
+  '/uds',
   // authMiddleware.verificarToken,
-  udsController.obtenerUdsDisponiblesPorContrato
+  udsController.traerUds
+);
+// Devuelve UUDDSS con info de beneficiarios
+ruta.get(
+  '/uds/beneficiarios',
+  // authMiddleware.verificarToken,
+  udsController.traerUds_beneficiarios
+);
+// Devuelve UUDDSS con info de beneficiarios y responsables
+ruta.get(
+  '/uds/beneficiarios/responsables',
+  // authMiddleware.verificarToken,
+  udsController.traerUds_beneficiarios_responsables
+);
+// Devuelve UDS sin info de beneficiarios
+ruta.get('/uds/:id', authMiddleware.verificarToken, udsController.traerUnidad);
+ruta.get(
+  '/uds/:id/beneficiarios',
+  authMiddleware.verificarToken,
+  udsController.traerUnidad_beneficiarios
 );
 ruta.get(
-  '/uds/disponibles',
-  // authMiddleware.verificarToken,
-  udsController.obtenerUdsDisponibles
+  '/uds/:id/beneficiarios/responsables',
+  authMiddleware.verificarToken,
+  udsController.traerUnidad_beneficiarios_responsables
 );
 ruta.post(
   '/uds',

@@ -1,34 +1,154 @@
 'use strict';
-var Contratos = require('../models/contratos.model');
-var Uds = require('../models/uds.model');
+const Contratos = require('../models/contratos.model');
+const Uds = require('../models/uds.model');
 
-var controller = {
-  obtenerContratos: (req, res) => {
-    var desde = req.query.desde || 0; // Variable para realizar paginación (desde)
-    desde = Number(desde);
-    if (isNaN(desde)) {
-      desde = 0;
+const controller = {
+  traerContratos: (req, res) => {
+    // Variables de filtro ?query
+    const desde = Number(req.query.desde) || 0;
+    const limite = Number(req.query.limite) || 0;
+    // filtros
+    const activo = req.query.activo;
+    const eas = req.query.eas;
+    const regional = req.query.regional;
+    const cupos = req.query.cupos;
+
+    let filtro = [];
+
+    if (activo !== undefined) {
+      filtro = retornarFiltro(activo, 'activo');
     }
 
-    Contratos.find({})
-      .skip(desde)
-      // .limit(5)
-      .exec((error, contratos) => {
-        if (error) {
-          return res.status(500).json({
-            ok: false,
-            mensaje: 'Error al traer contratos',
-            error
-          });
-        }
-        Contratos.countDocuments({}, (error, registros) => {
-          return res.status(200).json({
-            ok: true,
-            contratos,
-            registros
+    if (eas !== undefined) {
+      filtro.push({ eas });
+    }
+
+    if (regional !== undefined) {
+      filtro.push({ regional });
+    }
+
+    if (cupos !== undefined) {
+      filtro = retornarFiltro(cupos, 'cupos');
+    }
+
+    if (filtro.length === 0) {
+      Contratos.find({})
+        .skip(desde)
+        .limit(limite)
+        .populate('creadoPor', 'nombre correo telefono')
+        .exec((error, contratos) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer contratos',
+              error
+            });
+          }
+          Contratos.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              contratos,
+              registros
+            });
           });
         });
-      });
+    } else {
+      Contratos.find()
+        .or(filtro)
+        .skip(desde)
+        .limit(limite)
+        .populate('creadoPor', 'nombre correo telefono')
+        .exec((error, contratos) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer contratos',
+              error
+            });
+          }
+          Contratos.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              contratos,
+              registros
+            });
+          });
+        });
+    }
+  },
+  traerContratos_uds: (req, res) => {
+    // Variables de filtro ?query
+    const desde = Number(req.query.desde) || 0;
+    const limite = Number(req.query.limite) || 0;
+    // filtros
+    const activo = req.query.activo;
+    const eas = req.query.eas;
+    const regional = req.query.regional;
+    const cupos = req.query.cupos;
+
+    let filtro = [];
+
+    if (activo !== undefined) {
+      filtro = retornarFiltro(activo, 'activo');
+    }
+
+    if (eas !== undefined) {
+      filtro.push({ eas });
+    }
+
+    if (regional !== undefined) {
+      filtro.push({ regional });
+    }
+
+    if (cupos !== undefined) {
+      filtro = retornarFiltro(cupos, 'cupos');
+    }
+
+    if (filtro.length === 0) {
+      Contratos.find({})
+        .skip(desde)
+        .limit(limite)
+        .populate('creadoPor', 'nombre correo telefono')
+        .populate('uds', 'nombre codigo cupos arriendo activa')
+        .exec((error, contratos) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer contratos',
+              error
+            });
+          }
+          Contratos.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              contratos,
+              registros
+            });
+          });
+        });
+    } else {
+      Contratos.find()
+        .or(filtro)
+        .skip(desde)
+        .limit(limite)
+        .populate('creadoPor', 'nombre correo telefono')
+        .exec((error, contratos) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer contratos',
+              error
+            });
+          }
+          Contratos.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              contratos,
+              registros
+            });
+          });
+        });
+    }
   },
   obtenerContrato: (req, res) => {
     var contratoId = req.params.id;
@@ -242,6 +362,30 @@ function buscarUdsEliminadas() {
    */
   // console.log('UDS eliminadas de contrato: ', arr);
   return arr;
+}
+
+/**
+ * Recibe criterios de consulta y propiedad para devolver
+ * un arreglo con los filtros requeridos por el método or()
+ * de una consulta a mongoDB
+ * @param {string} consulta
+ * @param {string} propiedad
+ */
+function retornarFiltro(consulta, propiedad) {
+  let condiciones = [];
+  const filtro = [];
+  condiciones = consulta.split(' ');
+
+  condiciones.forEach(condicion => {
+    if (condicion === 'null') {
+      condicion = null;
+    }
+    let obj = new Object();
+    obj[propiedad] = condicion;
+    filtro.push(obj);
+  });
+
+  return filtro;
 }
 
 module.exports = controller;

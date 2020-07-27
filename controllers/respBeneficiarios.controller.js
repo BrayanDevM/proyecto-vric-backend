@@ -1,17 +1,15 @@
 'use strict';
-var RespBeneficiario = require('../models/respBeneficiarios.model');
+const RespBeneficiario = require('../models/respBeneficiarios.model');
 
-var controller = {
+const controller = {
   obtenerResponsables: (req, res) => {
-    var desde = req.query.desde || 0; // Variable para realizar paginación (desde)
-    desde = Number(desde);
-    if (isNaN(desde)) {
-      desde = 0;
-    }
+    // Variables de filtro ?query
+    const desde = Number(req.query.desde) || 0;
+    const limite = Number(req.query.limite) || 0;
 
     RespBeneficiario.find({})
       .skip(desde)
-      .limit(5)
+      .limit(limite)
       .exec((error, respBeneficiarios) => {
         if (error) {
           return res.status(500).json({
@@ -32,30 +30,6 @@ var controller = {
   obtenerResponsable: (req, res) => {
     const id = req.params.id;
     RespBeneficiario.findById(id, (error, responsable) => {
-      if (error) {
-        return res.status(500).json({
-          ok: false,
-          mensaje: 'Error al buscar responsable',
-          error
-        });
-      }
-      if (!responsable) {
-        return res.status(404).json({
-          ok: false,
-          mensaje: 'Responsable no existe'
-        });
-      }
-      return res.status(200).json({
-        ok: true,
-        responsable
-      });
-    });
-  },
-  buscarResponsablePorDoc: (req, res) => {
-    const documento = req.params.documento;
-    const regex = new RegExp(documento, 'i');
-
-    RespBeneficiario.find({ documento }).exec((error, responsable) => {
       if (error) {
         return res.status(500).json({
           ok: false,

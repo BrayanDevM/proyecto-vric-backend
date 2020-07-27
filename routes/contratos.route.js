@@ -1,12 +1,17 @@
-var express = require('express');
-var ruta = express();
-var contratosController = require('../controllers/contratos.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const contratosController = require('../controllers/contratos.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
 ruta.get(
   '/contratos',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
-  contratosController.obtenerContratos
+  contratosController.traerContratos
+);
+ruta.get(
+  '/contratos/uds',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  contratosController.traerContratos_uds
 );
 ruta.get(
   '/contratos/:id',
