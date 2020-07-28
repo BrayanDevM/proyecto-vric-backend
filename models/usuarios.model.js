@@ -27,7 +27,14 @@ var usuarioSchema = new Schema({
   },
   img: { type: String, required: false, default: '' },
   telefono: { type: String, required: false, default: '' },
-  contratos: { type: Array, default: [], required: false },
+  contratos: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'Contrato',
+      default: [],
+      required: false
+    }
+  ],
   uds: [
     { type: Schema.Types.ObjectId, ref: 'Uds', default: [], required: false }
   ],

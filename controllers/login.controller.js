@@ -1,15 +1,18 @@
 'use strict';
-var Usuarios = require('../models/usuarios.model');
-var bcrypt = require('bcrypt');
-var jwt = require('jsonwebtoken');
+const Usuarios = require('../models/usuarios.model');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const cookieSession = require('cookie-session');
+const express = require('express');
+const app = express();
 
 // Plantilla HTML
-var respuestaHTML =
+let respuestaHTML =
   '<html><head><title>Google</title></head><body></body><script>res = %value%; window.opener.postMessage(res, "*");window.close();</script></html>';
 
-var controller = {
+const controller = {
   login: (req, res) => {
-    var body = req.body;
+    let body = req.body;
     if (
       !body.correo ||
       !body.password ||
@@ -43,7 +46,7 @@ var controller = {
       }
 
       // Creación de Jason Web Token
-      var token = jwt.sign({ usuario: usuario }, process.env.TOKEN_SEED, {
+      let token = jwt.sign({ usuario: usuario }, process.env.TOKEN_SEED, {
         expiresIn: 14400
       }); // 4 horas
       usuario.password = null;
@@ -72,7 +75,7 @@ var controller = {
     res.status(200).send(respuestaHTML);
   },
   googleSuccess: (req, res) => {
-    var token = jwt.sign({ usuario: req.user }, process.env.TOKEN_SEED, {
+    let token = jwt.sign({ usuario: req.user }, process.env.TOKEN_SEED, {
       expiresIn: 14400
     }); // 4 horas
     // Cambiamos el valor de la contraseña para ocultarla
@@ -91,13 +94,14 @@ var controller = {
     res.status(200).send(respuestaHTML);
   },
   logout: (req, res) => {
+    // req.session = null;
     req.logout();
-    res.redirect('/');
+    // res.redirect('/');
   },
   renuevaToken: (req, res) => {
     // Creación de Jason Web Token
-    var usuario = req.solicitadoPor;
-    var token = jwt.sign({ usuario: usuario }, process.env.TOKEN_SEED, {
+    let usuario = req.solicitadoPor;
+    let token = jwt.sign({ usuario: usuario }, process.env.TOKEN_SEED, {
       expiresIn: 14400
     }); // 4 horas
     res.status(200).json({

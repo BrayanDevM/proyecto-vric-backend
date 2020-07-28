@@ -1,18 +1,13 @@
-var express = require('express');
-var ruta = express();
-var respBeneficiariosController = require('../controllers/respBeneficiarios.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const respBeneficiariosController = require('../controllers/respBeneficiarios.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
 ruta.get('/respBeneficiarios', respBeneficiariosController.obtenerResponsables);
 ruta.get(
   '/respBeneficiarios/:id',
   authMiddleware.verificarToken,
   respBeneficiariosController.obtenerResponsable
-);
-ruta.get(
-  '/respBeneficiarios/documento/:documento',
-  // authMiddleware.verificarToken,
-  respBeneficiariosController.buscarResponsablePorDoc
 );
 ruta.post(
   '/respBeneficiarios',

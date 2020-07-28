@@ -61,6 +61,14 @@ var udsSchema = new Schema({
     type: Boolean,
     required: false,
     default: false
+  },
+  latitud: {
+    type: String,
+    default: ''
+  },
+  longitud: {
+    type: String,
+    default: ''
   }
 });
 udsSchema.plugin(uniqueValidator, {

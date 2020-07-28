@@ -1,43 +1,221 @@
 'use strict';
-var Beneficiarios = require('../models/beneficiarios.model');
-var RespBeneficiarios = require('../models/respBeneficiarios.model');
-var Uds = require('../models/uds.model');
+const Beneficiarios = require('../models/beneficiarios.model');
+const RespBeneficiarios = require('../models/respBeneficiarios.model');
+const Uds = require('../models/uds.model');
 
-var controller = {
-  obtenerBeneficiarios: (req, res) => {
-    var desde = req.query.desde || 0; // Variable para realizar paginación (desde)
-    desde = Number(desde);
-    if (isNaN(desde)) {
-      desde = 0;
+const controller = {
+  traerBeneficiarios: (req, res) => {
+    // Variables de filtro ?query
+    const desde = Number(req.query.desde) || 0;
+    const limite = Number(req.query.limite) || 0;
+    // filtros
+    const estado = req.query.estado;
+    const discapacidad = req.query.discapacidad;
+    const criterio = req.query.criterio;
+    const tipoDoc = req.query.tipoDoc;
+    const paisNacimiento = req.query.paisNacimiento;
+    const autorreconocimiento = req.query.autorreconocimiento;
+    const uds = req.query.uds;
+    const creadoPor = req.query.creadoPor;
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let filtro = [];
+
+    // filtro por estado
+    if (estado !== undefined) {
+      filtro = retornarFiltro(estado, 'estado');
+    }
+    // filtro por discapacidad
+    if (discapacidad !== undefined) {
+      if (discapacidad === 'si') {
+        filtro.push({ discapacidad: true });
+      } else if (discapacidad === 'no') {
+        filtro.push({ discapacidad: false });
+      }
+    }
+    // filtro por criterio
+    if (criterio !== undefined) {
+      filtro = retornarFiltro(criterio, 'criterio');
+    }
+    // filtro por tipoDoc
+    if (tipoDoc !== undefined) {
+      filtro = retornarFiltro(tipoDoc, 'tipoDoc');
+    }
+    // filtro por paisNacimiento
+    if (paisNacimiento !== undefined) {
+      filtro = retornarFiltro(paisNacimiento, 'paisNacimiento');
+    }
+    // filtro por autorreconocimiento
+    if (autorreconocimiento !== undefined) {
+      filtro = retornarFiltro(autorreconocimiento, 'autorreconocimiento');
+    }
+    // filtro por uds
+    if (uds !== undefined) {
+      filtro = retornarFiltro(uds, 'uds');
+    }
+    // filtro por creadoPor
+    if (creadoPor !== undefined) {
+      filtro = retornarFiltro(creadoPor, 'creadoPor');
     }
 
-    Beneficiarios.find({})
-      .skip(desde)
-      // .limit(5)
-      .sort('nombre1')
-      .populate('uds', 'cupos codigo nombre arriendo ubicacion')
-      .exec((error, beneficiarios) => {
-        if (error) {
-          return res.status(500).json({
-            ok: false,
-            mensaje: 'Error al traer beneficiarios',
-            error
-          });
-        }
-        Beneficiarios.countDocuments({}, (error, registros) => {
-          return res.status(200).json({
-            ok: true,
-            beneficiarios,
-            registros
+    if (filtro.length === 0) {
+      Beneficiarios.find({})
+        .skip(desde)
+        .limit(limite)
+        .sort('nombre1')
+        .populate('uds', 'nombre codigo')
+        .populate('creadoPor', 'nombre correo telefono')
+        .exec((error, beneficiarios) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer beneficiarios',
+              error
+            });
+          }
+          Beneficiarios.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              beneficiarios,
+              registros
+            });
           });
         });
-      });
+    } else {
+      Beneficiarios.find()
+        .or(filtro)
+        .skip(desde)
+        .limit(limite)
+        .sort('nombre1')
+        .populate('uds', 'nombre codigo')
+        .populate('creadoPor', 'nombre correo telefono')
+        .exec((error, beneficiarios) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer beneficiarios',
+              error
+            });
+          }
+          Beneficiarios.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              beneficiarios,
+              registros
+            });
+          });
+        });
+    }
   },
-  obtenerBeneficiario: (req, res) => {
+  traerBeneficiarios_responsables: (req, res) => {
+    // Variables de filtro ?query
+    const desde = Number(req.query.desde) || 0;
+    const limite = Number(req.query.limite) || 0;
+    // filtros
+    const estado = req.query.estado;
+    const discapacidad = req.query.discapacidad;
+    const criterio = req.query.criterio;
+    const tipoDoc = req.query.tipoDoc;
+    const paisNacimiento = req.query.paisNacimiento;
+    const autorreconocimiento = req.query.autorreconocimiento;
+    const uds = req.query.uds;
+    const creadoPor = req.query.creadoPor;
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let filtro = [];
+
+    // filtro por estado
+    if (estado !== undefined) {
+      filtro = retornarFiltro(estado, 'estado');
+    }
+    // filtro por discapacidad
+    if (discapacidad !== undefined) {
+      if (discapacidad === 'si') {
+        filtro.push({ discapacidad: true });
+      } else if (discapacidad === 'no') {
+        filtro.push({ discapacidad: false });
+      }
+    }
+    // filtro por criterio
+    if (criterio !== undefined) {
+      filtro = retornarFiltro(criterio, 'criterio');
+    }
+    // filtro por tipoDoc
+    if (tipoDoc !== undefined) {
+      filtro = retornarFiltro(tipoDoc, 'tipoDoc');
+    }
+    // filtro por paisNacimiento
+    if (paisNacimiento !== undefined) {
+      filtro = retornarFiltro(paisNacimiento, 'paisNacimiento');
+    }
+    // filtro por autorreconocimiento
+    if (autorreconocimiento !== undefined) {
+      filtro = retornarFiltro(autorreconocimiento, 'autorreconocimiento');
+    }
+    // filtro por uds
+    if (uds !== undefined) {
+      filtro = retornarFiltro(uds, 'uds');
+    }
+    // filtro por creadoPor
+    if (creadoPor !== undefined) {
+      filtro = retornarFiltro(creadoPor, 'creadoPor');
+    }
+
+    if (filtro.length === 0) {
+      Beneficiarios.find({})
+        .skip(desde)
+        .limit(limite)
+        .sort('nombre1')
+        .populate('uds', 'nombre codigo')
+        .populate('creadoPor', 'nombre correo telefono')
+        .populate('responsableId')
+        .exec((error, beneficiarios) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer beneficiarios',
+              error
+            });
+          }
+          Beneficiarios.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              beneficiarios,
+              registros
+            });
+          });
+        });
+    } else {
+      Beneficiarios.find()
+        .or(filtro)
+        .skip(desde)
+        .limit(limite)
+        .sort('nombre1')
+        .populate('uds', 'nombre codigo')
+        .populate('creadoPor', 'nombre correo telefono')
+        .populate('responsableId')
+        .exec((error, beneficiarios) => {
+          if (error) {
+            return res.status(500).json({
+              ok: false,
+              mensaje: 'Error al traer beneficiarios',
+              error
+            });
+          }
+          Beneficiarios.countDocuments({}, (error, registros) => {
+            return res.status(200).json({
+              ok: true,
+              beneficiarios,
+              registros
+            });
+          });
+        });
+    }
+  },
+  traerBeneficiario: (req, res) => {
     var id = req.params.id;
     Beneficiarios.findById(id)
-      .populate('uds')
-      .populate('responsableId')
+      .sort('nombre1')
+      .populate('uds', 'nombre codigo')
+      .populate('creadoPor', 'nombre correo telefono')
       .exec((error, beneficiario) => {
         if (error) {
           res.status(500).json({
@@ -58,25 +236,30 @@ var controller = {
         });
       });
   },
-  obtenerBeneficiariosPorEstado: (req, res) => {
-    const estado = req.params.estado;
-    const regex = new RegExp(estado, 'i');
-    Beneficiarios.find({ estado: regex })
+  traerBeneficiario_responsables: (req, res) => {
+    var id = req.params.id;
+    Beneficiarios.findById(id)
       .sort('nombre1')
-      .populate('uds')
+      .populate('uds', 'nombre codigo')
+      .populate('creadoPor', 'nombre correo telefono')
       .populate('responsableId')
-      .populate('creadoPor', 'nombre correo')
-      .exec((error, beneficiarios) => {
+      .exec((error, beneficiario) => {
         if (error) {
           res.status(500).json({
             ok: false,
-            mensaje: 'error al buscar beneficiarios',
+            mensaje: 'error al buscar beneficiario',
             error
+          });
+        }
+        if (!beneficiario) {
+          res.status(400).json({
+            ok: false,
+            mensaje: 'El beneficiario no existe'
           });
         }
         res.status(200).json({
           ok: true,
-          beneficiarios
+          beneficiario
         });
       });
   },
@@ -435,6 +618,35 @@ function guardarBeneficiarioEnUds(beneficiarioId, udsId) {
       });
     });
   });
+}
+
+/**
+ * Recibe criterios de consulta y propiedad para devolver
+ * un arreglo con los filtros requeridos por el método or()
+ * de una consulta a mongoDB
+ * @param {string} consulta
+ * @param {string} propiedad
+ */
+function retornarFiltro(consulta, propiedad) {
+  let condiciones = [];
+  const filtro = [];
+  // Al ser un criterio de 2 palabras 'Pendiente vincular', la pasamos completa
+  if (consulta.includes('Pendiente') || consulta.includes('Dato')) {
+    condiciones.push(consulta);
+  } else {
+    condiciones = consulta.split(' ');
+  }
+
+  condiciones.forEach(condicion => {
+    if (condicion === 'null') {
+      condicion = null;
+    }
+    let obj = new Object();
+    obj[propiedad] = condicion;
+    filtro.push(obj);
+  });
+
+  return filtro;
 }
 
 module.exports = controller;

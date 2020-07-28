@@ -1,18 +1,13 @@
-var express = require('express');
-var ruta = express();
-var reportesController = require('../controllers/reportes.controller');
-var authMiddleware = require('../middlewares/auth.middleware');
+const express = require('express');
+const ruta = express();
+const reportesController = require('../controllers/reportes.controller');
+const authMiddleware = require('../middlewares/auth.middleware');
 
 ruta.get(
   '/reportes',
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
-  reportesController.obtenerReportes
+  reportesController.traerReportes
 );
-// ruta.get(
-//   '/contrato/:id',
-//   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
-//   reportesController.obtenerContrato
-// );
 ruta.post(
   '/reportes',
   authMiddleware.verificarToken,
@@ -23,10 +18,10 @@ ruta.put(
   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
   reportesController.actualizarReporte
 );
-// ruta.delete(
-//   '/reporte/:id',
-//   [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
-//   reportesController.eliminarContrato
-// );
+ruta.delete(
+  '/reporte/:id',
+  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  reportesController.eliminarReporte
+);
 
 module.exports = ruta;

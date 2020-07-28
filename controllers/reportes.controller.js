@@ -1,8 +1,8 @@
 'use strict';
-var Reportes = require('../models//reportes.model');
+const Reportes = require('../models//reportes.model');
 
-var controller = {
-  obtenerReportes: (req, res) => {
+const controller = {
+  traerReportes: (req, res) => {
     Reportes.find({})
       .populate('reportadoPor', 'correo nombre telefono')
       .exec((error, reportes) => {
@@ -23,8 +23,8 @@ var controller = {
       });
   },
   crearReporte: (req, res) => {
-    var body = req.body;
-    var reporte = new Reportes({
+    let body = req.body;
+    let reporte = new Reportes({
       tipo: body.tipo,
       descripcion: body.descripcion,
       creadoEl: body.creadoEl,
@@ -47,8 +47,8 @@ var controller = {
     });
   },
   actualizarReporte: (req, res) => {
-    var id = req.params.id;
-    var body = req.body;
+    let id = req.params.id;
+    let body = req.body;
     Reportes.findById(id, (error, reporte) => {
       if (error) {
         return res.status(500).json({
@@ -77,6 +77,30 @@ var controller = {
           mensaje: 'Reporte actualizado correctamente',
           reporteActualizado
         });
+      });
+    });
+  },
+  eliminarReporte: (req, res) => {
+    const id = req.params.id;
+
+    Reportes.findByIdAndDelete(id, (error, reporteEliminado) => {
+      if (error) {
+        return res.status(500).json({
+          ok: false,
+          mensaje: 'No fue posible eliminar el reporte',
+          error
+        });
+      }
+      if (!reporteEliminado) {
+        return res.status(400).json({
+          ok: false,
+          mensaje: 'Este reporte no existe'
+        });
+      }
+      return res.status(200).json({
+        ok: true,
+        mensaje: 'Reporte eliminado correctamente',
+        reporteEliminado
       });
     });
   }
