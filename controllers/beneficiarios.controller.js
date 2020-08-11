@@ -1,5 +1,7 @@
 'use strict';
 const Beneficiarios = require('../models/beneficiarios.model');
+const Madres = require('../models/madres-beneficiarios.model');
+const Padres = require('../models/padres-beneficiarios.model');
 const RespBeneficiarios = require('../models/respBeneficiarios.model');
 const Uds = require('../models/uds.model');
 
@@ -264,9 +266,9 @@ const controller = {
       });
   },
   crearBeneficiario: (req, res) => {
-    var body = req.body;
-    var fecha = body.fecha;
-    var respBen = {
+    const body = req.body;
+    const fecha = body.fecha;
+    const respBen = {
       // Creo objeto con datos del responsable del beneficiario
       tipoDoc: body.respTipoDoc,
       documento: body.respDocumento,
@@ -282,7 +284,33 @@ const controller = {
       creadoPor: req.solicitadoPor._id,
       creadoEl: fecha
     };
-    var beneficiario = {
+    const madreBen = {
+      // Creo objeto con datos de madre del beneficiario
+      tipoDoc: body.madreTipoDoc,
+      documento: body.madreDocumento,
+      nombre1: body.madreNombre1,
+      nombre2: body.madreNombre2,
+      apellido1: body.madreApellido1,
+      apellido2: body.madreApellido2,
+      nacimiento: body.madreNacimiento,
+      sexo: body.madreSexo,
+      creadoPor: req.solicitadoPor._id,
+      creadoEl: fecha
+    };
+    const padreBen = {
+      // Creo objeto con datos de padre del beneficiario
+      tipoDoc: body.padreTipoDoc,
+      documento: body.padreDocumento,
+      nombre1: body.padreNombre1,
+      nombre2: body.padreNombre2,
+      apellido1: body.padreApellido1,
+      apellido2: body.padreApellido2,
+      nacimiento: body.padreNacimiento,
+      sexo: body.padreSexo,
+      creadoPor: req.solicitadoPor._id,
+      creadoEl: fecha
+    };
+    let beneficiario = {
       tipoDoc: body.tipoDoc,
       documento: body.documento,
       nombre1: body.nombre1,
@@ -303,6 +331,8 @@ const controller = {
       autorreconocimiento: body.autorreconocimiento,
       tipoResponsable: body.tipoResponsable,
       responsableId: null,
+      madreId: null,
+      padreId: null,
       criterio: body.criterio,
       infoCriterio: body.infoCriterio,
       comentario: body.comentario,
@@ -311,29 +341,128 @@ const controller = {
       creadoEl: fecha
     };
 
-    // Busco o creo el responsable
-    crearResponsable(respBen)
-      .then(responsable => {
-        // Asigno el id del responsable al objeto beneficiario
-        beneficiario.responsableId = responsable._id;
-        // Lo creo
-        crearBeneficiario(beneficiario)
-          .then(beneficiario => {
-            // Lo guardo en la UDS
-            guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds)
-              .then(guardado => {
-                res.status(200).json({
-                  ok: true,
-                  mensaje: 'Beneficiario creado correctamente',
-                  responsable,
-                  beneficiario
-                });
-              })
-              .catch(error => res.status(400).json(error));
-          })
-          .catch(error => res.status(400).json(error));
+    let beneficiarioCreado;
+    let responsableCreado;
+    let madreCreada;
+    let padreCreado;
+    // Si no se envían padres, se crea sin ellos
+    if (madreBen.documento === undefined && padreBen.documento === undefined) {
+      madreCreada = 'No se registró ninguna';
+      padreCreado = 'No se registró ninguno';
+      crearResponsable(respBen)
+        .then(responsable => {
+          beneficiario.responsableId = responsable._id;
+          responsableCreado = responsable; // para response
+          return crearBeneficiario(beneficiario);
+        })
+        .then(beneficiario => {
+          beneficiarioCreado = beneficiario; // para response
+          return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
+        })
+        .then(udsActualizada => {
+          res.status(200).json({
+            ok: true,
+            mensaje: 'Beneficiario creado correctamente',
+            beneficiarioCreado,
+            responsableCreado,
+            madreCreada,
+            padreCreado
+          });
+        })
+        .catch(error => console.log(error));
+      return;
+    }
+    // Si no envían madre, se crea sólo el padre
+    if (madreBen.documento === undefined) {
+      madreCreada = 'No se registró ninguna';
+      Promise.all([crearPadre(padreBen)])
+        .then(result => {
+          beneficiario.padreId = result[0]._id;
+          padreCreado = result[0]; // para response
+          return crearResponsable(respBen);
+        })
+        .then(responsable => {
+          beneficiario.responsableId = responsable._id;
+          responsableCreado = responsable; // para response
+          return crearBeneficiario(beneficiario);
+        })
+        .then(beneficiario => {
+          beneficiarioCreado = beneficiario; // para response
+          return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
+        })
+        .then(udsActualizada => {
+          res.status(200).json({
+            ok: true,
+            mensaje: 'Beneficiario creado correctamente',
+            beneficiarioCreado,
+            responsableCreado,
+            madreCreada,
+            padreCreado
+          });
+        })
+        .catch(error => console.log(error));
+      return;
+    }
+    // Si no envían padre se crea sólo la madre
+    if (padreBen.documento === undefined) {
+      padreCreado = 'No se registró ninguno';
+      Promise.all([crearMadre(madreBen)])
+        .then(result => {
+          beneficiario.madreId = result[0]._id;
+          madreCreada = result[0]; // para response
+          return crearResponsable(respBen);
+        })
+        .then(responsable => {
+          beneficiario.responsableId = responsable._id;
+          responsableCreado = responsable; // para response
+          return crearBeneficiario(beneficiario);
+        })
+        .then(beneficiario => {
+          beneficiarioCreado = beneficiario; // para response
+          return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
+        })
+        .then(udsActualizada => {
+          res.status(200).json({
+            ok: true,
+            mensaje: 'Beneficiario creado correctamente',
+            beneficiarioCreado,
+            responsableCreado,
+            madreCreada,
+            padreCreado
+          });
+        })
+        .catch(error => console.log(error));
+      return;
+    }
+    // Si envían padres creamos madre y padre
+    Promise.all([crearMadre(madreBen), crearPadre(padreBen)])
+      .then(result => {
+        beneficiario.madreId = result[0]._id;
+        madreCreada = result[0]; // para response
+        beneficiario.padreId = result[1]._id;
+        padreCreado = result[1]; // para response
+        return crearResponsable(respBen);
       })
-      .catch(error => res.status(400).json(error));
+      .then(responsable => {
+        beneficiario.responsableId = responsable._id;
+        responsableCreado = responsable; // para response
+        return crearBeneficiario(beneficiario);
+      })
+      .then(beneficiario => {
+        beneficiarioCreado = beneficiario; // para response
+        return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
+      })
+      .then(udsActualizada => {
+        res.status(200).json({
+          ok: true,
+          mensaje: 'Beneficiario creado correctamente',
+          beneficiarioCreado,
+          responsableCreado,
+          madreCreada,
+          padreCreado
+        });
+      })
+      .catch(error => console.log(error));
   },
   actualizarBeneficiario: (req, res) => {
     var id = null;
@@ -498,7 +627,90 @@ function crearResponsable(respBen) {
       });
   });
 }
-
+function crearMadre(madreBen) {
+  return new Promise((resolve, reject) => {
+    // Primero buscamos si ya hay un registro (por ejemplo una mamá que ya haya registrado otro bebé)
+    Madres.findOne({})
+      .or([
+        { documento: madreBen.documento },
+        {
+          nombre1: madreBen.nombre1,
+          nombre2: madreBen.nombre2,
+          apellido1: madreBen.apellido1,
+          apellido2: madreBen.apellido2,
+          nacimiento: madreBen.nacimiento
+        }
+      ])
+      .exec((error, madre) => {
+        if (error) {
+          reject({
+            ok: false,
+            mensaje: 'Error al buscar madre de beneficiario',
+            errors
+          });
+        }
+        if (!madre) {
+          // Si no existe, creamos uno
+          const madreNueva = new Madres(madreBen);
+          // Guardamos
+          madreNueva.save((error, madreCreada) => {
+            if (error) {
+              reject({
+                ok: false,
+                mensaje: 'Error al crear Madre del beneficiario',
+                error
+              });
+            }
+            resolve(madreCreada);
+          });
+        } else {
+          resolve(madre);
+        }
+      });
+  });
+}
+function crearPadre(padreBen) {
+  return new Promise((resolve, reject) => {
+    // Primero buscamos si ya hay un registro (por ejemplo una mamá que ya haya registrado otro bebé)
+    Padres.findOne({})
+      .or([
+        { documento: padreBen.documento },
+        {
+          nombre1: padreBen.nombre1,
+          nombre2: padreBen.nombre2,
+          apellido1: padreBen.apellido1,
+          apellido2: padreBen.apellido2,
+          nacimiento: padreBen.nacimiento
+        }
+      ])
+      .exec((error, padre) => {
+        if (error) {
+          reject({
+            ok: false,
+            mensaje: 'Error al buscar Padre de beneficiario',
+            errors
+          });
+        }
+        if (!padre) {
+          // Si no existe, creamos uno
+          const padreNuevo = new Padres(padreBen);
+          // Guardamos
+          padreNuevo.save((error, padreCreado) => {
+            if (error) {
+              reject({
+                ok: false,
+                mensaje: 'Error al crear Padre de beneficiario',
+                error
+              });
+            }
+            resolve(padreCreado);
+          });
+        } else {
+          resolve(padre);
+        }
+      });
+  });
+}
 function crearBeneficiario(beneficiario) {
   // console.log(beneficiario, 'ben');
   return new Promise((resolve, reject) => {
@@ -514,8 +726,8 @@ function crearBeneficiario(beneficiario) {
         }
         if (!beneficiarioExiste) {
           // console.log('Beneficiario no existe, creando...');
-          var nuevoBeneficiario = new Beneficiarios(beneficiario);
-          nuevoBeneficiario.save((error, beneficiarioCreado) => {
+          const beneficiarioNuevo = new Beneficiarios(beneficiario);
+          beneficiarioNuevo.save((error, beneficiarioCreado) => {
             if (error) {
               reject({
                 ok: false,

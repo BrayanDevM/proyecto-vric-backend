@@ -11,18 +11,21 @@ const controller = {
     const rol = req.query.rol;
     const activo = req.query.activo;
     const uds = req.query.uds;
+    let filtro = [];
 
     if (rol !== undefined) {
       filtro = retornarFiltro(rol, 'rol');
     }
     if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      if (activo === 'si') {
+        filtro = { activo: true };
+      } else {
+        filtro = { activo: false };
+      }
     }
     if (uds !== undefined) {
       filtro = retornarFiltro(uds, 'uds');
     }
-
-    let filtro = [];
 
     if (filtro.length === 0) {
       Usuarios.find({})
@@ -277,6 +280,13 @@ const controller = {
           return res.status(500).json({
             ok: false,
             mensaje: 'Error al buscar usuario',
+            error
+          });
+        }
+        if (!usuario) {
+          return res.status(400).json({
+            ok: false,
+            mensaje: 'El usuario no existe',
             error
           });
         }

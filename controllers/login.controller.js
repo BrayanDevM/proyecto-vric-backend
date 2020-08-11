@@ -138,7 +138,7 @@ function obtenerMenu(rolUsuario) {
       {
         titulo: 'UDS',
         gIcon: 'home_work',
-        url: '/uds'
+        url: '/unidades-de-servicio'
       },
       {
         titulo: 'Usuarios',
