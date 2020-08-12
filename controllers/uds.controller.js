@@ -270,6 +270,8 @@ const controller = {
           options: { sort: 'nombre1' },
           populate: [
             { path: 'responsableId' },
+            { path: 'madreId' },
+            { path: 'padreId' },
             { path: 'creadoPor', select: 'nombre correo' }
           ]
         })
@@ -405,7 +407,9 @@ const controller = {
         options: { sort: 'nombre1' },
         populate: [
           { path: 'creadoPor', select: 'nombre correo' },
-          { path: 'responsableId' }
+          { path: 'responsableId' },
+          { path: 'madreId' },
+          { path: 'padreId' }
         ]
       })
       .exec((error, unidad) => {
