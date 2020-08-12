@@ -10,6 +10,7 @@ const controller = {
     // filtros
     const enContrato = req.query.enContrato;
     const arriendo = req.query.arriendo;
+    const activa = req.query.activa;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
@@ -27,6 +28,12 @@ const controller = {
       filtro.push({ arriendo: true });
     } else if (arriendo === 'no') {
       filtro.push({ arriendo: false });
+    }
+    // filtro por activa (estado)
+    if (activa === 'si') {
+      filtro.push({ activa: true });
+    } else if (activa === 'no') {
+      filtro.push({ activa: false });
     }
 
     // filtro por coordinador
@@ -263,6 +270,8 @@ const controller = {
           options: { sort: 'nombre1' },
           populate: [
             { path: 'responsableId' },
+            { path: 'madreId' },
+            { path: 'padreId' },
             { path: 'creadoPor', select: 'nombre correo' }
           ]
         })
@@ -398,7 +407,9 @@ const controller = {
         options: { sort: 'nombre1' },
         populate: [
           { path: 'creadoPor', select: 'nombre correo' },
-          { path: 'responsableId' }
+          { path: 'responsableId' },
+          { path: 'madreId' },
+          { path: 'padreId' }
         ]
       })
       .exec((error, unidad) => {

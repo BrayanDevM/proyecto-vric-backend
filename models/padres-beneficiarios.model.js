@@ -12,7 +12,7 @@ sexoValidacion = {
   message: '{VALUE} no es un tipo de sexo permitido'
 };
 
-var respBeneficiarioSchema = new Schema({
+var padresSchema = new Schema({
   tipoDoc: {
     type: String,
     required: [true, 'Tipo de documento es obligatorio'],
@@ -39,18 +39,6 @@ var respBeneficiarioSchema = new Schema({
     required: [true, 'Sexo es obligatorio'],
     enum: sexoValidacion
   },
-  paisNacimiento: {
-    type: String,
-    required: [true, 'Pais de nacimiento es obligatorio']
-  },
-  dptoNacimiento: {
-    type: String,
-    required: [true, 'Departamento de nacimiento es obligatorio']
-  },
-  municipioNacimiento: {
-    type: String,
-    required: [true, 'Municipio de nacimiento es obligatorio']
-  },
   creadoPor: {
     type: Schema.Types.ObjectId,
     ref: 'Usuario',
@@ -58,12 +46,8 @@ var respBeneficiarioSchema = new Schema({
   },
   creadoEl: { type: String, required: false, default: '08/05/2020' }
 });
-respBeneficiarioSchema.plugin(uniqueValidator, {
+padresSchema.plugin(uniqueValidator, {
   message: 'Ya existe un registro con el valor {VALUE}'
 });
 
-module.exports = mongoose.model(
-  'respBeneficiario',
-  respBeneficiarioSchema,
-  'respBeneficiarios' // Indico la colección ya que tiene camelCase
-);
+module.exports = mongoose.model('padres', padresSchema);

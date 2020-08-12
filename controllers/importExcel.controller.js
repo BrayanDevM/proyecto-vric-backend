@@ -65,18 +65,29 @@ var controller = {
       // Eliminamos el archivo después de obtener los datos
       fs.unlinkSync(rutaArchivo);
 
-      importarRegistros(jDatos).then(
-        result => {
-          return res.status(200).json({
-            ok: true,
-            mensaje: 'Importación realizada correctamente',
-            registrosAImportar: jDatos.length,
-            registrosImportados: result.registrosImportados.length,
-            importado: result
-          });
-        },
-        error => console.log(error)
-      );
+      importarRegistros(jDatos)
+        .then(
+          result => {
+            return res.status(200).json({
+              ok: true,
+              mensaje: 'Importación realizada correctamente',
+              registrosAImportar: jDatos.length,
+              registrosImportados: result.registrosImportados.length,
+              importado: result
+            });
+          },
+          error => console.log(error)
+        )
+        .catch(error => {
+          return (
+            res.status(500),
+            json({
+              ok: false,
+              mensaje: 'Importación fallida',
+              error
+            })
+          );
+        });
     });
   }
 };
@@ -295,10 +306,10 @@ function guardarBeneficiarioEnUds(beneficiario) {
 function importarRegistros(arrayData) {
   let registrosImportados = [];
   let totalImportados = 0;
-  let beneficiariosExistentes = 0;
-  let responsablesExistentes = 0;
-  return new Promise(resolve => {
-    arrayData.forEach(async data => {
+  let bensExist = 0;
+  let respExist = 0;
+  return new Promise((resolve, reject) => {
+    arrayData.forEach(data => {
       let respBen = {
         // Creo objeto con datos del responsable del beneficiario
         tipoDoc: data.respTipoDoc,
@@ -344,29 +355,38 @@ function importarRegistros(arrayData) {
         creadoPor: data.creadoPor,
         creadoEl: data.fechaCargue
       };
-      let resultResp = await crearResponsable(respBen);
-      resultResp.existente
-        ? (responsablesExistentes += 1)
-        : (responsablesExistentes += 0);
-      beneficiario.responsableId = resultResp.responsable._id;
-      let resultBen = await crearBeneficiario(beneficiario);
-      resultBen.existente
-        ? (beneficiariosExistentes += 1)
-        : (beneficiariosExistentes += 0);
-      let resultUds = await guardarBeneficiarioEnUds(resultBen.beneficiario);
-      registrosImportados.push({
-        reponsableImportado: resultResp,
-        beneficiarioImportado: resultBen,
-        udsActualizada: resultUds
-      });
-      totalImportados++;
-      if (totalImportados === arrayData.length) {
-        resolve({
-          registrosImportados,
-          beneficiariosExistentes,
-          responsablesExistentes
-        });
-      }
+      let resultResp;
+      let resultBen;
+      let resultUds;
+      crearResponsable(respBen)
+        .then(responsable => {
+          resultResp = responsable;
+          beneficiario.responsableId = resultResp.responsable._id;
+          resultResp.existente ? (respExist += 1) : (respExist += 0);
+          return crearBeneficiario(beneficiario);
+        })
+        .then(beneficiario => {
+          resultBen = beneficiario;
+          resultBen.existente ? (bensExist += 1) : (bensExist += 0);
+          return guardarBeneficiarioEnUds(resultBen.beneficiario);
+        })
+        .then(uds => {
+          resultUds = uds;
+          registrosImportados.push({
+            reponsableImportado: resultResp,
+            beneficiarioImportado: resultBen,
+            udsActualizada: resultUds
+          });
+          totalImportados++;
+          if (totalImportados === arrayData.length) {
+            resolve({
+              registrosImportados,
+              beneficiariosExistentes: bensExist,
+              responsablesExistentes: respExist
+            });
+          }
+        })
+        .catch(error => reject(error));
     });
   });
 }

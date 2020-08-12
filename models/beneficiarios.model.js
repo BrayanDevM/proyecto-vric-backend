@@ -159,6 +159,18 @@ var beneficiariosSchema = new Schema({
     ref: 'respBeneficiario',
     required: true
   },
+  padreId: {
+    type: Schema.Types.ObjectId,
+    ref: 'padres',
+    required: false,
+    default: null
+  },
+  madreId: {
+    type: Schema.Types.ObjectId,
+    ref: 'madres',
+    required: false,
+    default: null
+  },
   estado: {
     type: String,
     required: true,
