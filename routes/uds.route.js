@@ -4,22 +4,24 @@ const udsController = require('../controllers/uds.controller');
 const authMiddleware = require('../middlewares/auth.middleware');
 
 // Devuelve UUDDSS sin info de beneficiarios
-ruta.get(
-  '/uds',
-  // authMiddleware.verificarToken,
-  udsController.traerUds
-);
+ruta.get('/uds', authMiddleware.verificarToken, udsController.traerUds);
 // Devuelve UUDDSS con info de beneficiarios
 ruta.get(
   '/uds/beneficiarios',
-  // authMiddleware.verificarToken,
+  authMiddleware.verificarToken,
   udsController.traerUds_beneficiarios
 );
 // Devuelve UUDDSS con info de beneficiarios y responsables
 ruta.get(
   '/uds/beneficiarios/responsables',
-  // authMiddleware.verificarToken,
+  authMiddleware.verificarToken,
   udsController.traerUds_beneficiarios_responsables
+);
+// Devuelve UUDDSS con sólo código y nombre
+ruta.get(
+  '/uds/codigos',
+  authMiddleware.verificarToken,
+  udsController.traerUds_codigos
 );
 // Devuelve UDS sin info de beneficiarios
 ruta.get('/uds/:id', authMiddleware.verificarToken, udsController.traerUnidad);

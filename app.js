@@ -58,7 +58,7 @@ var archivos = require('./routes/archivos.route');
 
 // Conexión BD
 mongoose.connect(
-  process.env.DB_URI,
+  process.env.DB_URI_LOCAL,
   { useNewUrlParser: true },
   (error, resp) => {
     if (error) throw error;

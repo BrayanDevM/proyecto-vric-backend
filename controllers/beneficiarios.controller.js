@@ -114,105 +114,69 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const estado = req.query.estado;
-    const discapacidad = req.query.discapacidad;
     const criterio = req.query.criterio;
     const tipoDoc = req.query.tipoDoc;
     const paisNacimiento = req.query.paisNacimiento;
     const autorreconocimiento = req.query.autorreconocimiento;
+    const discapacidad = req.query.discapacidad;
     const uds = req.query.uds;
-    const creadoPor = req.query.creadoPor;
-    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por estado
-    if (estado !== undefined) {
-      filtro = retornarFiltro(estado, 'estado');
-    }
-    // filtro por discapacidad
-    if (discapacidad !== undefined) {
-      if (discapacidad === 'si') {
-        filtro.push({ discapacidad: true });
-      } else if (discapacidad === 'no') {
-        filtro.push({ discapacidad: false });
+    const valorDiscapacidad = () => {
+      if (req.query.discapacidad === 'no') {
+        return false;
+      } else {
+        return true;
       }
+    };
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let criterioBusqueda = new Object();
+    if (estado !== undefined) {
+      criterioBusqueda.estado = estado;
     }
-    // filtro por criterio
     if (criterio !== undefined) {
-      filtro = retornarFiltro(criterio, 'criterio');
+      criterioBusqueda.criterio = criterio;
     }
-    // filtro por tipoDoc
     if (tipoDoc !== undefined) {
-      filtro = retornarFiltro(tipoDoc, 'tipoDoc');
+      criterioBusqueda.tipoDoc = tipoDoc;
     }
-    // filtro por paisNacimiento
     if (paisNacimiento !== undefined) {
-      filtro = retornarFiltro(paisNacimiento, 'paisNacimiento');
+      criterioBusqueda.paisNacimiento = paisNacimiento;
     }
-    // filtro por autorreconocimiento
     if (autorreconocimiento !== undefined) {
-      filtro = retornarFiltro(autorreconocimiento, 'autorreconocimiento');
+      criterioBusqueda.autorreconocimiento = autorreconocimiento;
     }
-    // filtro por uds
+    if (discapacidad !== undefined) {
+      criterioBusqueda.discapacidad = valorDiscapacidad();
+    }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
-    }
-    // filtro por creadoPor
-    if (creadoPor !== undefined) {
-      filtro = retornarFiltro(creadoPor, 'creadoPor');
+      criterioBusqueda.uds = uds;
     }
 
-    if (filtro.length === 0) {
-      Beneficiarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .sort('nombre1')
-        .populate('uds', 'nombre codigo')
-        .populate('creadoPor', 'nombre correo telefono')
-        .populate('responsableId')
-        .populate('madreId')
-        .populate('padreId')
-        .exec((error, beneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer beneficiarios',
-              error
-            });
-          }
-          Beneficiarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              beneficiarios,
-              registros
-            });
+    Beneficiarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .sort('nombre1')
+      .populate('uds', 'nombre codigo')
+      .populate('creadoPor', 'nombre correo telefono')
+      .populate('responsableId')
+      .populate('madreId')
+      .populate('padreId')
+      .exec((error, beneficiarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer beneficiarios',
+            error
+          });
+        }
+        Beneficiarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            beneficiarios,
+            cuenta: beneficiarios.length,
+            registros
           });
         });
-    } else {
-      Beneficiarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .sort('nombre1')
-        .populate('uds', 'nombre codigo')
-        .populate('creadoPor', 'nombre correo telefono')
-        .populate('responsableId')
-        .exec((error, beneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer beneficiarios',
-              error
-            });
-          }
-          Beneficiarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              beneficiarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerBeneficiario: (req, res) => {
     var id = req.params.id;
@@ -347,8 +311,25 @@ const controller = {
     let responsableCreado;
     let madreCreada;
     let padreCreado;
+
+    let noEnvianMadre = false;
+    if (
+      madreBen.documento === undefined ||
+      madreBen.documento === null ||
+      madreBen.documento === ''
+    ) {
+      noEnvianMadre = true;
+    }
+    let noEnvianPadre = false;
+    if (
+      padreBen.documento === undefined ||
+      padreBen.documento === null ||
+      padreBen.documento === ''
+    ) {
+      noEnvianPadre = true;
+    }
     // Si no se envían padres, se crea sin ellos
-    if (madreBen.documento === undefined && padreBen.documento === undefined) {
+    if (noEnvianMadre && noEnvianPadre) {
       madreCreada = 'No se registró ninguna';
       padreCreado = 'No se registró ninguno';
       crearResponsable(respBen)
@@ -375,7 +356,7 @@ const controller = {
       return;
     }
     // Si no envían madre, se crea sólo el padre
-    if (madreBen.documento === undefined) {
+    if (noEnvianMadre) {
       madreCreada = 'No se registró ninguna';
       Promise.all([crearPadre(padreBen)])
         .then(result => {
@@ -406,7 +387,7 @@ const controller = {
       return;
     }
     // Si no envían padre se crea sólo la madre
-    if (padreBen.documento === undefined) {
+    if (noEnvianPadre) {
       padreCreado = 'No se registró ninguno';
       Promise.all([crearMadre(madreBen)])
         .then(result => {

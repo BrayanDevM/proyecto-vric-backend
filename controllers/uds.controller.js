@@ -63,6 +63,7 @@ const controller = {
         .populate('gestor', 'nombre')
         .populate('enContrato', 'codigo')
         .populate('creadoPor', 'nombre')
+        .sort('nombre')
         .exec((error, uds) => {
           if (error) {
             return res.status(500).json({
@@ -90,6 +91,7 @@ const controller = {
         .populate('gestor', 'nombre')
         .populate('enContrato', 'codigo')
         .populate('creadoPor', 'nombre')
+        .sort('nombre')
         .exec((error, uds) => {
           if (error) {
             return res.status(500).json({
@@ -329,6 +331,43 @@ const controller = {
             });
         });
     }
+  },
+  traerUds_codigos: (req, res) => {
+    // trae sólo código y nombre
+    const docente = req.query.docente;
+    const gestor = req.query.gestor;
+    const coordinador = req.query.coordinador;
+    let filtro = {};
+
+    if (docente !== undefined) {
+      filtro = { docentes: docente };
+    }
+    if (gestor !== undefined) {
+      filtro = { gestor };
+    }
+    if (coordinador !== undefined) {
+      filtro = { coordinador };
+    }
+
+    Uds.find(filtro)
+      .select('codigo nombre')
+      .sort('nombre')
+      .exec((error, uds) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        Uds.countDocuments().exec((error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            uds,
+            registros
+          });
+        });
+      });
   },
   traerUnidad: (req, res) => {
     const id = req.params.id;

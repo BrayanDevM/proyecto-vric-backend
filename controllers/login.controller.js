@@ -114,43 +114,74 @@ const controller = {
 function obtenerMenu(rolUsuario) {
   const menu = [
     {
-      titulo: 'Dashboard',
-      gIcon: 'dashboard',
-      url: '/dashboard'
+      titulo: 'PANEL DE CONTROL',
+      subtitulo: 'Métricas generales',
+      items: [
+        {
+          nombre: 'Análiticas',
+          gIcon: 'pie_chart',
+          url: '/dashboard'
+        }
+      ]
+    },
+    {
+      titulo: 'PÁGINAS',
+      subtitulo: 'Información del servicio',
+      items: []
     }
-    // {
-    //   titulo: 'Beneficiarios',
-    //   gIcon: 'assignment_ind',
-    //   submenu: [
-    //     { titulo: 'Novedades', url: '/beneficiarios/novedades' },
-    //     { titulo: 'Mis beneficiarios', url: '/beneficiarios/mis-beneficiarios' }
-    //   ]
-    // }
   ];
 
-  if (rolUsuario === 'ADMIN') {
-    menu.push(
+  if (rolUsuario !== 'DOCENTE') {
+    menu[1].items.push(
       {
-        titulo: 'Contratos',
+        nombre: 'Contratos',
         gIcon: 'book',
         url: '/contratos'
       },
       {
-        titulo: 'UDS',
+        nombre: 'Unidades De Servicio',
         gIcon: 'home_work',
         url: '/unidades-de-servicio'
       },
       {
-        titulo: 'Usuarios',
-        gIcon: 'account_box',
-        url: '/usuarios'
-      },
-      {
-        titulo: 'Administrar',
-        gIcon: 'admin_panel_settings',
-        url: '/administrar'
+        nombre: 'Beneficiarios',
+        gIcon: 'group',
+        url: '/beneficiarios'
       }
     );
+  }
+  if (rolUsuario === 'DOCENTE' || rolUsuario === 'ADMIN') {
+    menu[1].items.push(
+      {
+        nombre: 'Beneficiarios',
+        gIcon: 'group',
+        url: '/beneficiarios'
+      },
+      {
+        nombre: 'Novedades',
+        gIcon: 'swap_horizontal_circle',
+        url: '/novedades'
+      }
+    );
+  }
+  if (rolUsuario === 'ADMIN') {
+    menu[1].items.splice(2, 1); // elimino beneficiarios (duplicado)
+    menu.push({
+      titulo: 'ADMINISTRACIÓN',
+      subtitulo: 'Ajustes y configuración',
+      items: [
+        {
+          nombre: 'Usuarios',
+          gIcon: 'assignment_ind',
+          url: '/usuarios'
+        },
+        {
+          nombre: 'Administrar',
+          gIcon: 'admin_panel_settings',
+          url: '/administrar'
+        }
+      ]
+    });
   }
 
   return menu;

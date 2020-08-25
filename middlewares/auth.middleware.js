@@ -17,6 +17,20 @@ exports.verificarToken = (req, res, next) => {
 };
 
 // Verificar ROL de usuario para realizar peticiones
+exports.verificarSupervisorRol = (req, res, next) => {
+  const usuario = req.solicitadoPor;
+  if (usuario.rol !== 'DOCENTE') {
+    next();
+  } else {
+    return res.status(401).json({
+      ok: false,
+      mensaje:
+        'Debes tener permisos de COORDINADOR, GESTOR o ADMIN para poder realizar la petición'
+    });
+  }
+};
+
+// Verificar ROL de usuario para realizar peticiones
 exports.verificarAdminRol = (req, res, next) => {
   const usuario = req.solicitadoPor;
   if (usuario.rol === 'ADMIN') {

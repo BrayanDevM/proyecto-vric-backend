@@ -5,17 +5,17 @@ const authMiddleware = require('../middlewares/auth.middleware');
 
 ruta.get(
   '/contratos',
-  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  [authMiddleware.verificarToken, authMiddleware.verificarSupervisorRol],
   contratosController.traerContratos
 );
 ruta.get(
   '/contratos/uds',
-  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  [authMiddleware.verificarToken, authMiddleware.verificarSupervisorRol],
   contratosController.traerContratos_uds
 );
 ruta.get(
   '/contratos/:id',
-  [authMiddleware.verificarToken, authMiddleware.verificarAdminRol],
+  [authMiddleware.verificarToken, authMiddleware.verificarSupervisorRol],
   contratosController.obtenerContrato
 );
 ruta.post(
