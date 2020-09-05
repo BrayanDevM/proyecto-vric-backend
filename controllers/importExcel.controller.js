@@ -93,25 +93,25 @@ var controller = {
 };
 
 function formatearFechaExcel(fechaExcel) {
-  var diasUTC = Math.floor(fechaExcel - 25569);
-  var valorUTC = diasUTC * 86400;
-  var infoFecha = new Date(valorUTC * 1000);
+  const diasUTC = Math.floor(fechaExcel - 25569);
+  const valorUTC = diasUTC * 86400;
+  const infoFecha = new Date(valorUTC * 1000);
 
-  var diaFraccionado = fechaExcel - Math.floor(fechaExcel) + 0.0000001;
-  var totalSegundosDia = Math.floor(86400 * diaFraccionado);
-  var segundos = totalSegundosDia % 60;
+  const diaFraccionado = fechaExcel - Math.floor(fechaExcel) + 0.0000001;
+  const totalSegundosDia = Math.floor(86400 * diaFraccionado);
+  const segundos = totalSegundosDia % 60;
   totalSegundosDia -= segundos;
 
-  var horas = Math.floor(totalSegundosDia / (60 * 60));
-  var minutos = Math.floor(totalSegundosDia / 60) % 60;
+  const horas = Math.floor(totalSegundosDia / (60 * 60));
+  const minutos = Math.floor(totalSegundosDia / 60) % 60;
 
   // Convertidos a 2 dígitos
   infoFecha.setDate(infoFecha.getDate() + 1);
-  var dia = ('0' + infoFecha.getDate()).slice(-2);
-  var mes = ('0' + (infoFecha.getMonth() + 1)).slice(-2);
-  var anio = infoFecha.getFullYear();
+  const dia = ('0' + infoFecha.getDate()).slice(-2);
+  const mes = ('0' + (infoFecha.getMonth() + 1)).slice(-2);
+  const anio = infoFecha.getFullYear();
 
-  var fecha = `${dia}/${mes}/${anio}`;
+  const fecha = `${dia}/${mes}/${anio}`;
 
   return fecha;
 }

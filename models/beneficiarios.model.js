@@ -203,8 +203,7 @@ var beneficiariosSchema = new Schema({
   },
   creadoPor: {
     type: Schema.Types.ObjectId,
-    ref: 'Usuario',
-    required: [true, 'El id de creador es obligatorios']
+    ref: 'Usuario'
   },
   creadoEl: { type: String, required: false, default: '08/05/2020' }
 });

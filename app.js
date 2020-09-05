@@ -55,6 +55,8 @@ var login = require('./routes/login.route');
 var buscador = require('./routes/buscador.route');
 var reportes = require('./routes/reportes.route');
 var archivos = require('./routes/archivos.route');
+var madres = require('./routes/madres.route');
+var padres = require('./routes/padres.route');
 
 // Conexión BD
 mongoose.connect(
@@ -80,6 +82,8 @@ app.use('/', login);
 app.use('/', buscador);
 app.use('/', reportes);
 app.use('/', archivos);
+app.use('/', madres);
+app.use('/', padres);
 
 // Escuchar peticiones
 app.listen(puerto, () => {

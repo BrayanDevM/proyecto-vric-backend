@@ -8,147 +8,111 @@ const controller = {
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const activo = req.query.activo;
     const eas = req.query.eas;
     const regional = req.query.regional;
     const cupos = req.query.cupos;
-
-    let filtro = [];
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let criterioBusqueda = new Object();
 
     if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      criterioBusqueda.activo = activo;
     }
 
     if (eas !== undefined) {
-      filtro.push({ eas });
+      criterioBusqueda.eas = eas;
     }
 
     if (regional !== undefined) {
-      filtro.push({ regional });
+      criterioBusqueda.regional = regional;
     }
 
     if (cupos !== undefined) {
-      filtro = retornarFiltro(cupos, 'cupos');
+      criterioBusqueda.activo = valorActivo();
     }
 
-    if (filtro.length === 0) {
-      Contratos.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('creadoPor', 'nombre correo telefono')
-        .exec((error, contratos) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer contratos',
-              error
-            });
-          }
-          Contratos.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              contratos,
-              registros
-            });
+    Contratos.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('creadoPor', 'nombre correo telefono')
+      .exec((error, contratos) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer contratos',
+            error
+          });
+        }
+        Contratos.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            contratos,
+            registros
           });
         });
-    } else {
-      Contratos.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('creadoPor', 'nombre correo telefono')
-        .exec((error, contratos) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer contratos',
-              error
-            });
-          }
-          Contratos.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              contratos,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerContratos_uds: (req, res) => {
     // Variables de filtro ?query
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const activo = req.query.activo;
     const eas = req.query.eas;
     const regional = req.query.regional;
     const cupos = req.query.cupos;
-
-    let filtro = [];
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let criterioBusqueda = new Object();
 
     if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      criterioBusqueda.activo = activo;
     }
 
     if (eas !== undefined) {
-      filtro.push({ eas });
+      criterioBusqueda.eas = eas;
     }
 
     if (regional !== undefined) {
-      filtro.push({ regional });
+      criterioBusqueda.regional = regional;
     }
 
     if (cupos !== undefined) {
-      filtro = retornarFiltro(cupos, 'cupos');
+      criterioBusqueda.activo = valorActivo();
     }
 
-    if (filtro.length === 0) {
-      Contratos.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('creadoPor', 'nombre correo telefono')
-        .populate('uds', 'nombre codigo cupos arriendo activa')
-        .exec((error, contratos) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer contratos',
-              error
-            });
-          }
-          Contratos.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              contratos,
-              registros
-            });
+    Contratos.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('creadoPor', 'nombre correo telefono')
+      .populate('uds', 'nombre codigo cupos arriendo activa')
+      .exec((error, contratos) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer contratos',
+            error
+          });
+        }
+        Contratos.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            contratos,
+            registros
           });
         });
-    } else {
-      Contratos.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('creadoPor', 'nombre correo telefono')
-        .exec((error, contratos) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer contratos',
-              error
-            });
-          }
-          Contratos.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              contratos,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   obtenerContrato: (req, res) => {
     var contratoId = req.params.id;
@@ -362,30 +326,6 @@ function buscarUdsEliminadas() {
    */
   // console.log('UDS eliminadas de contrato: ', arr);
   return arr;
-}
-
-/**
- * Recibe criterios de consulta y propiedad para devolver
- * un arreglo con los filtros requeridos por el método or()
- * de una consulta a mongoDB
- * @param {string} consulta
- * @param {string} propiedad
- */
-function retornarFiltro(consulta, propiedad) {
-  let condiciones = [];
-  const filtro = [];
-  condiciones = consulta.split(' ');
-
-  condiciones.forEach(condicion => {
-    if (condicion === 'null') {
-      condicion = null;
-    }
-    let obj = new Object();
-    obj[propiedad] = condicion;
-    filtro.push(obj);
-  });
-
-  return filtro;
 }
 
 module.exports = controller;

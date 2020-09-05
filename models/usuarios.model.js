@@ -3,14 +3,14 @@ var uniqueValidator = require('mongoose-unique-validator');
 var Schema = mongoose.Schema;
 
 var roleValidacion = {
-  values: ['ADMIN', 'DOCENTE', 'GESTOR', 'COORDINADOR'], // debe ser values
+  values: ['ADMIN', 'GESTOR', 'COORDINADOR', 'DOCENTE', 'VISITANTE'], // debe ser values
   message: '{VALUE} no es un rol permitido' // debe ser messages
 };
 
 var usuarioSchema = new Schema({
   nombre: { type: String, required: [true, 'El nombre es obligatorio'] },
   documento: {
-    type: Number,
+    type: String,
     unique: true,
     required: [true, 'El documento es obligatorio']
   },

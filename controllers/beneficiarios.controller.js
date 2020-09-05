@@ -12,101 +12,65 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const estado = req.query.estado;
-    const discapacidad = req.query.discapacidad;
     const criterio = req.query.criterio;
     const tipoDoc = req.query.tipoDoc;
     const paisNacimiento = req.query.paisNacimiento;
     const autorreconocimiento = req.query.autorreconocimiento;
+    const discapacidad = req.query.discapacidad;
     const uds = req.query.uds;
-    const creadoPor = req.query.creadoPor;
-    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por estado
-    if (estado !== undefined) {
-      filtro = retornarFiltro(estado, 'estado');
-    }
-    // filtro por discapacidad
-    if (discapacidad !== undefined) {
-      if (discapacidad === 'si') {
-        filtro.push({ discapacidad: true });
-      } else if (discapacidad === 'no') {
-        filtro.push({ discapacidad: false });
+    const valorDiscapacidad = () => {
+      if (req.query.discapacidad === 'no') {
+        return false;
+      } else {
+        return true;
       }
+    };
+    // Si se envía más de un criterio se agrega c/u al arreglo como objeto
+    let criterioBusqueda = new Object();
+    if (estado !== undefined) {
+      criterioBusqueda.estado = estado;
     }
-    // filtro por criterio
     if (criterio !== undefined) {
-      filtro = retornarFiltro(criterio, 'criterio');
+      criterioBusqueda.criterio = criterio;
     }
-    // filtro por tipoDoc
     if (tipoDoc !== undefined) {
-      filtro = retornarFiltro(tipoDoc, 'tipoDoc');
+      criterioBusqueda.tipoDoc = tipoDoc;
     }
-    // filtro por paisNacimiento
     if (paisNacimiento !== undefined) {
-      filtro = retornarFiltro(paisNacimiento, 'paisNacimiento');
+      criterioBusqueda.paisNacimiento = paisNacimiento;
     }
-    // filtro por autorreconocimiento
     if (autorreconocimiento !== undefined) {
-      filtro = retornarFiltro(autorreconocimiento, 'autorreconocimiento');
+      criterioBusqueda.autorreconocimiento = autorreconocimiento;
     }
-    // filtro por uds
+    if (discapacidad !== undefined) {
+      criterioBusqueda.discapacidad = valorDiscapacidad();
+    }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
-    }
-    // filtro por creadoPor
-    if (creadoPor !== undefined) {
-      filtro = retornarFiltro(creadoPor, 'creadoPor');
+      criterioBusqueda.uds = uds;
     }
 
-    if (filtro.length === 0) {
-      Beneficiarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .sort('nombre1')
-        .populate('uds', 'nombre codigo')
-        .populate('creadoPor', 'nombre correo telefono')
-        .exec((error, beneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer beneficiarios',
-              error
-            });
-          }
-          Beneficiarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              beneficiarios,
-              registros
-            });
+    Beneficiarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .sort('nombre1')
+      .populate('uds', 'nombre codigo')
+      .populate('creadoPor', 'nombre correo telefono')
+      .exec((error, beneficiarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer beneficiarios',
+            error
+          });
+        }
+        Beneficiarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            beneficiarios,
+            registros
           });
         });
-    } else {
-      Beneficiarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .sort('nombre1')
-        .populate('uds', 'nombre codigo')
-        .populate('creadoPor', 'nombre correo telefono')
-        .exec((error, beneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer beneficiarios',
-              error
-            });
-          }
-          Beneficiarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              beneficiarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerBeneficiarios_responsables: (req, res) => {
     // Variables de filtro ?query
@@ -211,6 +175,8 @@ const controller = {
       .populate('uds', 'nombre codigo')
       .populate('creadoPor', 'nombre correo telefono')
       .populate('responsableId')
+      .populate('madreId')
+      .populate('padreId')
       .exec((error, beneficiario) => {
         if (error) {
           res.status(500).json({
@@ -306,7 +272,7 @@ const controller = {
       creadoPor: req.solicitadoPor._id,
       creadoEl: fecha
     };
-
+    // console.log(body, '<-body');
     let beneficiarioCreado;
     let responsableCreado;
     let madreCreada;
@@ -813,35 +779,6 @@ function guardarBeneficiarioEnUds(beneficiarioId, udsId) {
       });
     });
   });
-}
-
-/**
- * Recibe criterios de consulta y propiedad para devolver
- * un arreglo con los filtros requeridos por el método or()
- * de una consulta a mongoDB
- * @param {string} consulta
- * @param {string} propiedad
- */
-function retornarFiltro(consulta, propiedad) {
-  let condiciones = [];
-  const filtro = [];
-  // Al ser un criterio de 2 palabras 'Pendiente vincular', la pasamos completa
-  if (consulta.includes('Pendiente') || consulta.includes('Dato')) {
-    condiciones.push(consulta);
-  } else {
-    condiciones = consulta.split(' ');
-  }
-
-  condiciones.forEach(condicion => {
-    if (condicion === 'null') {
-      condicion = null;
-    }
-    let obj = new Object();
-    obj[propiedad] = condicion;
-    filtro.push(obj);
-  });
-
-  return filtro;
 }
 
 module.exports = controller;

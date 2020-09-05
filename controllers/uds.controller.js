@@ -8,329 +8,205 @@ const controller = {
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const enContrato = req.query.enContrato;
     const arriendo = req.query.arriendo;
-    const activa = req.query.activa;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorActiva = () => {
+      if (req.query.activa === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por contrato
-    if (enContrato !== undefined) {
-      filtro = retornarFiltro(enContrato, 'enContrato');
+    let criterioBusqueda = new Object();
+    if (arriendo !== undefined) {
+      criterioBusqueda.arriendo = arriendo;
     }
-
-    // filtro por arriendo
-    if (arriendo === 'si') {
-      filtro.push({ arriendo: true });
-    } else if (arriendo === 'no') {
-      filtro.push({ arriendo: false });
-    }
-    // filtro por activa (estado)
-    if (activa === 'si') {
-      filtro.push({ activa: true });
-    } else if (activa === 'no') {
-      filtro.push({ activa: false });
-    }
-
-    // filtro por coordinador
     if (coordinador !== undefined) {
-      filtro = retornarFiltro(coordinador, 'coordinador');
+      criterioBusqueda.coordinador = coordinador;
     }
-    // filtro por gestor
     if (gestor !== undefined) {
-      filtro = retornarFiltro(gestor, 'gestor');
+      criterioBusqueda.gestor = gestor;
     }
-    // filtro por docente
     if (docentes !== undefined) {
-      filtro = retornarFiltro(docentes, 'docentes');
+      criterioBusqueda.docentes = docentes;
     }
-    // filtro por cupos
     if (cupos !== undefined) {
-      filtro = retornarFiltro(cupos, 'cupos');
+      criterioBusqueda.cupos = cupos;
+    }
+    if (activa !== undefined) {
+      criterioBusqueda.activa = valorActiva();
     }
 
-    // Si el no usuario envía filtro de búsqueda devolvemos todo
-    if (filtro.length === 0) {
-      Uds.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .sort('nombre')
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments().exec((error, registros) => {
+    Uds.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('coordinador', 'nombre')
+      .populate('docentes', 'nombre')
+      .populate('gestor', 'nombre')
+      .populate('enContrato', 'codigo')
+      .populate('creadoPor', 'nombre')
+      .sort('nombre')
+      .exec((error, uds) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        Uds.countDocuments()
+          .or(filtro)
+          .exec((error, registros) => {
             return res.status(200).json({
               ok: true,
               uds,
               registros
             });
           });
-        });
-    } else {
-      // Si envía, buscamos por filtro
-      Uds.find({})
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .sort('nombre')
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments()
-            .or(filtro)
-            .exec((error, registros) => {
-              return res.status(200).json({
-                ok: true,
-                uds,
-                registros
-              });
-            });
-        });
-    }
+      });
   },
   traerUds_beneficiarios: (req, res) => {
     // Variables de filtro ?query
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const enContrato = req.query.enContrato;
     const arriendo = req.query.arriendo;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorActiva = () => {
+      if (req.query.activa === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por contrato
-    if (enContrato !== undefined) {
-      filtro = retornarFiltro(enContrato, 'enContrato');
+    let criterioBusqueda = new Object();
+    if (arriendo !== undefined) {
+      criterioBusqueda.arriendo = arriendo;
     }
-
-    // filtro por arriendo
-    if (arriendo === 'si') {
-      filtro.push({ arriendo: true });
-    } else if (arriendo === 'no') {
-      filtro.push({ arriendo: false });
-    }
-
-    // filtro por coordinador
     if (coordinador !== undefined) {
-      filtro = retornarFiltro(coordinador, 'coordinador');
+      criterioBusqueda.coordinador = coordinador;
     }
-    // filtro por gestor
     if (gestor !== undefined) {
-      filtro = retornarFiltro(gestor, 'gestor');
+      criterioBusqueda.gestor = gestor;
     }
-    // filtro por docente
     if (docentes !== undefined) {
-      filtro = retornarFiltro(docentes, 'docentes');
+      criterioBusqueda.docentes = docentes;
     }
-    // filtro por cupos
     if (cupos !== undefined) {
-      filtro = retornarFiltro(cupos, 'cupos');
+      criterioBusqueda.cupos = cupos;
+    }
+    if (activa !== undefined) {
+      criterioBusqueda.activa = valorActiva();
     }
 
-    // Si el no usuario envía filtro de búsqueda devolvemos todo
-    if (filtro.length === 0) {
-      Uds.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .populate('beneficiarios')
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments().exec((error, registros) => {
+    Uds.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('coordinador', 'nombre')
+      .populate('docentes', 'nombre')
+      .populate('gestor', 'nombre')
+      .populate('enContrato', 'codigo')
+      .populate('creadoPor', 'nombre')
+      .populate('beneficiarios')
+      .exec((error, uds) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        Uds.countDocuments()
+          .or(filtro)
+          .exec((error, registros) => {
             return res.status(200).json({
               ok: true,
               uds,
               registros
             });
           });
-        });
-    } else {
-      // Si envía, buscamos por filtro
-      Uds.find({})
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .populate('beneficiarios')
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments()
-            .or(filtro)
-            .exec((error, registros) => {
-              return res.status(200).json({
-                ok: true,
-                uds,
-                registros
-              });
-            });
-        });
-    }
+      });
   },
   traerUds_beneficiarios_responsables: (req, res) => {
     // Variables de filtro ?query
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const enContrato = req.query.enContrato;
     const arriendo = req.query.arriendo;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorActiva = () => {
+      if (req.query.activa === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por contrato
-    if (enContrato !== undefined) {
-      filtro = retornarFiltro(enContrato, 'enContrato');
+    let criterioBusqueda = new Object();
+    if (arriendo !== undefined) {
+      criterioBusqueda.arriendo = arriendo;
     }
-
-    // filtro por arriendo
-    if (arriendo === 'si') {
-      filtro.push({ arriendo: true });
-    } else if (arriendo === 'no') {
-      filtro.push({ arriendo: false });
-    }
-
-    // filtro por coordinador
     if (coordinador !== undefined) {
-      filtro = retornarFiltro(coordinador, 'coordinador');
+      criterioBusqueda.coordinador = coordinador;
     }
-    // filtro por gestor
     if (gestor !== undefined) {
-      filtro = retornarFiltro(gestor, 'gestor');
+      criterioBusqueda.gestor = gestor;
     }
-    // filtro por docente
     if (docentes !== undefined) {
-      filtro = retornarFiltro(docentes, 'docentes');
+      criterioBusqueda.docentes = docentes;
     }
-    // filtro por cupos
     if (cupos !== undefined) {
-      filtro = retornarFiltro(cupos, 'cupos');
+      criterioBusqueda.cupos = cupos;
+    }
+    if (activa !== undefined) {
+      criterioBusqueda.activa = valorActiva();
     }
 
-    // Si el no usuario envía filtro de búsqueda devolvemos todo
-    if (filtro.length === 0) {
-      Uds.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .populate({
-          path: 'beneficiarios',
-          options: { sort: 'nombre1' },
-          populate: [
-            { path: 'responsableId' },
-            { path: 'madreId' },
-            { path: 'padreId' },
-            { path: 'creadoPor', select: 'nombre correo' }
-          ]
-        })
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments().exec((error, registros) => {
+    Uds.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('coordinador', 'nombre')
+      .populate('docentes', 'nombre')
+      .populate('gestor', 'nombre')
+      .populate('enContrato', 'codigo')
+      .populate('creadoPor', 'nombre')
+      .populate({
+        path: 'beneficiarios',
+        options: { sort: 'nombre1' },
+        populate: [
+          { path: 'responsableId' },
+          { path: 'creadoPor', select: 'nombre correo' }
+        ]
+      })
+      .exec((error, uds) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer UDS',
+            error
+          });
+        }
+        Uds.countDocuments()
+          .or(filtro)
+          .exec((error, registros) => {
             return res.status(200).json({
               ok: true,
               uds,
               registros
             });
           });
-        });
-    } else {
-      // Si envía, buscamos por filtro
-      Uds.find({})
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('coordinador', 'nombre')
-        .populate('docentes', 'nombre')
-        .populate('gestor', 'nombre')
-        .populate('enContrato', 'codigo')
-        .populate('creadoPor', 'nombre')
-        .populate({
-          path: 'beneficiarios',
-          options: { sort: 'nombre1' },
-          populate: [
-            { path: 'responsableId' },
-            { path: 'creadoPor', select: 'nombre correo' }
-          ]
-        })
-        .exec((error, uds) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer UDS',
-              error
-            });
-          }
-          Uds.countDocuments()
-            .or(filtro)
-            .exec((error, registros) => {
-              return res.status(200).json({
-                ok: true,
-                uds,
-                registros
-              });
-            });
-        });
-    }
+      });
   },
   traerUds_codigos: (req, res) => {
     // trae sólo código y nombre
@@ -708,29 +584,6 @@ function asignarUdsADocentes(docentesIds, udsId) {
       resolve(docentesActualizadas);
     }, 300);
   });
-}
-
-/**
- * Recibe criterios de consulta y propiedad para devolver
- * un arreglo con los filtros requeridos por el método or()
- * de una consulta a mongoDB
- * @param {string} consulta
- * @param {string} propiedad
- */
-function retornarFiltro(consulta, propiedad) {
-  const filtro = [];
-  let condiciones = consulta.split(' ');
-
-  condiciones.forEach(condicion => {
-    if (condicion === 'null') {
-      condicion = null;
-    }
-    let obj = new Object();
-    obj[propiedad] = condicion;
-    filtro.push(obj);
-  });
-
-  return filtro;
 }
 
 module.exports = controller;
