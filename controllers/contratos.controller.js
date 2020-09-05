@@ -21,8 +21,8 @@ const controller = {
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
 
-    if (activo !== undefined) {
-      criterioBusqueda.activo = activo;
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     if (eas !== undefined) {
@@ -34,7 +34,7 @@ const controller = {
     }
 
     if (cupos !== undefined) {
-      criterioBusqueda.activo = valorActivo();
+      criterioBusqueda.activo = cupos;
     }
 
     Contratos.find(criterioBusqueda)
@@ -76,8 +76,8 @@ const controller = {
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
 
-    if (activo !== undefined) {
-      criterioBusqueda.activo = activo;
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     if (eas !== undefined) {
@@ -89,7 +89,7 @@ const controller = {
     }
 
     if (cupos !== undefined) {
-      criterioBusqueda.activo = valorActivo();
+      criterioBusqueda.activo = cupos;
     }
 
     Contratos.find(criterioBusqueda)

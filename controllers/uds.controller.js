@@ -37,7 +37,7 @@ const controller = {
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
     }
-    if (activa !== undefined) {
+    if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
     }
 
@@ -58,15 +58,13 @@ const controller = {
             error
           });
         }
-        Uds.countDocuments()
-          .or(filtro)
-          .exec((error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              uds,
-              registros
-            });
+        Uds.countDocuments().exec((error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            uds,
+            registros
           });
+        });
       });
   },
   traerUds_beneficiarios: (req, res) => {
@@ -103,7 +101,7 @@ const controller = {
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
     }
-    if (activa !== undefined) {
+    if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
     }
 
@@ -124,15 +122,13 @@ const controller = {
             error
           });
         }
-        Uds.countDocuments()
-          .or(filtro)
-          .exec((error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              uds,
-              registros
-            });
+        Uds.countDocuments().exec((error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            uds,
+            registros
           });
+        });
       });
   },
   traerUds_beneficiarios_responsables: (req, res) => {
@@ -169,7 +165,7 @@ const controller = {
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
     }
-    if (activa !== undefined) {
+    if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
     }
 
