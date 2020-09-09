@@ -10,6 +10,13 @@ const controller = {
     // filtros
     const rol = req.query.rol;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
 
     let criterioBusqueda = new Object();
 
@@ -18,6 +25,9 @@ const controller = {
     }
     if (uds !== undefined) {
       criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     Usuarios.find(criterioBusqueda)
@@ -47,6 +57,13 @@ const controller = {
     // filtros
     const rol = req.query.rol;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
 
     let criterioBusqueda = new Object();
 
@@ -55,6 +72,9 @@ const controller = {
     }
     if (uds !== undefined) {
       criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     Usuarios.find(criterioBusqueda)
@@ -85,6 +105,13 @@ const controller = {
     // filtros
     const rol = req.query.rol;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
 
     let criterioBusqueda = new Object();
 
@@ -93,6 +120,9 @@ const controller = {
     }
     if (uds !== undefined) {
       criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     Usuarios.find(criterioBusqueda)
@@ -123,6 +153,13 @@ const controller = {
     // filtros
     const rol = req.query.rol;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
 
     let criterioBusqueda = new Object();
 
@@ -131,6 +168,9 @@ const controller = {
     }
     if (uds !== undefined) {
       criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
     Usuarios.find(criterioBusqueda)

@@ -8,11 +8,17 @@ const controller = {
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const arriendo = req.query.arriendo;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorArriendo = () => {
+      if (req.query.arriendo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     const valorActiva = () => {
       if (req.query.activa === 'no') {
         return false;
@@ -22,9 +28,6 @@ const controller = {
     };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
-    if (arriendo !== undefined) {
-      criterioBusqueda.arriendo = arriendo;
-    }
     if (coordinador !== undefined) {
       criterioBusqueda.coordinador = coordinador;
     }
@@ -36,6 +39,9 @@ const controller = {
     }
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
+    }
+    if (req.query.arriendo !== undefined) {
+      criterioBusqueda.arriendo = valorArriendo();
     }
     if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
@@ -77,6 +83,13 @@ const controller = {
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorArriendo = () => {
+      if (req.query.arriendo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     const valorActiva = () => {
       if (req.query.activa === 'no') {
         return false;
@@ -86,9 +99,6 @@ const controller = {
     };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
-    if (arriendo !== undefined) {
-      criterioBusqueda.arriendo = arriendo;
-    }
     if (coordinador !== undefined) {
       criterioBusqueda.coordinador = coordinador;
     }
@@ -100,6 +110,9 @@ const controller = {
     }
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
+    }
+    if (req.query.arriendo !== undefined) {
+      criterioBusqueda.arriendo = valorArriendo();
     }
     if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
@@ -136,11 +149,17 @@ const controller = {
     const desde = Number(req.query.desde) || 0;
     const limite = Number(req.query.limite) || 0;
     // filtros
-    const arriendo = req.query.arriendo;
     const coordinador = req.query.coordinador;
     const gestor = req.query.gestor;
     const docentes = req.query.docentes;
     const cupos = req.query.cupos;
+    const valorArriendo = () => {
+      if (req.query.arriendo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
     const valorActiva = () => {
       if (req.query.activa === 'no') {
         return false;
@@ -150,9 +169,6 @@ const controller = {
     };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
-    if (arriendo !== undefined) {
-      criterioBusqueda.arriendo = arriendo;
-    }
     if (coordinador !== undefined) {
       criterioBusqueda.coordinador = coordinador;
     }
@@ -164,6 +180,9 @@ const controller = {
     }
     if (cupos !== undefined) {
       criterioBusqueda.cupos = cupos;
+    }
+    if (req.query.arriendo !== undefined) {
+      criterioBusqueda.arriendo = valorArriendo();
     }
     if (req.query.activa !== undefined) {
       criterioBusqueda.activa = valorActiva();
