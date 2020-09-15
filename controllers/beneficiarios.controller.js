@@ -119,7 +119,7 @@ const controller = {
       .skip(desde)
       .limit(limite)
       .sort('nombre1')
-      .populate('uds', 'nombre codigo')
+      .populate('uds', 'nombre codigo docentes coordinador')
       .populate('creadoPor', 'nombre correo telefono')
       .populate('responsableId')
       .populate('madreId')
@@ -172,7 +172,7 @@ const controller = {
     var id = req.params.id;
     Beneficiarios.findById(id)
       .sort('nombre1')
-      .populate('uds', 'nombre codigo')
+      .populate('uds', 'nombre codigo docentes coordinador')
       .populate('creadoPor', 'nombre correo telefono')
       .populate('responsableId')
       .populate('madreId')

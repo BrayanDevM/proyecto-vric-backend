@@ -2,6 +2,11 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var notificacionesSchema = new Schema({
+  creadaPor: {
+    type: Schema.Types.ObjectId,
+    ref: 'Usuario',
+    default: null
+  },
   fechaCreada: {
     type: String,
     required: [true, 'La fecha de creada es obligatoria']

@@ -8,7 +8,7 @@ class Notificaciones {
   obtenerNotificaciones(usuarioId, desde, hasta) {
     return new Promise((resolve, reject) => {
       notificacionesModel
-        .find({ $or: [{ _id: usuarioId }, { general: true }] })
+        .find({ $or: [{ paraUsuarios: usuarioId }, { general: true }] })
         .skip(desde)
         .limit(hasta)
         .sort('-fechaCreada')

@@ -201,7 +201,8 @@ const controller = {
         options: { sort: 'nombre1' },
         populate: [
           { path: 'responsableId' },
-          { path: 'creadoPor', select: 'nombre correo' }
+          { path: 'creadoPor', select: 'nombre correo' },
+          { path: 'uds', select: 'coordinador gestor docentes' }
         ]
       })
       .exec((error, uds) => {
@@ -339,7 +340,8 @@ const controller = {
           { path: 'creadoPor', select: 'nombre correo' },
           { path: 'responsableId' },
           { path: 'madreId' },
-          { path: 'padreId' }
+          { path: 'padreId' },
+          { path: 'uds', select: 'coordinador gestor docentes' }
         ]
       })
       .exec((error, unidad) => {

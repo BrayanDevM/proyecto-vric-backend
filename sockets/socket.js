@@ -26,6 +26,21 @@ io.on('connection', client => {
   });
 
   /**
+   * Cuando se crea una notificación general, se guarda en BD y se emite
+   * a todos los usuarios
+   */
+  client.on('notificarUsuario', (notificacion, callback) => {
+    callback(
+      notificaciones
+        .crearNotificacion(notificacion)
+        .then(resp => {
+          client.broadcast.emit('notificarUsuario', resp);
+        })
+        .catch(error => console.log(error))
+    );
+  });
+
+  /**
    * Cuando se marca como leída, se actualiza y retorna true
    */
   client.on('marcarComoLeida', (data, callback) => {
