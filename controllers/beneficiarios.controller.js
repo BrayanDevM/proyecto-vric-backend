@@ -318,7 +318,9 @@ const controller = {
             padreCreado
           });
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+          return res.status(error.status).json(error);
+        });
       return;
     }
     // Si no envían madre, se crea sólo el padre
@@ -349,7 +351,9 @@ const controller = {
             padreCreado
           });
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+          return res.status(error.status).json(error);
+        });
       return;
     }
     // Si no envían padre se crea sólo la madre
@@ -380,7 +384,9 @@ const controller = {
             padreCreado
           });
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+          return res.status(error.status).json(error);
+        });
       return;
     }
     // Si envían padres creamos madre y padre
@@ -411,7 +417,9 @@ const controller = {
           padreCreado
         });
       })
-      .catch(error => console.log(error));
+      .catch(error => {
+        return res.status(error.status).json(error);
+      });
   },
   actualizarBeneficiario: (req, res) => {
     var id = null;
@@ -669,6 +677,7 @@ function crearBeneficiario(beneficiario) {
         if (error) {
           reject({
             ok: false,
+            status: 500,
             mensaje: 'Error al buscar beneficiario',
             error
           });
@@ -680,6 +689,7 @@ function crearBeneficiario(beneficiario) {
             if (error) {
               reject({
                 ok: false,
+                status: 500,
                 mensaje: 'Error al crear beneficiario',
                 error
               });
@@ -694,6 +704,7 @@ function crearBeneficiario(beneficiario) {
               if (error) {
                 reject({
                   ok: false,
+                  status: 500,
                   mensaje: 'Error al eliminar beneficiario de UDS anterior',
                   error
                 });
@@ -701,6 +712,7 @@ function crearBeneficiario(beneficiario) {
               if (!unidad) {
                 reject({
                   ok: false,
+                  status: 400,
                   mensaje: 'No existe la UDS seleccionada'
                 });
               }
@@ -712,6 +724,7 @@ function crearBeneficiario(beneficiario) {
                 if (error) {
                   reject({
                     ok: false,
+                    status: 500,
                     mensaje: 'Error al eliminar beneficiario de UDS anterior',
                     error
                   });
@@ -724,6 +737,7 @@ function crearBeneficiario(beneficiario) {
               if (error) {
                 reject({
                   ok: false,
+                  status: 500,
                   mensaje: 'Error al actualizar beneficiario existente',
                   error
                 });
@@ -733,11 +747,13 @@ function crearBeneficiario(beneficiario) {
           } else {
             reject({
               ok: false,
+              status: 400,
               mensaje:
                 'Error al actualizar beneficiario existente, este debe estar desviculado antes de poder vincularlo nuevamente',
               error: {
                 error: {
-                  message: ''
+                  message:
+                    'Error al actualizar beneficiario existente, este debe estar desviculado antes de poder vincularlo nuevamente'
                 }
               }
             });
