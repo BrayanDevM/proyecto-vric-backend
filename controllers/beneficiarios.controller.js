@@ -196,6 +196,8 @@ const controller = {
         .populate('uds', 'nombre codigo')
         .populate('creadoPor', 'nombre correo telefono')
         .populate('responsableId')
+        .populate('madreId')
+        .populate('padreId')
         .exec((error, beneficiarios) => {
           if (error) {
             return res.status(500).json({
