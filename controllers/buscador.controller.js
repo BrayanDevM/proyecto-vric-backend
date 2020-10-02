@@ -120,23 +120,26 @@ var controller = {
 
 function buscarBeneficiarios(regex, buscaNumero) {
   return new Promise((resolve, reject) => {
-    Beneficiarios.find({})
-      .or([
+    Beneficiarios.find({
+      $or: [
         { documento: regex },
         { nombre1: regex },
         { nombre2: regex },
         { apellido1: regex },
         { apellido2: regex }
-      ])
-      .populate('responsableId', 'nombre1 apellido1 documento')
+      ]
+    })
+      // .or([
+      //   { documento: regex },
+      //   { nombre1: regex },
+      //   { nombre2: regex },
+      //   { apellido1: regex },
+      //   { apellido2: regex }
+      // ])
+      .select('nombre1 nombre2 apellido1 apellido2')
       .populate({
         path: 'uds',
-        select: 'nombre codigo coordinador docentes gestor',
-        populate: [
-          { path: 'coordinador', select: 'nombre correo' },
-          { path: 'docentes', select: 'nombre correo' },
-          { path: 'gestor', select: 'nombre correo' }
-        ]
+        select: 'nombre codigo'
       })
       .exec((error, beneficiarios) => {
         if (error) {
