@@ -12,6 +12,10 @@ var reportesSchema = new Schema({
     required: [true, 'El tipo de reporte es obligatorio'],
     enum: tipoValidacion
   },
+  asunto: {
+    type: String,
+    required: [true, 'El asunto es obligatorio']
+  },
   descripcion: {
     type: String,
     required: [true, 'La descripción es obligatoria']

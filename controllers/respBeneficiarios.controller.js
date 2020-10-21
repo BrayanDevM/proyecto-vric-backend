@@ -12,67 +12,39 @@ const controller = {
     const sexo = req.query.sexo;
     const paisNacimiento = req.query.paisNacimiento;
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
-    let filtro = [];
-
-    // filtro por tipoDoc
+    let criterioBusqueda = new Object();
     if (tipoDoc !== undefined) {
-      filtro = retornarFiltro(tipoDoc, 'tipoDoc');
+      criterioBusqueda.tipoDoc = tipoDoc;
     }
-    // filtro por documento
     if (documento !== undefined) {
-      filtro = retornarFiltro(documento, 'documento');
+      criterioBusqueda.documento = documento;
     }
-    // filtro por sexo
     if (sexo !== undefined) {
-      filtro = retornarFiltro(sexo, 'sexo');
+      criterioBusqueda.sexo = sexo;
     }
-    // filtro por paisNacimiento
     if (paisNacimiento !== undefined) {
-      filtro = retornarFiltro(paisNacimiento, 'paisNacimiento');
+      criterioBusqueda.paisNacimiento = paisNacimiento;
     }
 
-    if (filtro.length === 0) {
-      RespBeneficiario.find({})
-        .skip(desde)
-        .limit(limite)
-        .exec((error, respBeneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer responsables de beneficiarios',
-              error
-            });
-          }
-          RespBeneficiario.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              respBeneficiarios,
-              registros
-            });
+    RespBeneficiario.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .exec((error, respBeneficiarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer responsables de beneficiarios',
+            error
+          });
+        }
+        RespBeneficiario.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            respBeneficiarios,
+            registros
           });
         });
-    } else {
-      RespBeneficiario.find()
-        .skip(desde)
-        .limit(limite)
-        .or(filtro)
-        .exec((error, respBeneficiarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer responsables de beneficiarios',
-              error
-            });
-          }
-          RespBeneficiario.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              respBeneficiarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   obtenerResponsable: (req, res) => {
     const id = req.params.id;
@@ -196,34 +168,5 @@ const controller = {
     });
   }
 };
-
-/**
- * Recibe criterios de consulta y propiedad para devolver
- * un arreglo con los filtros requeridos por el método or()
- * de una consulta a mongoDB
- * @param {string} consulta
- * @param {string} propiedad
- */
-function retornarFiltro(consulta, propiedad) {
-  let condiciones = [];
-  const filtro = [];
-  // Al ser un criterio de 2 palabras 'Pendiente vincular', la pasamos completa
-  if (consulta.includes('Pendiente') || consulta.includes('Dato')) {
-    condiciones.push(consulta);
-  } else {
-    condiciones = consulta.split(' ');
-  }
-
-  condiciones.forEach(condicion => {
-    if (condicion === 'null') {
-      condicion = null;
-    }
-    let obj = new Object();
-    obj[propiedad] = condicion;
-    filtro.push(obj);
-  });
-
-  return filtro;
-}
 
 module.exports = controller;

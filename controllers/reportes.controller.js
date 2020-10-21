@@ -26,6 +26,7 @@ const controller = {
     let body = req.body;
     let reporte = new Reportes({
       tipo: body.tipo,
+      asunto: body.asunto,
       descripcion: body.descripcion,
       creadoEl: body.creadoEl,
       reportadoPor: req.solicitadoPor

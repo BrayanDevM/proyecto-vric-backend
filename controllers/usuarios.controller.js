@@ -9,66 +9,46 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const rol = req.query.rol;
-    const activo = req.query.activo;
     const uds = req.query.uds;
-    let filtro = [];
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+
+    let criterioBusqueda = new Object();
 
     if (rol !== undefined) {
-      filtro = retornarFiltro(rol, 'rol');
-    }
-    if (activo !== undefined) {
-      if (activo === 'si') {
-        filtro = { activo: true };
-      } else {
-        filtro = { activo: false };
-      }
+      criterioBusqueda.rol = rol;
     }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
+      criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
-    if (filtro.length === 0) {
-      Usuarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
+    Usuarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .exec((error, usuarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer usuarios',
+            error
+          });
+        }
+        Usuarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            usuarios,
+            registros
           });
         });
-    } else {
-      Usuarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerUsuarios_uds: (req, res) => {
     // Variables de filtro ?query
@@ -76,65 +56,47 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const rol = req.query.rol;
-    const activo = req.query.activo;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+
+    let criterioBusqueda = new Object();
 
     if (rol !== undefined) {
-      filtro = retornarFiltro(rol, 'rol');
-    }
-    if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      criterioBusqueda.rol = rol;
     }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
+      criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
-    let filtro = [];
-
-    if (filtro.length === 0) {
-      Usuarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('uds', 'codigo nombre')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
+    Usuarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('uds', 'codigo nombre')
+      .exec((error, usuarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer usuarios',
+            error
+          });
+        }
+        Usuarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            usuarios,
+            registros
           });
         });
-    } else {
-      Usuarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('uds', 'codigo nombre')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerUsuarios_contratos: (req, res) => {
     // Variables de filtro ?query
@@ -142,65 +104,47 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const rol = req.query.rol;
-    const activo = req.query.activo;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+
+    let criterioBusqueda = new Object();
 
     if (rol !== undefined) {
-      filtro = retornarFiltro(rol, 'rol');
-    }
-    if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      criterioBusqueda.rol = rol;
     }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
+      criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
-    let filtro = [];
-
-    if (filtro.length === 0) {
-      Usuarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('contratos', 'codigo eas activo')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
+    Usuarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('uds', 'codigo nombre')
+      .exec((error, usuarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer usuarios',
+            error
+          });
+        }
+        Usuarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            usuarios,
+            registros
           });
         });
-    } else {
-      Usuarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('uds', 'codigo nombre')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   traerUsuarios_uds_contratos: (req, res) => {
     // Variables de filtro ?query
@@ -208,67 +152,48 @@ const controller = {
     const limite = Number(req.query.limite) || 0;
     // filtros
     const rol = req.query.rol;
-    const activo = req.query.activo;
     const uds = req.query.uds;
+    const valorActivo = () => {
+      if (req.query.activo === 'no') {
+        return false;
+      } else {
+        return true;
+      }
+    };
+
+    let criterioBusqueda = new Object();
 
     if (rol !== undefined) {
-      filtro = retornarFiltro(rol, 'rol');
-    }
-    if (activo !== undefined) {
-      filtro = retornarFiltro(activo, 'activo');
+      criterioBusqueda.rol = rol;
     }
     if (uds !== undefined) {
-      filtro = retornarFiltro(uds, 'uds');
+      criterioBusqueda.uds = uds;
+    }
+    if (req.query.activo !== undefined) {
+      criterioBusqueda.activo = valorActivo();
     }
 
-    let filtro = [];
-
-    if (filtro.length === 0) {
-      Usuarios.find({})
-        .skip(desde)
-        .limit(limite)
-        .populate('contratos', 'codigo eas activo')
-        .populate('uds', 'codigo nombre')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
+    Usuarios.find(criterioBusqueda)
+      .skip(desde)
+      .limit(limite)
+      .populate('uds', 'codigo nombre')
+      .populate('uds', 'codigo nombre')
+      .exec((error, usuarios) => {
+        if (error) {
+          return res.status(500).json({
+            ok: false,
+            mensaje: 'Error al traer usuarios',
+            error
+          });
+        }
+        Usuarios.countDocuments({}, (error, registros) => {
+          return res.status(200).json({
+            ok: true,
+            usuarios,
+            registros
           });
         });
-    } else {
-      Usuarios.find()
-        .or(filtro)
-        .skip(desde)
-        .limit(limite)
-        .populate('uds', 'codigo nombre')
-        .populate('uds', 'codigo nombre')
-        .exec((error, usuarios) => {
-          if (error) {
-            return res.status(500).json({
-              ok: false,
-              mensaje: 'Error al traer usuarios',
-              error
-            });
-          }
-          Usuarios.countDocuments({}, (error, registros) => {
-            return res.status(200).json({
-              ok: true,
-              usuarios,
-              registros
-            });
-          });
-        });
-    }
+      });
   },
   obtenerUsuario: (req, res) => {
     const id = req.params.id;
