@@ -136,7 +136,7 @@ function buscarBeneficiarios(regex, buscaNumero) {
       //   { apellido1: regex },
       //   { apellido2: regex }
       // ])
-      .select('nombre1 nombre2 apellido1 apellido2')
+      .select('nombre1 nombre2 apellido1 apellido2 estado')
       .populate({
         path: 'uds',
         select: 'nombre codigo'
