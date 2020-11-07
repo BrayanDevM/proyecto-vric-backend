@@ -60,14 +60,14 @@ const controller = {
           return res.status(500).json({
             ok: false,
             mensaje: 'Error al traer beneficiarios',
-            error
+            error,
           });
         }
         Beneficiarios.countDocuments({}, (error, registros) => {
           return res.status(200).json({
             ok: true,
             beneficiarios,
-            registros
+            registros,
           });
         });
       });
@@ -129,7 +129,7 @@ const controller = {
           return res.status(500).json({
             ok: false,
             mensaje: 'Error al traer beneficiarios',
-            error
+            error,
           });
         }
         Beneficiarios.countDocuments({}, (error, registros) => {
@@ -137,7 +137,7 @@ const controller = {
             ok: true,
             beneficiarios,
             cuenta: beneficiarios.length,
-            registros
+            registros,
           });
         });
       });
@@ -153,18 +153,18 @@ const controller = {
           res.status(500).json({
             ok: false,
             mensaje: 'error al buscar beneficiario',
-            error
+            error,
           });
         }
         if (!beneficiario) {
           res.status(400).json({
             ok: false,
-            mensaje: 'El beneficiario no existe'
+            mensaje: 'El beneficiario no existe',
           });
         }
         res.status(200).json({
           ok: true,
-          beneficiario
+          beneficiario,
         });
       });
   },
@@ -182,18 +182,18 @@ const controller = {
           res.status(500).json({
             ok: false,
             mensaje: 'error al buscar beneficiario',
-            error
+            error,
           });
         }
         if (!beneficiario) {
           res.status(400).json({
             ok: false,
-            mensaje: 'El beneficiario no existe'
+            mensaje: 'El beneficiario no existe',
           });
         }
         res.status(200).json({
           ok: true,
-          beneficiario
+          beneficiario,
         });
       });
   },
@@ -214,7 +214,7 @@ const controller = {
       dptoNacimiento: body.respDptoNacimiento,
       municipioNacimiento: body.respMunicipioNacimiento,
       creadoPor: req.solicitadoPor._id,
-      creadoEl: fecha
+      creadoEl: fecha,
     };
     const madreBen = {
       // Creo objeto con datos de madre del beneficiario
@@ -227,7 +227,7 @@ const controller = {
       nacimiento: body.madreNacimiento,
       sexo: body.madreSexo,
       creadoPor: req.solicitadoPor._id,
-      creadoEl: fecha
+      creadoEl: fecha,
     };
     const padreBen = {
       // Creo objeto con datos de padre del beneficiario
@@ -240,7 +240,7 @@ const controller = {
       nacimiento: body.padreNacimiento,
       sexo: body.padreSexo,
       creadoPor: req.solicitadoPor._id,
-      creadoEl: fecha
+      creadoEl: fecha,
     };
     let beneficiario = {
       tipoDoc: body.tipoDoc,
@@ -270,7 +270,7 @@ const controller = {
       comentario: body.comentario,
       uds: body.udsId,
       creadoPor: req.solicitadoPor._id,
-      creadoEl: fecha
+      creadoEl: fecha,
     };
     // console.log(body, '<-body');
     let beneficiarioCreado;
@@ -299,26 +299,26 @@ const controller = {
       madreCreada = 'No se registró ninguna';
       padreCreado = 'No se registró ninguno';
       crearResponsable(respBen)
-        .then(responsable => {
+        .then((responsable) => {
           beneficiario.responsableId = responsable._id;
           responsableCreado = responsable; // para response
           return crearBeneficiario(beneficiario);
         })
-        .then(beneficiario => {
+        .then((beneficiario) => {
           beneficiarioCreado = beneficiario; // para response
           return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
         })
-        .then(udsActualizada => {
+        .then((udsActualizada) => {
           res.status(200).json({
             ok: true,
             mensaje: 'Beneficiario creado correctamente',
             beneficiarioCreado,
             responsableCreado,
             madreCreada,
-            padreCreado
+            padreCreado,
           });
         })
-        .catch(error => {
+        .catch((error) => {
           return res.status(error.status).json(error);
         });
       return;
@@ -327,31 +327,31 @@ const controller = {
     if (noEnvianMadre) {
       madreCreada = 'No se registró ninguna';
       Promise.all([crearPadre(padreBen)])
-        .then(result => {
+        .then((result) => {
           beneficiario.padreId = result[0]._id;
           padreCreado = result[0]; // para response
           return crearResponsable(respBen);
         })
-        .then(responsable => {
+        .then((responsable) => {
           beneficiario.responsableId = responsable._id;
           responsableCreado = responsable; // para response
           return crearBeneficiario(beneficiario);
         })
-        .then(beneficiario => {
+        .then((beneficiario) => {
           beneficiarioCreado = beneficiario; // para response
           return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
         })
-        .then(udsActualizada => {
+        .then((udsActualizada) => {
           res.status(200).json({
             ok: true,
             mensaje: 'Beneficiario creado correctamente',
             beneficiarioCreado,
             responsableCreado,
             madreCreada,
-            padreCreado
+            padreCreado,
           });
         })
-        .catch(error => {
+        .catch((error) => {
           return res.status(error.status).json(error);
         });
       return;
@@ -360,64 +360,64 @@ const controller = {
     if (noEnvianPadre) {
       padreCreado = 'No se registró ninguno';
       Promise.all([crearMadre(madreBen)])
-        .then(result => {
+        .then((result) => {
           beneficiario.madreId = result[0]._id;
           madreCreada = result[0]; // para response
           return crearResponsable(respBen);
         })
-        .then(responsable => {
+        .then((responsable) => {
           beneficiario.responsableId = responsable._id;
           responsableCreado = responsable; // para response
           return crearBeneficiario(beneficiario);
         })
-        .then(beneficiario => {
+        .then((beneficiario) => {
           beneficiarioCreado = beneficiario; // para response
           return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
         })
-        .then(udsActualizada => {
+        .then((udsActualizada) => {
           res.status(200).json({
             ok: true,
             mensaje: 'Beneficiario creado correctamente',
             beneficiarioCreado,
             responsableCreado,
             madreCreada,
-            padreCreado
+            padreCreado,
           });
         })
-        .catch(error => {
+        .catch((error) => {
           return res.status(error.status).json(error);
         });
       return;
     }
     // Si envían padres creamos madre y padre
     Promise.all([crearMadre(madreBen), crearPadre(padreBen)])
-      .then(result => {
+      .then((result) => {
         beneficiario.madreId = result[0]._id;
         madreCreada = result[0]; // para response
         beneficiario.padreId = result[1]._id;
         padreCreado = result[1]; // para response
         return crearResponsable(respBen);
       })
-      .then(responsable => {
+      .then((responsable) => {
         beneficiario.responsableId = responsable._id;
         responsableCreado = responsable; // para response
         return crearBeneficiario(beneficiario);
       })
-      .then(beneficiario => {
+      .then((beneficiario) => {
         beneficiarioCreado = beneficiario; // para response
         return guardarBeneficiarioEnUds(beneficiario._id, beneficiario.uds);
       })
-      .then(udsActualizada => {
+      .then((udsActualizada) => {
         res.status(200).json({
           ok: true,
           mensaje: 'Beneficiario creado correctamente',
           beneficiarioCreado,
           responsableCreado,
           madreCreada,
-          padreCreado
+          padreCreado,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         return res.status(error.status).json(error);
       });
   },
@@ -434,13 +434,13 @@ const controller = {
         return res.status(500).json({
           ok: false,
           mensaje: 'Error al buscar beneficiario',
-          error
+          error,
         });
       }
       if (!beneficiario) {
         return res.status(400).json({
           ok: false,
-          mensaje: 'el beneficiario no existe'
+          mensaje: 'el beneficiario no existe',
         });
       }
 
@@ -476,13 +476,13 @@ const controller = {
             return res.status(500).json({
               ok: false,
               mensaje: 'Error al actualizar beneficiario',
-              error
+              error,
             });
           }
           return res.status(200).json({
             ok: true,
             mensaje: 'Beneficiario actualizado correctamente',
-            beneficiarioActualizado
+            beneficiarioActualizado,
           });
         });
     });
@@ -494,13 +494,13 @@ const controller = {
         return res.status(500).json({
           ok: false,
           mensaje: 'Error al eliminar beneficiario',
-          error
+          error,
         });
       }
       if (!beneficiarioEliminado) {
         return res.status(400).json({
           ok: false,
-          mensaje: 'El beneficiario no existe'
+          mensaje: 'El beneficiario no existe',
         });
       }
       Uds.findById(beneficiarioEliminado.uds, (error, unidad) => {
@@ -508,16 +508,16 @@ const controller = {
           return res.status(500).json({
             ok: false,
             mensaje: 'Error al buscar UDS para eliminar usuario',
-            error
+            error,
           });
         }
         if (!unidad) {
           return res.status(500).json({
             ok: false,
-            mensaje: 'UDS en usuario eliminado no existe'
+            mensaje: 'UDS en usuario eliminado no existe',
           });
         }
-        var i = unidad.beneficiarios.findIndex(function(element) {
+        var i = unidad.beneficiarios.findIndex(function (element) {
           // parseo a string para validar
           return element + '' === beneficiarioEliminado._id + '';
         });
@@ -527,19 +527,19 @@ const controller = {
             return res.status(500).json({
               ok: false,
               mensaje: 'No se pudo eliminar al beneficiario de la UDS',
-              error
+              error,
             });
           }
           return res.status(200).json({
             ok: true,
             mensaje: 'Beneficiario eliminado correctamente',
             beneficiarioEliminado,
-            udsActualizada: unidadActualizada.nombre
+            udsActualizada: unidadActualizada.nombre,
           });
         });
       });
     });
-  }
+  },
 };
 
 function crearResponsable(respBen) {
@@ -553,15 +553,15 @@ function crearResponsable(respBen) {
           nombre2: respBen.nombre2,
           apellido1: respBen.apellido1,
           apellido2: respBen.apellido2,
-          nacimiento: respBen.nacimiento
-        }
+          nacimiento: respBen.nacimiento,
+        },
       ])
       .exec((error, responsable) => {
         if (error) {
           reject({
             ok: false,
             mensaje: 'Error al buscar responsable de beneficiario',
-            errors
+            errors,
           });
         }
         if (!responsable) {
@@ -573,7 +573,7 @@ function crearResponsable(respBen) {
               reject({
                 ok: false,
                 mensaje: 'Error al crear responsablebeneficiario',
-                error
+                error,
               });
             }
             resolve(responsableCreado);
@@ -595,15 +595,15 @@ function crearMadre(madreBen) {
           nombre2: madreBen.nombre2,
           apellido1: madreBen.apellido1,
           apellido2: madreBen.apellido2,
-          nacimiento: madreBen.nacimiento
-        }
+          nacimiento: madreBen.nacimiento,
+        },
       ])
       .exec((error, madre) => {
         if (error) {
           reject({
             ok: false,
             mensaje: 'Error al buscar madre de beneficiario',
-            errors
+            errors,
           });
         }
         if (!madre) {
@@ -615,7 +615,7 @@ function crearMadre(madreBen) {
               reject({
                 ok: false,
                 mensaje: 'Error al crear Madre del beneficiario',
-                error
+                error,
               });
             }
             resolve(madreCreada);
@@ -637,15 +637,15 @@ function crearPadre(padreBen) {
           nombre2: padreBen.nombre2,
           apellido1: padreBen.apellido1,
           apellido2: padreBen.apellido2,
-          nacimiento: padreBen.nacimiento
-        }
+          nacimiento: padreBen.nacimiento,
+        },
       ])
       .exec((error, padre) => {
         if (error) {
           reject({
             ok: false,
             mensaje: 'Error al buscar Padre de beneficiario',
-            errors
+            errors,
           });
         }
         if (!padre) {
@@ -657,7 +657,7 @@ function crearPadre(padreBen) {
               reject({
                 ok: false,
                 mensaje: 'Error al crear Padre de beneficiario',
-                error
+                error,
               });
             }
             resolve(padreCreado);
@@ -679,7 +679,7 @@ function crearBeneficiario(beneficiario) {
             ok: false,
             status: 500,
             mensaje: 'Error al buscar beneficiario',
-            error
+            error,
           });
         }
         if (!beneficiarioExiste) {
@@ -691,7 +691,7 @@ function crearBeneficiario(beneficiario) {
                 ok: false,
                 status: 500,
                 mensaje: 'Error al crear beneficiario',
-                error
+                error,
               });
             } else {
               // console.log('ben creado', beneficiarioCreado);
@@ -706,14 +706,14 @@ function crearBeneficiario(beneficiario) {
                   ok: false,
                   status: 500,
                   mensaje: 'Error al eliminar beneficiario de UDS anterior',
-                  error
+                  error,
                 });
               }
               if (!unidad) {
                 reject({
                   ok: false,
                   status: 400,
-                  mensaje: 'No existe la UDS seleccionada'
+                  mensaje: 'No existe la UDS seleccionada',
                 });
               }
               let indiceBeneficiario = unidad.beneficiarios.indexOf(
@@ -726,7 +726,7 @@ function crearBeneficiario(beneficiario) {
                     ok: false,
                     status: 500,
                     mensaje: 'Error al eliminar beneficiario de UDS anterior',
-                    error
+                    error,
                   });
                 }
               });
@@ -739,7 +739,7 @@ function crearBeneficiario(beneficiario) {
                   ok: false,
                   status: 500,
                   mensaje: 'Error al actualizar beneficiario existente',
-                  error
+                  error,
                 });
               }
               resolve(beneficiarioActualizado);
@@ -749,13 +749,13 @@ function crearBeneficiario(beneficiario) {
               ok: false,
               status: 400,
               mensaje:
-                'Error al actualizar beneficiario existente, este debe estar desviculado antes de poder vincularlo nuevamente',
+                'Error al actualizar beneficiario existente, este debe estar desvinculado antes de poder vincularlo nuevamente',
               error: {
                 error: {
                   message:
-                    'Error al actualizar beneficiario existente, este debe estar desviculado antes de poder vincularlo nuevamente'
-                }
-              }
+                    'Error al actualizar beneficiario existente, este debe estar desvinculado antes de poder vincularlo nuevamente',
+                },
+              },
             });
           }
         }
@@ -771,14 +771,14 @@ function guardarBeneficiarioEnUds(beneficiarioId, udsId) {
         reject({
           ok: false,
           mensaje: 'Error al buscar UDS para guardar beneficiario',
-          errors
+          errors,
         });
       }
       if (!unidad) {
         reject({
           ok: false,
           mensaje: 'La UDS no existe',
-          errors
+          errors,
         });
       }
       unidad.beneficiarios.push(beneficiarioId);
@@ -787,7 +787,7 @@ function guardarBeneficiarioEnUds(beneficiarioId, udsId) {
           reject({
             ok: false,
             mensaje: 'Error al guardar beneficiario en la UDS',
-            errors
+            errors,
           });
         } else {
           resolve(unidadActualizada);

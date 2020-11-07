@@ -33,7 +33,7 @@ app.use(
   cookieSession({
     // maxAge: 24 * 60 * 60 * 1000, // 24 hrs
     maxAge: 30000, // 24 hrs
-    keys: [process.env.COOKIE_KEY]
+    keys: [process.env.COOKIE_KEY],
   })
 );
 
@@ -62,6 +62,7 @@ const archivos = require('./routes/archivos.route');
 const madres = require('./routes/madres.route');
 const padres = require('./routes/padres.route');
 const notificaciones = require('./routes/notificaciones.route');
+const appVersion = require('./routes/app-version.route');
 
 // Conexión BD
 mongoose.connect(
@@ -90,6 +91,7 @@ app.use('/', archivos);
 app.use('/', madres);
 app.use('/', padres);
 app.use('/', notificaciones);
+app.use('/', appVersion);
 
 // IO = comunicación del back-end
 module.exports.io = socketIO(server);
