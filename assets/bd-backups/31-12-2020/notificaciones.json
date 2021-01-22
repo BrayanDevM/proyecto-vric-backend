@@ -1,0 +1,7317 @@
+[{
+  "_id": {
+    "$oid": "5f91a36f8e09e50017161965"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8ac2a134b929e8b7cfc9"
+    },
+    {
+      "$oid": "5efb8ae5a134b929e8b7cfca"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicole Valeria Soto Holguin ha sido desvinculado",
+  "fechaCreada": "Thu Oct 22 2020 15:12:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f91a47b8e09e50017161966"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8ac2a134b929e8b7cfc9"
+    },
+    {
+      "$oid": "5efb8ae5a134b929e8b7cfca"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Angie Julieth Sanchez Diaz ha sido vinculado",
+  "fechaCreada": "Thu Oct 22 2020 15:12:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f91a4da8e09e50017161967"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Efigenia Null Solarte Peña ha sido vinculado",
+  "fechaCreada": "Thu Oct 22 2020 15:12:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f91a52c8e09e50017161968"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maydi Zureyi Narvaez Florez ha sido vinculado",
+  "fechaCreada": "Thu Oct 22 2020 15:12:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f91a7c58e09e50017161969"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Rosalba Lopez Castaño ha sido vinculado",
+  "fechaCreada": "Thu Oct 22 2020 15:12:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa193be216c480017bb660c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab72f607da200178b3a15"
+    },
+    {
+      "$oid": "5f2ab751607da200178b3a16"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alan David Trejos Gomez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa193de216c480017bb660d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alisson Imbachi Oime ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa193fe216c480017bb660e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alixon Nicol Gomez Mamian ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fa19477216c480017bb660f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Angel Matthew Frias Gomez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19498216c480017bb6610"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Avril Perez Infante ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa194bf216c480017bb6611"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ayleen Nikol Gonzalez Aguirre ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fa194dd216c480017bb6612"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Brianna Sofia Sarria Cansimance ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa194fa216c480017bb6613"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carolina Ordoñez Restrepo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa195ad216c480017bb6614"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Estefania Calvo Manso ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa195c8216c480017bb6615"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ester Payan Calderon ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa195f6216c480017bb6616"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gabriela Null Buritica Segura ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19611216c480017bb6617"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gael Alejandro Mafla Velez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1962b216c480017bb6618"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanna Yireth Hernandez Rengifo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19641216c480017bb6619"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanna Maria Botina Chalacan ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1965f216c480017bb661a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Heliam Jael Hoyos Ceballos ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19687216c480017bb661b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Janeth Rocio Villani Muñoz ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa196a2216c480017bb661c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jazlyn Eliana Quiguanas Suarez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa196d8216c480017bb661d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jheremy Aaron Reyes Ramirez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa196f7216c480017bb661e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jhoset Matias Alvarez Pipicano ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1972b216c480017bb661f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Johan Santiago Cabezas Gomez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19f0d216c480017bb6623"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jose Miguel Palacios Garcia ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19f29216c480017bb6624"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jose Samuel Gutierrez Suarez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19f40216c480017bb6625"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Juan Esteban Aguilar Quiñonez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19f5d216c480017bb6626"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Juan Pablo Carmona Rojas ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19fa2216c480017bb6627"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kenner Gomez Valencia ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19fc3216c480017bb6628"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Leydy Tatiana Ayala Hurtado ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19fd8216c480017bb6629"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Liam Martin Hermosa Paz ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19ff0216c480017bb662a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Liam Matias Trochez Navarro ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a012216c480017bb662b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Liam Andres Gutierres Yonda ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a136216c480017bb662c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luciana Urueña Falla ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a282216c480017bb662d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luz Magnolia Melanje Melanje ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a3bb216c480017bb6631"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luz Dary Ponce Angulo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a514216c480017bb6638"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Laura Valentina Gomez Real ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a52f216c480017bb6639"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luz Dary Escarraga Gomez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a5dc216c480017bb663a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Angel Muñoz Gomez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a61e216c480017bb663b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mathias Horeb Torrealba Osal ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fa1a64f216c480017bb6640"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mayli Isabella Rincon Reyes ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a6ba216c480017bb6641"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mia Gisella Zamudio Tombe ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a708216c480017bb6645"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab835607da200178b3a1f"
+    },
+    {
+      "$oid": "5f2ab84a607da200178b3a20"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nahiara Jaramillo Rios ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a74f216c480017bb6646"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nayeli Prieto Fernandez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a770216c480017bb6647"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Neyi Bibiana Lagos Manzano ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1aa79216c480017bb664f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carolina Ordoñez Restrepo ha sido vinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1aacc216c480017bb6654"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Norkis Daniela Laroche Chirinos ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1aaf8216c480017bb6655"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Perla Nicol Triana Vanegas ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ab2b216c480017bb6656"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab835607da200178b3a1f"
+    },
+    {
+      "$oid": "5f2ab84a607da200178b3a20"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Rosa Elvy Gallego Munoz ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ab45216c480017bb6657"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Salome Angulo Luligo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ab61216c480017bb6658"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samara Cabezas Arevalo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1abab216c480017bb6659"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sharon Nicolle Valencia Peñate ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1abc1216c480017bb665a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sharon Andrea Henao Rojas ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1abd8216c480017bb665b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thays Paulina Muñoz Herrera ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1abf6216c480017bb665c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Tiago Matias Luna Ceballos ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ac1e216c480017bb665d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Aiilen Mariana Mejia Olivo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ac31216c480017bb665e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alessandro Jacob Hernandez Bracho ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ac5e216c480017bb665f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Daniela Gisell Oviedo Perez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ac5e216c480017bb6660"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Daniela Gisell Oviedo Perez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b3d8216c480017bb6673"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carolina Ordoñez Restrepo ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b4ed216c480017bb6674"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alejandra Gonzalez Villarreal ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b515216c480017bb6675"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marlly Gissel Hoyos Portilla ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1de1c216c480017bb6691"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Evelin Tatiana Motato Belalcazar ha sido desvinculado",
+  "fechaCreada": "Tue Nov 03 2020 12:26:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2278fde5efb0017f724ba"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Erica Fernanda Labrada Zapata ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa227a4de5efb0017f724bb"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Freymar Carlex Prato Parra ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa227bade5efb0017f724bc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Isabel Cristina Muñoz Restrepo ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa227d3de5efb0017f724bd"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Juan Jose Lopez Montilla ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa22806de5efb0017f724be"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Karolay Nazareth Puesta Vargas ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa22819de5efb0017f724bf"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marilin Jhuliet Eraso Montilla ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2283fde5efb0017f724c0"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Rocio Narvaez Carabali ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 02:45:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2c2826966e10017e3c0c3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Adriana Lucia Delgado Melenje ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2cbd66966e10017e3c0d0"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ana Krisstal Lopez Ordoñez ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2d1166966e10017e3c0d1"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ana Luisa Cuauro Hermann ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2d5d26966e10017e3c0d3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Andres Yessid Mendez Cordoba ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2dae36966e10017e3c0d4"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emma Quinayas Muñoz ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2dc066966e10017e3c0d5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mayerly Cordoba Arango ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2dcaf6966e10017e3c0d6"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mia Antonella Narvaez Carabali ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2dd3f6966e10017e3c0d7"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8afca134b929e8b7cfcb"
+    },
+    {
+      "$oid": "5efb8b40a134b929e8b7cfcc"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ian Alejandro Delgado Rodriguez ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2de476966e10017e3c0d8"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dayhanna Andrea Rodriguez Gonzalez ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e13a6966e10017e3c0d9"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Jose Bravo Motato ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e2156966e10017e3c0da"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yuli Vanessa Tabares Manzano ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e2d76966e10017e3c0db"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ariadna Guerrero Lopez ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e2d76966e10017e3c0dc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ariadna Guerrero Lopez ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e3a36966e10017e3c0dd"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jesus Emmanuel Camacho Cambindo ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e7ad6966e10017e3c0e2"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Pablo Andres Garcia Carvajal ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e90c6966e10017e3c0e3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sharoll Antonella Yesquen Camacho ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e9936966e10017e3c0e7"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thiago David Montoya Calvo ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 13:41:28 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2ff03c01bc80017a25585"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Danna Sophia Chourio Laroche ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa3027bc01bc80017a2558a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ian Gael Quiñonez Ponce ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa302cac01bc80017a2558b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kimberli Camilo Muñoz ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30552c01bc80017a2558c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Leidi Adriana Montenegro Meneses",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30552c01bc80017a2558d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Leidi Adriana Montenegro Meneses",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30583c01bc80017a2558e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Leidi Adriana Montenegro Meneses",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30671c01bc80017a2558f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luz Adriana Vidal Garces ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30724c01bc80017a25590"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samantha Torres Buritica ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa308a8c01bc80017a25591"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Anyela Paola Delgado Caicedo",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30a5ec01bc80017a25592"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dariennys De Jesus Torrealba Perez ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30baec01bc80017a25593"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dayan Katherin Arango Moreno ha sido vinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30bb7c01bc80017a25594"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dayan Katherin Arango Moreno ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30bb7c01bc80017a25595"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dayan Katherin Arango Moreno ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30c40c01bc80017a25596"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nayibe Fernanda Lopez Erazo ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa30c5bc01bc80017a25597"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yuley Lopez Ramirez ha sido desvinculado",
+  "fechaCreada": "Wed Nov 04 2020 18:57:09 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa36c6e3f80df00174a66d0"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Anyeli Patricia Cordoba Nieto ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 01:34:20 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa36c743f80df00174a66d1"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Angelica Mosquera Padua ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 01:34:20 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa410d6aa2a77001798d98c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Anyeli Patricia Cordoba Nieto ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa410eeaa2a77001798d98d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Diana Romero ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa41105aa2a77001798d98e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Angelica Mosquera Padua ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa41989aa2a77001798d991"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Angie Mayerli Bermudez Ordoñez ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fa41b56aa2a77001798d992"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Anthonny Collazos Hinestroza ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5fa41c4faa2a77001798d993"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ashly Mariana Lopez Mejia ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa41cfaaa2a77001798d994"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Brian Santiago Montilla Garzon ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa41f79aa2a77001798d995"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab72f607da200178b3a15"
+    },
+    {
+      "$oid": "5f2ab751607da200178b3a16"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carolay Matteus ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4203aaa2a77001798d996"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Catalina Bernal Muñoz ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa420ebaa2a77001798d997"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Derek Samuel Gonzalez Villareal ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa42230aa2a77001798d998"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Diana Valentina Alvarez Torrealba ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4240daa2a77001798d999"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dominick Grajales Restrepo ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5fa4266baa2a77001798d99d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emily Isabella Arango Gomez ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4359faa2a77001798d9a8"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emily Alice Cruz Mosquera ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43632aa2a77001798d9ad"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emmanuel Cortes Morales ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43632aa2a77001798d9ae"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emmanuel Cortes Morales ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa436dcaa2a77001798d9af"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Geraldin Trujillo Andrades ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43796aa2a77001798d9b0"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Hailin Isabella Ortiz Villano",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4382eaa2a77001798d9b1"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanna Null Garcia Quiroga ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4382eaa2a77001798d9b2"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanna Null Garcia Quiroga ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa438e7aa2a77001798d9b3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanny Lucero Duque Petins ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43a14aa2a77001798d9b4"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Anyi Carolina Meneses Muñoz ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43a5baa2a77001798d9b5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Eilyn Samantha Avila Tamayo ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43a62aa2a77001798d9b6"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Katherin Dayanna Restrepo Palomino ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43a78aa2a77001798d9b7"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Shirley Johanna Hinestroza Orejuela ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa44bddaa2a77001798d9cb"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Karen Lizeth Morales Forero ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa44be3aa2a77001798d9cc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Paola Anrea Mejia Osorio ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4514aaa2a77001798d9cd"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Karen Lizeth Morales Forero ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa45159aa2a77001798d9ce"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Paola Anrea Mejia Osorio ha sido desvinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4544baa2a77001798d9cf"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Angie Paola Velasco Lopez",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4559baa2a77001798d9d0"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Aylin Dahian Gomez Imbachi ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa456a0aa2a77001798d9d1"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Dorali Cordoba Muñoz",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4597baa2a77001798d9d2"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Eimmy Erazo Rubio ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa45a0aaa2a77001798d9d3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hanna Isabella Delgado Anacona ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa45aa6aa2a77001798d9d4"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ian Santiago Perafan Romero ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa45ba7aa2a77001798d9d5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jade Hoyos Portilla ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa461fbaa2a77001798d9d6"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jailer Roifredo Ramirez Avila ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa462a5aa2a77001798d9d7"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jeronimo Niño Escarraga ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa46557aa2a77001798d9d8"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d55919dedb24f078a57c"
+    },
+    {
+      "$oid": "5f651a24c44fda00175680d4"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jesus Joshuep Delgado Anacona ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa469acaa2a77001798d9d9"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jeydy Lizet Bastias ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa46a57aa2a77001798d9da"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jhoser David Urbano Payan ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa46ae9aa2a77001798d9db"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jhosman Andres Ceron Eraso ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa46c53aa2a77001798d9dc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jhon Edinson Marin Quesada ha sido vinculado",
+  "fechaCreada": "Thu Nov 05 2020 13:32:55 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b34e3237b0017eea2d3"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jennin Alexandra Mesa Herrera ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b40e3237b0017eea2d4"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jessica Yurany Garcia Saldarriaga ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b4ee3237b0017eea2d5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Liliana Narvaez Jimenez ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b6be3237b0017eea2d6"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nathalia Null Quezada Victoria ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b7ee3237b0017eea2d7"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicol Tatiana Mosquera Valencia ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56b8ce3237b0017eea2d8"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sarita Vanessa Narvaez Lopez ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56baae3237b0017eea2d9"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yelitza Mercedes Rodriguez Silva ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56bc1e3237b0017eea2da"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jessica Maria Angulo Martinez ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56bcfe3237b0017eea2db"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Leidy Jhoana Quintero Muñoz ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56be2e3237b0017eea2dc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab7b6607da200178b3a19"
+    },
+    {
+      "$oid": "5f2ab7cb607da200178b3a1a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Zully Lorena Lopez Manrique ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56c93e3237b0017eea2dd"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alanna Angulo Martinez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56d44e3237b0017eea2de"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Allison Brigitte Vargas Quintero ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56f3fe3237b0017eea2df"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Derek Steven Florez Mosquera ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 15:17:59 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5781c5ca1110017129d70"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Diego Isaac Lidueña Rodriguez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa57e575ca1110017129d71"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Edier Ceballos Mesa ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa57fa15ca1110017129d72"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emiliano Airam Benitez Maitan ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5804b5ca1110017129d73"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ian Josue Ceballos Narvaez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa583355ca1110017129d74"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Juan Jose Enriquez Labrada ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa586485ca1110017129d75"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Laura Yineth Perez Ortiz ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 16:17:10 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5a30c5e553a0017e5b521"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8ac2a134b929e8b7cfc9"
+    },
+    {
+      "$oid": "5efb8ae5a134b929e8b7cfca"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Deicy Yamile Mera Martinez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5a4305e553a0017e5b522"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab835607da200178b3a1f"
+    },
+    {
+      "$oid": "5f2ab84a607da200178b3a20"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lauren Camila Ordoñez Uni ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5a5605e553a0017e5b524"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Liam Josue Becerra Sanchez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5a7865e553a0017e5b525"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lian Danel Ramos Meneses ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5a9565e553a0017e5b527"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lina Faisury Villada Revelo ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5ab205e553a0017e5b528"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luciana Guzman Narvaez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5abb15e553a0017e5b529"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab7b6607da200178b3a19"
+    },
+    {
+      "$oid": "5f2ab7cb607da200178b3a1a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luis Santiago Medina Lopez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5abcd5e553a0017e5b52a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8ac2a134b929e8b7cfc9"
+    },
+    {
+      "$oid": "5efb8ae5a134b929e8b7cfca"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Elian Yoel Pantoja Mera ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5abe15e553a0017e5b52b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8ac2a134b929e8b7cfc9"
+    },
+    {
+      "$oid": "5efb8ae5a134b929e8b7cfca"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Deicy Yamile Mera Martinez ha sido desvinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5ae3d5e553a0017e5b52c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Dato sensible",
+  "descripcion": "Se ha encontrado un dato sensible del beneficiario Luisa Fernanda Mosquera Giraldo",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5af985e553a0017e5b52d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Jose Uribe Gomez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b4e15e553a0017e5b52e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Del Rosario Botina Tutistar ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b6495e553a0017e5b52f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mateo Isaac Barrigas Rivera ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b6e05e553a0017e5b530"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicolas Guerrero Hernandez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b7e55e553a0017e5b531"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luisa Fernanda Correa Manrique ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b9045e553a0017e5b532"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ricaurte Montaño Arteaga ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5b9b85e553a0017e5b533"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Zack David Ospina Riascos ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5ba4d5e553a0017e5b534"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Meghan Null Jimenez Vidal ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5baee5e553a0017e5b535"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Monica Patricia Quintero Montilla ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5bb7d5e553a0017e5b536"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicol Valeria Tabares Gonzalez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5bc285e553a0017e5b537"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Rosa Angelica Martinez Blandon ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5bd1a5e553a0017e5b538"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sofia Valentina Barrena Rodriguez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c2e15e553a0017e5b53a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f4f14ef0eb38c001710e641"
+    },
+    {
+      "$oid": "5f18d50719dedb24f078a578"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yelimar Chiquinquira Gonzalez Gonzalez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c46f5e553a0017e5b53b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Salome Ariza Henao ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c4ea5e553a0017e5b53c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samantha Ruiz Arango ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c5575e553a0017e5b53d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e209df8b74a001712a376"
+    },
+    {
+      "$oid": "5f0e20d5f8b74a001712a377"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samuel Quintero Lopez ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c6305e553a0017e5b53e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samuel Alejandro Vergara Quintana ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c6ba5e553a0017e5b53f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Santiago Villa Garcia ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c7555e553a0017e5b540"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab835607da200178b3a1f"
+    },
+    {
+      "$oid": "5f2ab84a607da200178b3a20"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Valeria Marin Gallego ha sido vinculado",
+  "fechaCreada": "Fri Nov 06 2020 17:56:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab07bf3ada80017d5ba20"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Cristopher Sinisterra ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab0a2f3ada80017d5ba21"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Daviana Yulismar Alzuro Null ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab0b6f3ada80017d5ba22"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Evelyn Valeria Garcia Salinas ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab0d2f3ada80017d5ba23"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jenith Jairis Velez Cortes ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab0e6f3ada80017d5ba24"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Luz Carime Sinisterra ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab0f7f3ada80017d5ba25"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Violetta Amariles Morales ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab112f3ada80017d5ba26"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab7b6607da200178b3a19"
+    },
+    {
+      "$oid": "5f2ab7cb607da200178b3a1a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gerard Joseph Segovia Pernalete ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab126f3ada80017d5ba27"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Rafael Ramirez Jimenez ha sido desvinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faab3e7f3ada80017d5ba28"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Anyeli Luciana Zuñiga Barona ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5faab516f3ada80017d5ba29"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Joel Rubio Gustin ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 15:17:50 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faac5ef92621e001760a6b9"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Axel David Marin Quesada ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faac7d092621e001760a6ba"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Erika Liceth Noscue Osma ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faac92692621e001760a6bb"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Janeth Fernanda Lulico ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faaca3592621e001760a6bc"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Monica Adriana Guerrero Acero ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faacb1e92621e001760a6bd"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Tania Alexandra Loaiza Velez ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faad30092621e001760a6be"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yulitssa Vanegas Diaz ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faaef7c92621e001760a6bf"
+  },
+  "creadaPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Janeth Fernanda Lulico ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faaef7d92621e001760a6c0"
+  },
+  "creadaPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Janeth Fernanda Lulico ha sido vinculado",
+  "fechaCreada": "Tue Nov 10 2020 16:16:52 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fb4289798650800176ebf80"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab7b6607da200178b3a19"
+    },
+    {
+      "$oid": "5f2ab7cb607da200178b3a1a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samantha Benavides Gutierrez ha sido vinculado",
+  "fechaCreada": "Tue Nov 17 2020 19:01:01 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fb7047c2bb0000017d94a44"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8a87a134b929e8b7cfc7"
+    },
+    {
+      "$oid": "5efb8aa1a134b929e8b7cfc8"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Leidi Adriana Montenegro Meneses ha sido vinculado",
+  "fechaCreada": "Thu Nov 19 2020 23:45:08 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7c31254f47800179683d7"
+  },
+  "creadaPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Edier Ceballos Mesa ha sido vinculado",
+  "fechaCreada": "Wed Dec 02 2020 14:35:41 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce738d179a6700176c877a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Aaron Alexander Suarez Quintana ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fce73bf179a6700176c877b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ailin Yireth Jimenez Talaga ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce73d5179a6700176c877c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ailyn Isabella Sanchez Ortiz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce740b179a6700176c877d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Amanda Rocio Estupiñan Florez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7434179a6700176c877e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Angie Paola Valencia Franco ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7448179a6700176c877f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ashlyn Ximena Londoño Ruiz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce745f179a6700176c8780"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Bessy Jeannin Solarte Muñoz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7479179a6700176c8781"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b5ea134b929e8b7cfcd"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carmen Julia Gomez Perez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7493179a6700176c8782"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Cristian Joel Capote Montoya ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce74a9179a6700176c8783"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Diana Marcela Suarez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce74c1179a6700176c8784"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Eliel Gabriel Alvarez Gutierrez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce74de179a6700176c8785"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b5ea134b929e8b7cfcd"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Geraldine Null Labrada Lopez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce74f9179a6700176c8786"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gissel Tatiana Lopez Garzon ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce750b179a6700176c8787"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Haland Lissandro Rojas Escalante ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7523179a6700176c8788"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca87f27e2b0d0c6dc419"
+    },
+    {
+      "$oid": "5f2aca96f27e2b0d0c6dc41a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Hasiel Ramos Pinzon ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7562179a6700176c8789"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Isramar Nazareth Alvarado Gamboa ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7579179a6700176c878a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario July Estefani Orozco Montes ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7592179a6700176c878b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Karen Lizeth Cifuentes Garcia ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce75b0179a6700176c878c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Katherin Johana Abad Avila ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce75c4179a6700176c878d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Katherine Guevara Agudelo ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce75db179a6700176c878e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lesly Tatiana Salazar Betancourth ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce75f1179a6700176c878f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lucy Dayana Zamudio Piamba ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7610179a6700176c8790"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Del Rosario Botina Tutistar ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7625179a6700176c8791"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marlen Andrea Orozco Muñoz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce763e179a6700176c8792"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marlyn Giselle Muñoz Bermudez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7652179a6700176c8793"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicol Valeria Tabares Gonzalez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7665179a6700176c8794"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8afca134b929e8b7cfcb"
+    },
+    {
+      "$oid": "5efb8b40a134b929e8b7cfcc"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nicole Andrea Castro Gomez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce769e179a6700176c8795"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nuris Victoriana Cabezas Quiñones ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce76ac179a6700176c8796"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Paola Andrea Hernandez Mejia ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce76c0179a6700176c8797"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samanta Castro Chavez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce76db179a6700176c8798"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thiago Emmanuel Sanchez Ortiz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce76f2179a6700176c8799"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Samuel Santos Jimenez ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7705179a6700176c879a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Sandra Milena Jimenez Luna ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce771c179a6700176c879b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Stefhany Valencia Almentero ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce772e179a6700176c879c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Veronica Null Bedoya Aguirre ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce8565179a6700176c87a1"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Edith Juaqui ha sido vinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce85c0179a6700176c87a2"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Roselin Carolina Vargas Diaz ha sido desvinculado",
+  "fechaCreada": "Mon Dec 07 2020 17:57:26 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd29cfe4763b100171e38f4"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Carlos Andres Granobles Cabezas ha sido vinculado",
+  "fechaCreada": "Thu Dec 10 2020 21:38:18 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd2a0144763b100171e38f5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Daniel Florez Suaza ha sido vinculado",
+  "fechaCreada": "Thu Dec 10 2020 21:38:18 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37431c506e000178e8a5b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maria Anyibe Lopez Mosquera ha sido desvinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37cb0c506e000178e8a5c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ailyn Julieth Cordoba Jimenez ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37d56c506e000178e8a5d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b5ea134b929e8b7cfcd"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alan Samuel Caicedo Gomez ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37e09c506e000178e8a5e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca66f27e2b0d0c6dc417"
+    },
+    {
+      "$oid": "5f2aca78f27e2b0d0c6dc418"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Alejandra Rivadeneira Ipia ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37e94c506e000178e8a5f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab791607da200178b3a17"
+    },
+    {
+      "$oid": "5f2ab7a4607da200178b3a18"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Ashly Anacona Salazar ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37f0fc506e000178e8a60"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e21adf8b74a001712a37d"
+    },
+    {
+      "$oid": "5f0e2243f8b74a001712a382"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Axel Noller Lopez Solarte ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd37f97c506e000178e8a61"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Dominick Sandoval Abad ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38028c506e000178e8a62"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d51c19dedb24f078a579"
+    },
+    {
+      "$oid": "5f18d54419dedb24f078a57b"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emanuel Niño Orozco ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd380acc506e000178e8a63"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emiliano Pantoja Botina ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd381ffc506e000178e8a64"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emily Dahiana Garcia Salgado ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38286c506e000178e8a65"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b5ea134b929e8b7cfcd"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Emma Victoria Rodriguez Labrada ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3832cc506e000178e8a66"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d5a119dedb24f078a57f"
+    },
+    {
+      "$oid": "5f18d5c019dedb24f078a580"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Evangeline Parra Ortiz ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38512c506e000178e8a67"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jacob Muñoz Bedoya ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38686c506e000178e8a68"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2123f8b74a001712a378"
+    },
+    {
+      "$oid": "5f0e21eaf8b74a001712a37f"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jacobo Valens Suarez ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3883cc506e000178e8a69"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4b319dedb24f078a575"
+    },
+    {
+      "$oid": "5f18d4ce19dedb24f078a576"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Jeronimo Orozco Muñoz ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38b8cc506e000178e8a6a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca87f27e2b0d0c6dc419"
+    },
+    {
+      "$oid": "5f2aca96f27e2b0d0c6dc41a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kelly Geovana Lozano Cuero ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38dd1c506e000178e8a6b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kevin Eleam Arevalo Lugo ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd38fd3c506e000178e8a6c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Keyner Bladimir Ramirez Molina ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3910bc506e000178e8a6d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Aaron Alexander Suarez Quintana ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39214c506e000178e8a6e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2179f8b74a001712a37b"
+    },
+    {
+      "$oid": "5f0e21cdf8b74a001712a37e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Fabian Arley Jimenez Valencia ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3954cc506e000178e8a6f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kylian Camayo Micolta ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39637c506e000178e8a70"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8b82a134b929e8b7cfce"
+    },
+    {
+      "$oid": "5efb8b98a134b929e8b7cfcf"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kylian David Londoño Muñoz ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd396f7c506e000178e8a71"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Laurent Sofia Agredo Chicangana ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd397d1c506e000178e8a72"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Concurrencia",
+  "descripcion": "Beneficiario Leysi Daniela Orosco Vivas está en concurrencia",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd398bdc506e000178e8a73"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Lia Gabriella Manzano Zabala ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd399b9c506e000178e8a74"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Maithe Tamara Gallego Araujo ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39a6bc506e000178e8a75"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Manuel David Muñoz Ochoa ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39af8c506e000178e8a76"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mariana Sanchez Lopez ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39e33c506e000178e8a77"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marlly Lisbeth Zuñiga Arcos ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd39f5fc506e000178e8a78"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e215cf8b74a001712a37a"
+    },
+    {
+      "$oid": "5f0e22a0f8b74a001712a384"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Matias Torres Pecillo ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3a129c506e000178e8a79"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Nathalia Andrea Micolta Garcia ha sido desvinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3a677c506e000178e8a7a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e225ff8b74a001712a383"
+    },
+    {
+      "$oid": "5f0e2141f8b74a001712a379"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Miguel Angel Muñoz Toro ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3a729c506e000178e8a7b"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2ab864607da200178b3a21"
+    },
+    {
+      "$oid": "5f2ab806607da200178b3a1d"
+    },
+    {
+      "$oid": "5f2ab81b607da200178b3a1e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thaliana Franco Cifuentes ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3a870c506e000178e8a7c"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2aca20f27e2b0d0c6dc413"
+    },
+    {
+      "$oid": "5f2aca33f27e2b0d0c6dc414"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thiago Gael Peraza Vargas ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3a95fc506e000178e8a7d"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f2acae8f27e2b0d0c6dc41f"
+    },
+    {
+      "$oid": "5f2acac5f27e2b0d0c6dc41d"
+    },
+    {
+      "$oid": "5f2acad5f27e2b0d0c6dc41e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Valery Sofia Ceballos Guevara ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3ac84c506e000178e8a7e"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8bb0a134b929e8b7cfd0"
+    },
+    {
+      "$oid": "5efb8bc2a134b929e8b7cfd1"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Valery Samantha Mina Carabali ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3ad3ec506e000178e8a7f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8afca134b929e8b7cfcb"
+    },
+    {
+      "$oid": "5efb8b40a134b929e8b7cfcc"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yen Sebastian Saavedra Castro ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3af63c506e000178e8a80"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Yordyn Andres Carvajal Estupiñan ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 13:21:49 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3da934260600017039c59"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Mia Victoria Falcon Gomez ha sido vinculado",
+  "fechaCreada": "Fri Dec 11 2020 18:53:05 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fd3db394260600017039c5a"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    }
+  ],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f0e2028f8b74a001712a375"
+    },
+    {
+      "$oid": "5f0e2192f8b74a001712a37c"
+    },
+    {
+      "$oid": "5f0e2229f8b74a001712a381"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Kevin Eleam Arevalo Lugo ha sido desvinculado",
+  "fechaCreada": "Fri Dec 11 2020 18:53:05 GMT+0000 (Coordinated Universal Time)",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5fd4fd17a530f70017dfdbf5"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8bb0a134b929e8b7cfd0"
+    },
+    {
+      "$oid": "5efb8bc2a134b929e8b7cfd1"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Marisol Carabali Ocoro ha sido desvinculado",
+  "fechaCreada": "Sat Dec 12 2020 16:56:11 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd5013fa530f70017dfdbf6"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Paola Andrea Hernandez Mejia ha sido vinculado",
+  "fechaCreada": "Sat Dec 12 2020 16:56:11 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd7983bcabdf600179f838f"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Zharick Lizeth Romero Hernandez ha sido vinculado",
+  "fechaCreada": "Mon Dec 14 2020 16:47:47 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd7984dcabdf600179f8390"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d57319dedb24f078a57d"
+    },
+    {
+      "$oid": "5f18d58819dedb24f078a57e"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Paola Andrea Hernandez Mejia ha sido desvinculado",
+  "fechaCreada": "Mon Dec 14 2020 16:47:47 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd79943cabdf600179f8391"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5f18c8938356fd1f74653cfe"
+    },
+    {
+      "$oid": "5f18d4e319dedb24f078a577"
+    },
+    {
+      "$oid": "5f18d53219dedb24f078a57a"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Thaliana Ruiz Lorza ha sido vinculado",
+  "fechaCreada": "Mon Dec 14 2020 16:47:47 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd7afa71bb5c90017eea896"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gissel Tatiana Lopez Garzon ha sido vinculado",
+  "fechaCreada": "Mon Dec 14 2020 17:45:17 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd7b0271bb5c90017eea897"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Gissel Tatiana Lopez Garzon ha sido desvinculado",
+  "fechaCreada": "Mon Dec 14 2020 17:45:17 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd7b8021bb5c90017eea899"
+  },
+  "creadaPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "leidaPor": [],
+  "general": false,
+  "paraUsuarios": [
+    {
+      "$oid": "5efb8a0da134b929e8b7cfc5"
+    },
+    {
+      "$oid": "5efb8be1a134b929e8b7cfd2"
+    },
+    {
+      "$oid": "5efb8bf7a134b929e8b7cfd3"
+    }
+  ],
+  "titulo": "Novedades",
+  "descripcion": "Beneficiario Antonella Astudillo Lopez ha sido vinculado",
+  "fechaCreada": "Mon Dec 14 2020 17:45:17 GMT+0000 (Coordinated Universal Time)",
+  "__v": 0
+}]

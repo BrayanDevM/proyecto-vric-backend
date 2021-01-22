@@ -1,0 +1,5849 @@
+[{
+  "_id": {
+    "$oid": "5f33ec7b4023a700174c0508"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "SD",
+  "documento": "EFPN1N44S9BSPSZ",
+  "nombre1": "DAMARIS",
+  "nombre2": "DEL CARMEN",
+  "apellido1": "ROSALES",
+  "apellido2": "TREJOS",
+  "nacimiento": "09/09/1978",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bb0a134b929e8b7cfd0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f345f154023a700174c050b"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.143.833.275",
+  "nombre1": "DIANA",
+  "nombre2": "PATRICIA",
+  "apellido1": "CASTRO",
+  "apellido2": "BAÑOL",
+  "nacimiento": "18/07/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2123f8b74a001712a378"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f345fd94023a700174c050f"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "SD",
+  "documento": "1BL9NQEBCMLF6K5",
+  "nombre1": "JHISETH",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "ARAUJO",
+  "apellido2": "MARTINEZ",
+  "nacimiento": "30/10/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3462a34023a700174c0513"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "CC",
+  "documento": "25.479.422",
+  "nombre1": "MARTHA",
+  "nombre2": "NELSY",
+  "apellido1": "LUNA",
+  "apellido2": null,
+  "nacimiento": "19/01/1959",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3463504023a700174c0517"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "CC",
+  "documento": "31.449.719",
+  "nombre1": "LUZ",
+  "nombre2": "MARY",
+  "apellido1": "JIMENEZ",
+  "apellido2": "PIAMBA",
+  "nacimiento": "25/08/1982",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3464fc4023a700174c051a"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.005.869.051",
+  "nombre1": "PAOLA",
+  "nombre2": "ANDREA",
+  "apellido1": "GOMEZ",
+  "apellido2": "TAQUINAZ",
+  "nacimiento": "27/09/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3466294023a700174c051f"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "SD",
+  "documento": "ZLGUW5VQOQZOOXW",
+  "nombre1": "JEYMI",
+  "nombre2": "MICHEL ",
+  "apellido1": "CAZORLA",
+  "apellido2": "SANCHEZ",
+  "nacimiento": "14/05/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2123f8b74a001712a378"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f346c6f4023a700174c0522"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "TI",
+  "documento": "1.107.047.500",
+  "nombre1": "LINA",
+  "nombre2": "MARIA",
+  "apellido1": "JIMENEZ",
+  "apellido2": "TROCHEZ",
+  "nacimiento": "15/07/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f346e214023a700174c0526"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "CC",
+  "documento": "11.443.867.862",
+  "nombre1": "YULI",
+  "nombre2": "MARCELA",
+  "apellido1": "RUIZ",
+  "apellido2": "HINCAPIE",
+  "nacimiento": "29/06/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f34711a4023a700174c052b"
+  },
+  "creadoEl": "12/08/2020",
+  "tipoDoc": "TI",
+  "documento": "1.067.520.243",
+  "nombre1": "NORAIMA",
+  "nombre2": null,
+  "apellido1": "SANCHEZ",
+  "apellido2": "JULICUE",
+  "nacimiento": "23/02/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f370a3534b348001765f30d"
+  },
+  "creadoEl": "14/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.114.735.992",
+  "nombre1": "AMALI ",
+  "nombre2": "YORLANNI",
+  "apellido1": "SERNA",
+  "apellido2": "HIJAJI",
+  "nacimiento": "20/02/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3817953c4bc00017fb686b"
+  },
+  "creadoEl": "15/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.028.186.116",
+  "nombre1": "ANYI",
+  "nombre2": "DANIELA",
+  "apellido1": "LONDOÑO",
+  "apellido2": "TOBON",
+  "nacimiento": "19/03/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acaa5f27e2b0d0c6dc41b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f381d9e3c4bc00017fb686f"
+  },
+  "creadoEl": "15/08/2020",
+  "tipoDoc": "SD",
+  "documento": "YN2GWV78HVO7E7X",
+  "nombre1": "ANA",
+  "nombre2": "KARINA",
+  "apellido1": "CORDERO",
+  "apellido2": "DABOIN",
+  "nacimiento": "15/12/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acaa5f27e2b0d0c6dc41b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3c33f127aacc0017ff7011"
+  },
+  "creadoEl": "18/08/2020",
+  "tipoDoc": "SD",
+  "documento": "6EKCLPEGE6841EV",
+  "nombre1": "ANA ",
+  "nombre2": "KARINA",
+  "apellido1": "CORDERO",
+  "apellido2": "DABOIN",
+  "nacimiento": "15/12/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acaa5f27e2b0d0c6dc41b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3c3ce727aacc0017ff7012"
+  },
+  "creadoEl": "18/08/2020",
+  "tipoDoc": "SD",
+  "documento": "SFVY04LDSP9PJMQ",
+  "nombre1": "ANA",
+  "nombre2": "KARINA",
+  "apellido1": "CORDERO",
+  "apellido2": "DABOIN",
+  "nacimiento": "19/12/2015",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3d5be12abc0800170fe073"
+  },
+  "creadoEl": "19/08/2020",
+  "tipoDoc": "SD",
+  "documento": "TPWXRTRD8YRPJBX",
+  "nombre1": "RUDY ",
+  "nombre2": "YAQUELINE ",
+  "apellido1": "NIETO ",
+  "apellido2": "MESA",
+  "nacimiento": "15/06/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3d5e362abc0800170fe077"
+  },
+  "creadoEl": "19/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.130.586.012",
+  "nombre1": "YURI",
+  "nombre2": "KATHERINE",
+  "apellido1": "ACEVEDO",
+  "apellido2": "GERMAN",
+  "nacimiento": "22/03/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f44437a8a43e60017441244"
+  },
+  "creadoEl": "24/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.144.068.339",
+  "nombre1": "MELISA",
+  "nombre2": "MARIA",
+  "apellido1": "TELECHE",
+  "apellido2": "RUIZ",
+  "nacimiento": "01/02/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f444a2e8a43e60017441248"
+  },
+  "creadoEl": "24/08/2020",
+  "tipoDoc": "CC",
+  "documento": "18.071.975",
+  "nombre1": "MARIA",
+  "nombre2": "CIELO",
+  "apellido1": "COLORADO",
+  "apellido2": "CAMPOS",
+  "nacimiento": "18/07/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f469c602b8b570017ae2bb5"
+  },
+  "creadoEl": "26/08/2020",
+  "tipoDoc": "CC",
+  "documento": "111.482.7306",
+  "nombre1": "ORFILIA",
+  "nombre2": "",
+  "apellido1": "TORRES",
+  "apellido2": "MARTINEZ",
+  "nacimiento": "29/02/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f469e112b8b570017ae2bb9"
+  },
+  "creadoEl": "26/08/2020",
+  "tipoDoc": "CC",
+  "documento": "3.148.5969",
+  "nombre1": "CARMEN",
+  "nombre2": "",
+  "apellido1": "MOSQUERA ",
+  "apellido2": "ERAZO",
+  "nacimiento": "25/12/1968",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f46a4482b8b570017ae2bbe"
+  },
+  "creadoEl": "26/08/2020",
+  "tipoDoc": "CC",
+  "documento": "6.665.7685",
+  "nombre1": "DAIRA",
+  "nombre2": "HUBENIA",
+  "apellido1": "VILLARREAL",
+  "apellido2": "GUERRERO",
+  "nacimiento": "28/11/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f491fa99d0f5c0017ac4691"
+  },
+  "creadoEl": "28/08/2020",
+  "tipoDoc": "CC",
+  "documento": "111.473.6692",
+  "nombre1": "LEYDI",
+  "nombre2": "YOHANA",
+  "apellido1": "ASTAIZA",
+  "apellido2": "ZAPATA",
+  "nacimiento": "11/01/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4926269d0f5c0017ac4699"
+  },
+  "creadoEl": "28/08/2020",
+  "tipoDoc": "CC",
+  "documento": "106.172.5334",
+  "nombre1": "MARY",
+  "nombre2": "LUZ",
+  "apellido1": "MUÑOZ",
+  "apellido2": "MUELAS",
+  "nacimiento": "03/06/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4a9c4a3f54670017364640"
+  },
+  "creadoEl": "29/08/2020",
+  "tipoDoc": "CC",
+  "documento": "3.171.1718",
+  "nombre1": "SINDY",
+  "nombre2": "",
+  "apellido1": "LONDOÑO",
+  "apellido2": "SANCHEZ",
+  "nacimiento": "27/09/1982",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4aa8ea3f54670017364645"
+  },
+  "creadoEl": "29/08/2020",
+  "tipoDoc": "CC",
+  "documento": "100.739.1902",
+  "nombre1": "ANGIE",
+  "nombre2": "PAOLA",
+  "apellido1": "BURBANO  ",
+  "apellido2": "BUESACO",
+  "nacimiento": "23/07/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4c3928a3f66c00170f77c8"
+  },
+  "creadoEl": "30/08/2020",
+  "tipoDoc": "CC",
+  "documento": "1.143.864.314",
+  "nombre1": "HELLYN",
+  "nombre2": "",
+  "apellido1": "CEBALLOS",
+  "apellido2": "CAMACHO",
+  "nacimiento": "01/12/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4c3d9da3f66c00170f77cc"
+  },
+  "creadoEl": "30/08/2020",
+  "tipoDoc": "CC",
+  "documento": "3.617.4612",
+  "nombre1": "MARIA",
+  "nombre2": "ELENA",
+  "apellido1": "SANCHEZ",
+  "apellido2": "PULIDO",
+  "nacimiento": "30/10/1963",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4c3f6ea3f66c00170f77cf"
+  },
+  "creadoEl": "30/08/2020",
+  "tipoDoc": "CC",
+  "documento": "110.709.5426",
+  "nombre1": "DIANA",
+  "nombre2": "MARCELA",
+  "apellido1": "VASQUEZ",
+  "apellido2": "HOYOS",
+  "nacimiento": "14/02/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4d65451b2e740017537c40"
+  },
+  "creadoEl": "31/08/2020",
+  "tipoDoc": "CC",
+  "documento": "110.709.3349",
+  "nombre1": "MARIA",
+  "nombre2": "PAULA",
+  "apellido1": "MEDINA",
+  "apellido2": "HENAO",
+  "nacimiento": "17/12/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4d73251b2e740017537c44"
+  },
+  "creadoEl": "31/08/2020",
+  "tipoDoc": "CC",
+  "documento": "3.422.1171",
+  "nombre1": "MARIA",
+  "nombre2": "ESTELA",
+  "apellido1": "QUILINDO",
+  "apellido2": "QUIÑONEZ",
+  "nacimiento": "21/07/1965",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4d7bad1b2e740017537c48"
+  },
+  "creadoEl": "31/08/2020",
+  "tipoDoc": "CC",
+  "documento": "3.144.6233",
+  "nombre1": "MERCEDES",
+  "nombre2": "",
+  "apellido1": "PAJOY",
+  "apellido2": "",
+  "nacimiento": "10/08/1957",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4d82091b2e740017537c4b"
+  },
+  "creadoEl": "31/08/2020",
+  "tipoDoc": "TI",
+  "documento": "105.896.2676",
+  "nombre1": "KATERIN",
+  "nombre2": null,
+  "apellido1": "SAMBONI",
+  "apellido2": "BOLAÑOS",
+  "nacimiento": "02/04/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4da43b209cfd00178be4c0"
+  },
+  "creadoEl": "31/08/2020",
+  "tipoDoc": "SD",
+  "documento": "WDANMBQRO9BKJ",
+  "nombre1": "DAYANA ",
+  "nombre2": "LIZBEHT",
+  "apellido1": "GARABAN",
+  "apellido2": "VAZQUEZ",
+  "nacimiento": "23/07/1979",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e4aa3e8e0e60017d478bb"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "114.403.4711",
+  "nombre1": "LORENA",
+  "nombre2": "",
+  "apellido1": "PARRA",
+  "apellido2": "OYOLA",
+  "nacimiento": "28/11/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e533ee8e0e60017d478bf"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "SD",
+  "documento": "KYKJYG6H0MEV2TN",
+  "nombre1": "ISAMAR",
+  "nombre2": null,
+  "apellido1": "VILLASMIL",
+  "apellido2": "CARMONA",
+  "nacimiento": "31/01/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e649fe8e0e60017d478d2"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "SD",
+  "documento": "0ARA9OVCW6Q4H",
+  "nombre1": "MAGNOLIA",
+  "nombre2": "Devia",
+  "apellido1": "Machado",
+  "apellido2": "ALVAREZ",
+  "nacimiento": "01/09/2020",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e8405e8e0e60017d478d5"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143847261",
+  "nombre1": "DANIELA",
+  "nombre2": "ANDREINA",
+  "apellido1": "ORTIZ",
+  "apellido2": "ORTIZ",
+  "nacimiento": "24/02/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e8aa4e8e0e60017d478d9"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66953325",
+  "nombre1": "MARIA ",
+  "nombre2": "",
+  "apellido1": "DAZA",
+  "apellido2": "VALDEZ",
+  "nacimiento": "23/12/1973",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e8ad9e8e0e60017d478dd"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143826905",
+  "nombre1": "SOFIA",
+  "nombre2": "DENISE",
+  "apellido1": "PARRA",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "07/08/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e8ba1e8e0e60017d478e0"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "SD",
+  "documento": "XIHZLSOKUNZ92",
+  "nombre1": "YOREANNY  ",
+  "nombre2": "ELIZABETH",
+  "apellido1": "ASCANIO ",
+  "apellido2": "FLORES",
+  "nacimiento": "04/07/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e8d5fe8e0e60017d478e3"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "38602252",
+  "nombre1": "PAULA ",
+  "nombre2": "ANDREA ",
+  "apellido1": "PESCADOR",
+  "apellido2": "SALAMANCA",
+  "nacimiento": "27/03/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9115e8e0e60017d478e8"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1126912422",
+  "nombre1": "CARMEN",
+  "nombre2": "JULIA",
+  "apellido1": "GOMEZ",
+  "apellido2": "PEREZ",
+  "nacimiento": "15/03/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9345e8e0e60017d478ec"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "25841936",
+  "nombre1": "STEFANY",
+  "nombre2": "LUBEISCA ANDREINA",
+  "apellido1": "PEREZ",
+  "apellido2": "MORENO",
+  "nacimiento": "30/12/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9953e8e0e60017d478f1"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114730799",
+  "nombre1": "MARIA",
+  "nombre2": "LIZETH",
+  "apellido1": "GOMEZ",
+  "apellido2": "BRAVO",
+  "nacimiento": "30/01/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9b5be8e0e60017d478f4"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1061984218",
+  "nombre1": "LEIDY",
+  "nombre2": "",
+  "apellido1": "MUÑOZ ",
+  "apellido2": "MAMIAN",
+  "nacimiento": "15/01/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9c14e8e0e60017d478f8"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1087997679",
+  "nombre1": "MARIA",
+  "nombre2": "FERNANDA",
+  "apellido1": "ÑAÑEZ",
+  "apellido2": "",
+  "nacimiento": "12/02/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e9fe0e8e0e60017d47900"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143868190",
+  "nombre1": "DIANA",
+  "nombre2": "PAOLA",
+  "apellido1": "MONTILLA",
+  "apellido2": "ANACONA",
+  "nacimiento": "23/07/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ea289e8e0e60017d47903"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1005981638",
+  "nombre1": "JULIETH",
+  "nombre2": "TATIANA",
+  "apellido1": "ROMERO",
+  "apellido2": "",
+  "nacimiento": "19/04/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ea3b1e8e0e60017d47907"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "SD",
+  "documento": "T41RCYE2JB96D5O",
+  "nombre1": "STEFANY",
+  "nombre2": "ANDREINA",
+  "apellido1": "HERNANDEZ",
+  "apellido2": "OCHOA",
+  "nacimiento": "14/04/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ea7fae8e0e60017d4790b"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144051344",
+  "nombre1": "FRANCI",
+  "nombre2": "",
+  "apellido1": "BARREIRO",
+  "apellido2": "MEZA",
+  "nacimiento": "02/03/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eac79e8e0e60017d47910"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1148693594",
+  "nombre1": "VERONICA",
+  "nombre2": "LIZETH",
+  "apellido1": "URBANO",
+  "apellido2": "GOMEZ",
+  "nacimiento": "01/05/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eaf52e8e0e60017d47914"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107063295",
+  "nombre1": "DERLY",
+  "nombre2": "YULIETH",
+  "apellido1": "CARVAJAL",
+  "apellido2": "QUINA",
+  "nacimiento": "24/12/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eaff9e8e0e60017d47919"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107083788",
+  "nombre1": "ELIANA",
+  "nombre2": "MARIA",
+  "apellido1": "ESCOBAR",
+  "apellido2": "LOPEZ",
+  "nacimiento": "11/08/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eb2f6e8e0e60017d4791c"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144088749",
+  "nombre1": "SORANLLY",
+  "nombre2": "ANDREA",
+  "apellido1": "PAJA",
+  "apellido2": "VELASCO",
+  "nacimiento": "28/11/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eb316e8e0e60017d47920"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114735862",
+  "nombre1": "LINDA",
+  "nombre2": "LUCIA",
+  "apellido1": "CAÑAVERAL",
+  "apellido2": "GARCES",
+  "nacimiento": "12/12/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ee4e6caba4d00172c0c01"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107080297",
+  "nombre1": "HANGY",
+  "nombre2": "GENERY",
+  "apellido1": "CASTILLO",
+  "apellido2": "MUELA",
+  "nacimiento": "17/01/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ee751caba4d00172c0c05"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144076483",
+  "nombre1": "TATIANA",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "GAVIRIA",
+  "apellido2": "MENESES",
+  "nacimiento": "29/12/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4eeaf0caba4d00172c0c0a"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143834424",
+  "nombre1": "VIVIAN",
+  "nombre2": "ANDREA",
+  "apellido1": "BENAVIDEZ",
+  "apellido2": "ALZATE",
+  "nacimiento": "05/06/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4f0b110eb38c001710e639"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "SD",
+  "documento": "JNL3QOGKCOWFQ",
+  "nombre1": "GENESIS",
+  "nombre2": "ANDREA",
+  "apellido1": "GUEVARA",
+  "apellido2": "YAJURE",
+  "nacimiento": "28/08/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4f106f0eb38c001710e63d"
+  },
+  "creadoEl": "01/09/2020",
+  "tipoDoc": "TI",
+  "documento": "1005876760",
+  "nombre1": "JOSELIN",
+  "nombre2": "CAROLAY",
+  "apellido1": "SARRIA",
+  "apellido2": "ULCHUR",
+  "nacimiento": "22/08/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fb9b129e6dd00179adba2"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144034302",
+  "nombre1": "ERIKA",
+  "nombre2": "VIVIANA",
+  "apellido1": "VERGARA",
+  "apellido2": "LONDOÑO",
+  "nacimiento": "25/04/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fd15f29e6dd00179adba8"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114730681",
+  "nombre1": "YANINA",
+  "nombre2": "MARIBEL",
+  "apellido1": "ORTIZ",
+  "apellido2": "ORTIZ",
+  "nacimiento": "24/02/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fddedd443160017cee0e7"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114727416",
+  "nombre1": "NATALIA",
+  "nombre2": "",
+  "apellido1": "ENRIQUEZ",
+  "apellido2": "IPIAR",
+  "nacimiento": "08/05/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fdfb5d443160017cee0eb"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "TI",
+  "documento": "1114728364",
+  "nombre1": "ANGIE",
+  "nombre2": "NATALIA",
+  "apellido1": "EMBUS",
+  "apellido2": "BERNAL",
+  "nacimiento": "11/05/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4fe172d443160017cee0ef"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114729311",
+  "nombre1": "MONICA",
+  "nombre2": "ANDREA",
+  "apellido1": "PIALEJO",
+  "apellido2": "TORO",
+  "nacimiento": "05/08/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ff0b3d443160017cee0f3"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114727814",
+  "nombre1": "SINDY",
+  "nombre2": "CAROLINA",
+  "apellido1": "HARNANDEZ",
+  "apellido2": "",
+  "nacimiento": "17/04/1988",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ff68cd443160017cee0f7"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "25828637",
+  "nombre1": "DANIELA",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "GARCIA",
+  "apellido2": "GOMEZ",
+  "nacimiento": "17/09/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ff8dbd443160017cee0fb"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "SD",
+  "documento": "0DC3AU3MPZF6RQQ",
+  "nombre1": "YAIRE",
+  "nombre2": "YONEILY",
+  "apellido1": "HERNANDEZ",
+  "apellido2": "RODRIGUEZ",
+  "nacimiento": "06/02/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5004f0d443160017cee0ff"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1130595928",
+  "nombre1": "GERALDINE",
+  "nombre2": "",
+  "apellido1": "HOLGUIN",
+  "apellido2": "CABAL",
+  "nacimiento": "17/10/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f500d6ad443160017cee103"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1234189487",
+  "nombre1": "ANGIE",
+  "nombre2": "VANESSA",
+  "apellido1": "MESTIZO",
+  "apellido2": "VELASCO",
+  "nacimiento": "19/08/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5054c8a778550017795a48"
+  },
+  "creadoEl": "02/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1010055884",
+  "nombre1": "ANGIE",
+  "nombre2": "KATERINE",
+  "apellido1": "CASTRO",
+  "apellido2": "PALOMINO",
+  "nacimiento": "16/09/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f51420424d1400017ac7d7e"
+  },
+  "creadoEl": "03/09/2020",
+  "tipoDoc": "SD",
+  "documento": "8JCDM0X931ITWKI",
+  "nombre1": "LEONELLA",
+  "nombre2": "CARMELINA",
+  "apellido1": "BARRIOS",
+  "apellido2": "RIVERA",
+  "nacimiento": "14/06/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e20d5f8b74a001712a377"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f51442d24d1400017ac7d82"
+  },
+  "creadoEl": "03/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107526902",
+  "nombre1": "KAROL",
+  "nombre2": "YELANI",
+  "apellido1": "TULANDE",
+  "apellido2": "SUAREZ",
+  "nacimiento": "25/07/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f515b4e24d1400017ac7d86"
+  },
+  "creadoEl": "03/09/2020",
+  "tipoDoc": "CC",
+  "documento": "106293205",
+  "nombre1": "soraida ",
+  "nombre2": "",
+  "apellido1": "CHILHUESO",
+  "apellido2": "NOSCUE",
+  "nacimiento": "23/05/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f528eb9d891af0017d9074d"
+  },
+  "creadoEl": "04/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31485984",
+  "nombre1": "JEYSI",
+  "nombre2": "RUTH",
+  "apellido1": "CORDOBA",
+  "apellido2": "LOPEZ",
+  "nacimiento": "11/03/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f54644c3473820017cd97b4"
+  },
+  "creadoEl": "05/09/2020",
+  "tipoDoc": "TI",
+  "documento": "1109540629",
+  "nombre1": "YURANI",
+  "nombre2": "",
+  "apellido1": "CARMONA ",
+  "apellido2": "ORDOÑEZ",
+  "nacimiento": "22/01/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5625c60548d400172334c5"
+  },
+  "creadoEl": "07/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143846725",
+  "nombre1": "ANGELA",
+  "nombre2": "MARIA",
+  "apellido1": "PULGARIN",
+  "apellido2": "GIRALDO",
+  "nacimiento": "02/12/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f57ef227c2f720017a51f96"
+  },
+  "creadoEl": "08/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66865927",
+  "nombre1": "AIDA ",
+  "nombre2": "DAMARIS",
+  "apellido1": "MUÑOS",
+  "apellido2": "RAMIREZ ",
+  "nacimiento": "07/04/1973",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5b93e988e7ae001763d2f6"
+  },
+  "creadoEl": "11/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1061729657",
+  "nombre1": "LEIDY",
+  "nombre2": "CONSUELO ",
+  "apellido1": "URCHATE",
+  "apellido2": "SEGURA",
+  "nacimiento": "08/02/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ae5a134b929e8b7cfca"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5f9d7190bd5500179e60cb"
+  },
+  "creadoEl": "14/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31292412",
+  "nombre1": "MARTHA ",
+  "nombre2": "PIEDAD ",
+  "apellido1": "MONTES",
+  "apellido2": "",
+  "nacimiento": "01/07/1956",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5fe760749a110017340b3a"
+  },
+  "creadoEl": "14/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144084522",
+  "nombre1": "DAIRAT",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "JARA ",
+  "apellido2": "CARVAJAL",
+  "nacimiento": "23/11/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5ff1f7749a110017340b3e"
+  },
+  "creadoEl": "14/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144075259",
+  "nombre1": "TANIA",
+  "nombre2": "ALEXANDRA",
+  "apellido1": "TABARES",
+  "apellido2": "ERAZO",
+  "nacimiento": "22/09/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6390991d58ae0017fdafe4"
+  },
+  "creadoEl": "17/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66899907",
+  "nombre1": "BLANCA ",
+  "nombre2": "LUCERO",
+  "apellido1": "PEREZ",
+  "apellido2": "PIEDRAHITA",
+  "nacimiento": "05/03/1970",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f63c40d83a9d30017e003bf"
+  },
+  "creadoEl": "17/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31534375",
+  "nombre1": "MAGNOLIA",
+  "nombre2": "",
+  "apellido1": "ROSERO",
+  "apellido2": "SERNA",
+  "nacimiento": "13/02/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f63cb7c83a9d30017e003c3"
+  },
+  "creadoEl": "17/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31845678",
+  "nombre1": "GLORIA",
+  "nombre2": "AMANDA",
+  "apellido1": "MUÑOZ",
+  "apellido2": "ORDOÑEZ",
+  "nacimiento": "12/07/1972",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f694ed9b03f1600178918eb"
+  },
+  "creadoEl": "21/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31951323",
+  "nombre1": "ALBA",
+  "nombre2": "LUCIA",
+  "apellido1": "CASTILLO",
+  "apellido2": "",
+  "nacimiento": "29/09/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6ca8efbbc2ce0017729a3f"
+  },
+  "creadoEl": "24/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107514507",
+  "nombre1": "KAREN",
+  "nombre2": "ELISA",
+  "apellido1": "RENGIFO",
+  "apellido2": "CANOAS",
+  "nacimiento": "13/09/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6e16a9ac4dba0017e16b08"
+  },
+  "creadoEl": "25/09/2020",
+  "tipoDoc": "SD",
+  "documento": "HLCHR2UBJUY2K00",
+  "nombre1": "JUANA",
+  "nombre2": "SOFIA",
+  "apellido1": "ZAFENZA",
+  "apellido2": "CISNEROS",
+  "nacimiento": "04/12/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6e187cac4dba0017e16b0c"
+  },
+  "creadoEl": "25/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1233190294",
+  "nombre1": "ZULY ",
+  "nombre2": "VANESA ",
+  "apellido1": "ANGULO ",
+  "apellido2": "DAZA",
+  "nacimiento": "17/10/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6e1d3fac4dba0017e16b10"
+  },
+  "creadoEl": "25/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1130595833",
+  "nombre1": "DIANA",
+  "nombre2": "ZULEY",
+  "apellido1": "BRAVO",
+  "apellido2": "OSPINA",
+  "nacimiento": "13/07/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6e360902c95f001765b80b"
+  },
+  "creadoEl": "25/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107081952",
+  "nombre1": "MARYELI",
+  "nombre2": "",
+  "apellido1": "VALENCIA",
+  "apellido2": "MONTAÑO",
+  "nacimiento": "01/04/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6fdfc93b16060017b70079"
+  },
+  "creadoEl": "26/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1112491411",
+  "nombre1": "NICOLLE",
+  "nombre2": "JULIETH",
+  "apellido1": "SARAZA",
+  "apellido2": "LADINO",
+  "nacimiento": "15/04/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6fe4fe3b16060017b7007d"
+  },
+  "creadoEl": "26/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1006232333",
+  "nombre1": "TATIANA",
+  "nombre2": "VANESA",
+  "apellido1": "LOPEZ",
+  "apellido2": "OROZCO",
+  "nacimiento": "10/06/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6fed123b16060017b70081"
+  },
+  "creadoEl": "26/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1084221765",
+  "nombre1": "ALEXANDRA",
+  "nombre2": "MILENA",
+  "apellido1": "PASINGA",
+  "apellido2": "",
+  "nacimiento": "21/11/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6ff3b63b16060017b70086"
+  },
+  "creadoEl": "26/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1112486977",
+  "nombre1": "MARIA",
+  "nombre2": "XIMENA",
+  "apellido1": "ASTAIZA",
+  "apellido2": "PALTA",
+  "nacimiento": "26/01/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6ffe363b16060017b70089"
+  },
+  "creadoEl": "26/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143854420",
+  "nombre1": "NATHALIA",
+  "nombre2": "",
+  "apellido1": "ZAPATA",
+  "apellido2": "FRANCO",
+  "nacimiento": "05/05/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7215de565c7b00176f4c40"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31996195",
+  "nombre1": "ALBA",
+  "nombre2": "JANETH",
+  "apellido1": "ZAMBRANO ",
+  "apellido2": "RUIZ",
+  "nacimiento": "12/05/1969",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f721637565c7b00176f4c43"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66907917",
+  "nombre1": "MARIA ",
+  "nombre2": "EDITH",
+  "apellido1": "ESCOBAR",
+  "apellido2": "CARDENAS ",
+  "nacimiento": "04/04/1971",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7217a4565c7b00176f4c46"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "25329951",
+  "nombre1": "MARIA",
+  "nombre2": "MARVI",
+  "apellido1": "BONILLA",
+  "apellido2": "TOSE",
+  "nacimiento": "08/07/1960",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72196b565c7b00176f4c49"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143868963",
+  "nombre1": "ASTRIS",
+  "nombre2": "SELENI",
+  "apellido1": "MAYORGA",
+  "apellido2": "GUTIERREZ",
+  "nacimiento": "10/10/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f721a61565c7b00176f4c4d"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66824140",
+  "nombre1": "CENEIDA",
+  "nombre2": "",
+  "apellido1": "CARABALI",
+  "apellido2": "",
+  "nacimiento": "20/09/1958",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f721ebc565c7b00176f4c52"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107079360",
+  "nombre1": "CRISTHIN",
+  "nombre2": "JOHANNA",
+  "apellido1": "ROSAS",
+  "apellido2": "ALVAREZ ",
+  "nacimiento": "30/06/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72209b565c7b00176f4c57"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "25162009",
+  "nombre1": "MARLENY",
+  "nombre2": "",
+  "apellido1": "SUAREZ",
+  "apellido2": "RODRIGUEZ ",
+  "nacimiento": "14/01/1961",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f722fbdd6ef810017f9d3b1"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "38551815",
+  "nombre1": "NANCY",
+  "nombre2": "",
+  "apellido1": "MARTINEZ",
+  "apellido2": "NARVAEZ",
+  "nacimiento": "27/03/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72329cd6ef810017f9d3b4"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1098306919",
+  "nombre1": "ANDREA",
+  "nombre2": "",
+  "apellido1": "ALVAREZ",
+  "apellido2": "VALENCIA",
+  "nacimiento": "18/01/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7281903573f10017e8c1bb"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1005864662",
+  "nombre1": "CLAUDIA",
+  "nombre2": "ANDREA",
+  "apellido1": "HURTADO",
+  "apellido2": "",
+  "nacimiento": "20/08/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7283713573f10017e8c1be"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143847571",
+  "nombre1": "LEYDI",
+  "nombre2": "YOJANA",
+  "apellido1": "MOSQUERA",
+  "apellido2": "TULANDE",
+  "nacimiento": "29/03/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8be1a134b929e8b7cfd2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72900c3573f10017e8c1c2"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "SD",
+  "documento": "DVH5S1RJLE45X",
+  "nombre1": "GISLAYDA",
+  "nombre2": "DEL CARMEN ",
+  "apellido1": "ORDAZ",
+  "apellido2": "",
+  "nacimiento": "08/05/1958",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72b65e42390f00177b149a"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143853377",
+  "nombre1": "VIVIANA",
+  "nombre2": "",
+  "apellido1": "MONTENEGRO ",
+  "apellido2": "LOPEZ",
+  "nacimiento": "03/03/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f72ba4b42390f00177b149e"
+  },
+  "creadoEl": "28/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31986597",
+  "nombre1": "CARMEN",
+  "nombre2": "STELLA",
+  "apellido1": "FLOREZ",
+  "apellido2": "MORENO",
+  "nacimiento": "15/07/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f734fc31c607c0017f9b4ae"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66900554",
+  "nombre1": "MARIA",
+  "nombre2": "DENIS",
+  "apellido1": "MUÑOZ",
+  "apellido2": "ERAZO",
+  "nacimiento": "16/05/1967",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7351561c607c0017f9b4b1"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "29110518",
+  "nombre1": "YENNY",
+  "nombre2": "",
+  "apellido1": "RESTREPO",
+  "apellido2": "WILCHES",
+  "nacimiento": "17/06/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7372884f1db50017f4a081"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1130671103",
+  "nombre1": "LEYDA",
+  "nombre2": "",
+  "apellido1": "CAMBINDO",
+  "apellido2": "VALENCIA ",
+  "nacimiento": "01/06/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7373434f1db50017f4a084"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107081598",
+  "nombre1": "DIANA",
+  "nombre2": "MARCELA",
+  "apellido1": "PEREZ",
+  "apellido2": "SERNA",
+  "nacimiento": "12/03/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7396f615ed3100174e00ad"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1193098954",
+  "nombre1": "VALENTINA",
+  "nombre2": "",
+  "apellido1": "ALZATE",
+  "apellido2": "BEDOYA",
+  "nacimiento": "01/12/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f739a3915ed3100174e00b2"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "SD",
+  "documento": "R7P9GU2H56ZOJ",
+  "nombre1": "KLEIDI",
+  "nombre2": "MARIA ",
+  "apellido1": "MEDINA",
+  "apellido2": "MARCANO",
+  "nacimiento": "02/11/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7411778224ec00179670c0"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "34525166",
+  "nombre1": "MARIA",
+  "nombre2": "CLELIA",
+  "apellido1": "URRUTIA",
+  "apellido2": "DE CORDOBA",
+  "nacimiento": "24/06/1948",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7412cb8224ec00179670c4"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66829429",
+  "nombre1": "LUZ",
+  "nombre2": "DARY",
+  "apellido1": "MUÑOZ",
+  "apellido2": "MARMOL",
+  "nacimiento": "31/05/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7416d08224ec00179670c9"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "SD",
+  "documento": "16524452",
+  "nombre1": "ACRIS ",
+  "nombre2": "KIYOJARA",
+  "apellido1": "FARIAS",
+  "apellido2": "ORDAZ",
+  "nacimiento": "17/07/1984",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7418e88224ec00179670ce"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "SD",
+  "documento": "26507847",
+  "nombre1": "ANA",
+  "nombre2": "GABRIELA",
+  "apellido1": "CABRERA",
+  "apellido2": "FARIAS",
+  "nacimiento": "02/05/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f748def1b37d900172acc2b"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1234191373",
+  "nombre1": "SHIRLEY",
+  "nombre2": "",
+  "apellido1": "RUIZ",
+  "apellido2": "HERRERA",
+  "nacimiento": "24/11/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bb0a134b929e8b7cfd0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f748f6c1b37d900172acc2f"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107093986",
+  "nombre1": "ANGIE",
+  "nombre2": "JULIETH",
+  "apellido1": "DUQUE",
+  "apellido2": "GONZALES",
+  "nacimiento": "05/01/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7490601b37d900172acc33"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143853006",
+  "nombre1": "INGRID",
+  "nombre2": "VANESSA",
+  "apellido1": "PENAGOS",
+  "apellido2": "CALIX",
+  "nacimiento": "19/01/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7491021b37d900172acc37"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1002958365",
+  "nombre1": "YULIANA",
+  "nombre2": "VANEZA",
+  "apellido1": "SARRIA",
+  "apellido2": "SOLIS",
+  "nacimiento": "23/01/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7495ef1b37d900172acc3a"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "25327820",
+  "nombre1": "MARIA",
+  "nombre2": "FLORAIDA",
+  "apellido1": "OCORO",
+  "apellido2": "LARRAHONDO",
+  "nacimiento": "14/08/1956",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bb0a134b929e8b7cfd0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f749c6b1b37d900172acc3d"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "29688958",
+  "nombre1": "PAOLA",
+  "nombre2": "ANDREA",
+  "apellido1": "ZETARES",
+  "apellido2": "RIASCOS",
+  "nacimiento": "12/01/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74a1421b37d900172acc42"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "319865979",
+  "nombre1": "CARMEN",
+  "nombre2": "STELLA",
+  "apellido1": "FLOREZ",
+  "apellido2": "MORENO",
+  "nacimiento": "15/07/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74b5ae9ede520017e511ff"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "24623723",
+  "nombre1": "NORALBA",
+  "nombre2": "",
+  "apellido1": "CASTAÑO",
+  "apellido2": "",
+  "nacimiento": "15/05/1955",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74b9769ede520017e51203"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31986597 ",
+  "nombre1": "carmen",
+  "nombre2": "stella",
+  "apellido1": "florez",
+  "apellido2": "moreno",
+  "nacimiento": "15/06/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74c27a9ede520017e51206"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143873210",
+  "nombre1": "YULIETH",
+  "nombre2": "NATALIA ",
+  "apellido1": "ASTUDILLO",
+  "apellido2": "MOPAN",
+  "nacimiento": "12/07/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74c42d9ede520017e5120a"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1114730451",
+  "nombre1": "KELLY",
+  "nombre2": "JOHANNA",
+  "apellido1": "OCAMPO",
+  "apellido2": "NUÑEZ",
+  "nacimiento": "08/09/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74c4aa9ede520017e5120f"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1107506982",
+  "nombre1": "ANGIE",
+  "nombre2": "",
+  "apellido1": "BUITRAGO",
+  "apellido2": "GOMEZ",
+  "nacimiento": "10/12/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74c8099ede520017e51212"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143875340",
+  "nombre1": "LINA",
+  "nombre2": "MARCELA",
+  "apellido1": "LUCUMI",
+  "apellido2": "CARABALI",
+  "nacimiento": "11/07/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74cc6a9ede520017e51218"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1007778518",
+  "nombre1": "SANDRA",
+  "nombre2": "MILENA",
+  "apellido1": "RODRIGUEZ",
+  "apellido2": "PEÑA",
+  "nacimiento": "02/08/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74ce5d9ede520017e5121c"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "SD",
+  "documento": "EK9AJ1OMN954G",
+  "nombre1": "YORYINETH",
+  "nombre2": "DEL CARMEN",
+  "apellido1": "GOMEZ",
+  "apellido2": "GUANIPA",
+  "nacimiento": "31/08/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74cf809ede520017e51221"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144039167",
+  "nombre1": "ROCIO",
+  "nombre2": "",
+  "apellido1": "MAJIN",
+  "apellido2": "MALES",
+  "nacimiento": "19/08/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74cff69ede520017e51224"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1127622023",
+  "nombre1": "ERIKA",
+  "nombre2": "",
+  "apellido1": "PAZ",
+  "apellido2": "MURILLO",
+  "nacimiento": "05/03/1980",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74d8609ede520017e51228"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "31422138",
+  "nombre1": "MARIA",
+  "nombre2": "MARGARITA",
+  "apellido1": "VALENCIA ",
+  "apellido2": "FRANCO",
+  "nacimiento": "17/12/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74dd1c9ede520017e5122b"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "66911802",
+  "nombre1": "alexandra",
+  "nombre2": "",
+  "apellido1": "rubiano",
+  "apellido2": "torres",
+  "nacimiento": "03/09/1979",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74e3f79ede520017e5122f"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1143848301",
+  "nombre1": "ALLISON",
+  "nombre2": "LISE",
+  "apellido1": "LASSO",
+  "apellido2": "CANO",
+  "nacimiento": "29/05/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f74fc8117dfdc0017887600"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "SD",
+  "documento": "YS5APGNXBXUEM",
+  "nombre1": "BIANNYLYS",
+  "nombre2": "DAYS",
+  "apellido1": "FEREIRA",
+  "apellido2": "OCHOA",
+  "nacimiento": "20/11/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75006017dfdc0017887603"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1004681449",
+  "nombre1": "MARIA",
+  "nombre2": "LORENA",
+  "apellido1": "VELEZ",
+  "apellido2": "RESTREPO",
+  "nacimiento": "27/05/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f752b786d4c7b00179a928d"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1088217243",
+  "nombre1": "NURY",
+  "nombre2": "DEL ROCIO",
+  "apellido1": "CUASAPUD ",
+  "apellido2": "BENAVIDES",
+  "nacimiento": "19/05/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f752d776d4c7b00179a9291"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1151956660",
+  "nombre1": "ANGIE",
+  "nombre2": "NATALIA",
+  "apellido1": "BENAVIDEZ",
+  "apellido2": "SANCHEZ",
+  "nacimiento": "10/04/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f752e586d4c7b00179a9295"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "1144062958",
+  "nombre1": "DAHAN",
+  "nombre2": "STEPHANIA",
+  "apellido1": "JOJOA",
+  "apellido2": "GARCIA",
+  "nacimiento": "21/06/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f752fd76d4c7b00179a9299"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "TI",
+  "documento": "1002797268",
+  "nombre1": "MABEL",
+  "nombre2": "JULIANA",
+  "apellido1": "ORDOÑEZ",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "26/04/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7541ae9296db0017ca9b89"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "SD",
+  "documento": "UCLOBUUDG50QU",
+  "nombre1": "JOSMARY",
+  "nombre2": "DEL VALLE",
+  "apellido1": "HERRERA",
+  "apellido2": "ALVAREZ",
+  "nacimiento": "14/04/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7547389296db0017ca9b8d"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "CC",
+  "documento": "29137437",
+  "nombre1": "ALEJANDRA",
+  "nombre2": "MARIA",
+  "apellido1": "QUINTERO",
+  "apellido2": "GUARIN",
+  "nacimiento": "03/03/1978",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f754b049296db0017ca9b91"
+  },
+  "creadoEl": "29/09/2020",
+  "tipoDoc": "SD",
+  "documento": "GB8VS2K8W8GW0",
+  "nombre1": "NAIMAR",
+  "nombre2": "DEL VALLE",
+  "apellido1": "PAREJO",
+  "apellido2": "URRIOLA",
+  "nacimiento": "23/03/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75e0cd21553c001760d9cc"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66829792",
+  "nombre1": "LUZ",
+  "nombre2": "DARY",
+  "apellido1": "VALENCIA",
+  "apellido2": "",
+  "nacimiento": "07/09/1964",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75e39921553c001760d9d0"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66813923",
+  "nombre1": "BEATRIZ",
+  "nombre2": "ELENA",
+  "apellido1": "MENDEZ",
+  "apellido2": "MESA",
+  "nacimiento": "09/08/1969",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75e7ee21553c001760d9d4"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1110363183",
+  "nombre1": "NICOLE",
+  "nombre2": "VALERIA",
+  "apellido1": "SOTO",
+  "apellido2": "HOLGUIN",
+  "nacimiento": "06/03/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ea0d21553c001760d9d8"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1107091989",
+  "nombre1": "KERLIN",
+  "nombre2": "VANESSA",
+  "apellido1": "MEJIA",
+  "apellido2": "OSORIO",
+  "nacimiento": "11/09/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ea1321553c001760d9dd"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1144199176",
+  "nombre1": "LINA",
+  "nombre2": "MARCELA",
+  "apellido1": "ESCOBAR",
+  "apellido2": "ARANGO",
+  "nacimiento": "04/07/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b40a134b929e8b7cfcc"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ea4a21553c001760d9e1"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "29401481",
+  "nombre1": "LEONOR",
+  "nombre2": "",
+  "apellido1": "GOMEZ",
+  "apellido2": "GALINDEZ",
+  "nacimiento": "30/01/1971",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab72f607da200178b3a15"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75eba321553c001760d9e4"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143824780",
+  "nombre1": "ANA",
+  "nombre2": "YIBI",
+  "apellido1": "ORTIZ",
+  "apellido2": "AREVALO",
+  "nacimiento": "27/04/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ed1821553c001760d9e8"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1144187189",
+  "nombre1": "ANA",
+  "nombre2": "MARIA",
+  "apellido1": "SOLARTE",
+  "apellido2": "ESCOBAR",
+  "nacimiento": "24/02/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ee8021553c001760d9ed"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66981513",
+  "nombre1": "CLAUDIA",
+  "nombre2": "PATRICIA",
+  "apellido1": "PEREZ ",
+  "apellido2": "ORTIZ",
+  "nacimiento": "19/01/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8be1a134b929e8b7cfd2"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ef5a21553c001760d9f1"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1106512768",
+  "nombre1": "JERLY",
+  "nombre2": "NICOLL",
+  "apellido1": "GRISALES",
+  "apellido2": "CORDOBA",
+  "nacimiento": "22/04/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75f06421553c001760d9f5"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66947500",
+  "nombre1": "FANNY",
+  "nombre2": "",
+  "apellido1": "DIAZ",
+  "apellido2": "TRULLO",
+  "nacimiento": "28/01/1972",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ae5a134b929e8b7cfca"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75fc3121553c001760d9f8"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31233660",
+  "nombre1": "FANI",
+  "nombre2": "",
+  "apellido1": "ZUAREZ",
+  "apellido2": "DE ROSERO",
+  "nacimiento": "27/07/1951",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ffca21553c001760d9fb"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143879180",
+  "nombre1": "JENIFER",
+  "nombre2": "CAROLINA",
+  "apellido1": "VINASCO",
+  "apellido2": "RAMIREZ",
+  "nacimiento": "06/08/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b40a134b929e8b7cfcc"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76029721553c001760d9ff"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31947243",
+  "nombre1": "ANA",
+  "nombre2": "REBECA",
+  "apellido1": "LUNA",
+  "apellido2": "MANQUILLO",
+  "nacimiento": "02/02/1962",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ae5a134b929e8b7cfca"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76045121553c001760da03"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "41957822",
+  "nombre1": "GLORIA ",
+  "nombre2": "ELENA",
+  "apellido1": "ORTEGA ",
+  "apellido2": "IZQUIERDO",
+  "nacimiento": "23/11/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7605cf21553c001760da07"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1107038646",
+  "nombre1": "ANGIE",
+  "nombre2": "KATHERINE",
+  "apellido1": "RODRIGUEZ",
+  "apellido2": "",
+  "nacimiento": "15/01/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab835607da200178b3a1f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7609bf21553c001760da0b"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1193143465",
+  "nombre1": "DANNA",
+  "nombre2": "MAYERLY",
+  "apellido1": "CHAVEZ",
+  "apellido2": "RAMIREZ",
+  "nacimiento": "23/08/2020",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab835607da200178b3a1f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f760a1d21553c001760da0f"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "SD",
+  "documento": "DAL7I8HICIW81DK",
+  "nombre1": "ACNNY",
+  "nombre2": "MILEIDI",
+  "apellido1": "ARRIECHE",
+  "apellido2": "RIVAS",
+  "nacimiento": "03/07/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f760be121553c001760da12"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1107522573",
+  "nombre1": "CLAUDIA",
+  "nombre2": "CAROLINA",
+  "apellido1": "GALVIS",
+  "apellido2": "BUESAQUILLO",
+  "nacimiento": "17/12/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f760ee421553c001760da16"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143841437",
+  "nombre1": "GERALDINE",
+  "nombre2": "",
+  "apellido1": "TORIJANO",
+  "apellido2": "QUINAYAS",
+  "nacimiento": "21/02/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f760f0521553c001760da1a"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "59395826 ",
+  "nombre1": "AURA",
+  "nombre2": "JUSTINA ",
+  "apellido1": "GUARNICA  ",
+  "apellido2": "MARTINEZ ",
+  "nacimiento": "14/03/1949",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7611b521553c001760da1e"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1192727479",
+  "nombre1": "MONICA",
+  "nombre2": "KATHERINE",
+  "apellido1": "MUÑOZ",
+  "apellido2": "ORDOÑEZ",
+  "nacimiento": "03/10/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76150521553c001760da21"
+  },
+  "creadoEl": "30/09/2020",
+  "tipoDoc": "CC",
+  "documento": "34541660",
+  "nombre1": "MALENY",
+  "nombre2": "",
+  "apellido1": "PETIN",
+  "apellido2": "MOSQUERA",
+  "nacimiento": "10/05/1979",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76152921553c001760da24"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "SD",
+  "documento": "PFEK5AW9P537GNH",
+  "nombre1": "VICNELLY",
+  "nombre2": "PAOLA",
+  "apellido1": "ROJAS",
+  "apellido2": "ESCALANTE",
+  "nacimiento": "02/01/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76271c21553c001760da27"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1010003938",
+  "nombre1": "ANGIE",
+  "nombre2": "CAROLINA",
+  "apellido1": "MARTINEZ",
+  "apellido2": "MORENO",
+  "nacimiento": "18/04/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f762aea21553c001760da2b"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1193450011",
+  "nombre1": "ANGELA",
+  "nombre2": "MARIANA",
+  "apellido1": "TOVAR",
+  "apellido2": "SALGAR",
+  "nacimiento": "28/03/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f762fc421553c001760da2f"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1114734259",
+  "nombre1": "PAOLA",
+  "nombre2": "ANDREA",
+  "apellido1": "NIETO",
+  "apellido2": "MANRIQUE",
+  "nacimiento": "03/09/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76310321553c001760da33"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1006359216",
+  "nombre1": "VIVIAN",
+  "nombre2": "YORLANDI",
+  "apellido1": "RUIZ",
+  "apellido2": "CHAVEZ",
+  "nacimiento": "19/12/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76323921553c001760da37"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66913392",
+  "nombre1": "KATERINE",
+  "nombre2": "",
+  "apellido1": "RAMIREZ",
+  "apellido2": "GUTIERREZ",
+  "nacimiento": "13/12/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f763d9d21553c001760da3b"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "SD",
+  "documento": "Y23JKS0QOJ29X",
+  "nombre1": "NIORQUIS",
+  "nombre2": "NAZAREZ",
+  "apellido1": "ROJAS",
+  "apellido2": "BARRETO",
+  "nacimiento": "31/07/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f765d0421553c001760da3f"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1087120728",
+  "nombre1": "MARIA",
+  "nombre2": "DE LOS ANGELES",
+  "apellido1": "MANCILLA ",
+  "apellido2": "BENAVIDES ",
+  "nacimiento": "13/06/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f765fe721553c001760da42"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66824119",
+  "nombre1": "ANA",
+  "nombre2": "JULIA",
+  "apellido1": "GALINDEZ",
+  "apellido2": null,
+  "nacimiento": "21/06/1965",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76660e21553c001760da4a"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1005830291",
+  "nombre1": "MARIA ",
+  "nombre2": "DE LOS ANGELES  ",
+  "apellido1": "LOPEZ ",
+  "apellido2": "RENDON",
+  "nacimiento": "06/03/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76662f21553c001760da4d"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "29399208",
+  "nombre1": "MARIA",
+  "nombre2": "DEL ROSARIO",
+  "apellido1": "OROBIO",
+  "apellido2": "GRUESO",
+  "nacimiento": "13/05/1954",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7669b821553c001760da4f"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1006107625",
+  "nombre1": "LUISA",
+  "nombre2": "",
+  "apellido1": "TROCHES",
+  "apellido2": "",
+  "nacimiento": "10/01/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76780c21553c001760da54"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1130588014",
+  "nombre1": "VERONICA",
+  "nombre2": "",
+  "apellido1": "MUÑOZ",
+  "apellido2": "SILVA",
+  "nacimiento": "30/05/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76799021553c001760da58"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1058926878",
+  "nombre1": "NULVIA",
+  "nombre2": "",
+  "apellido1": "SOTELO",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "12/12/1984",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7cb607da200178b3a1a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7679c121553c001760da5b"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1151971132",
+  "nombre1": "TATIANA",
+  "nombre2": "ESTEFANIA",
+  "apellido1": "RESTREPO",
+  "apellido2": "LOAIZA",
+  "nacimiento": "10/12/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7686b221553c001760da5e"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "67041541",
+  "nombre1": "SANDRA",
+  "nombre2": "PATRICIA",
+  "apellido1": "BOLAÑOS",
+  "apellido2": "MORALES",
+  "nacimiento": "12/11/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76937d13b0300017d34b0e"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31579623",
+  "nombre1": "PATRICIA",
+  "nombre2": "",
+  "apellido1": "CASTILLO",
+  "apellido2": "KLINGER",
+  "nacimiento": "03/08/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76a1fb13b0300017d34b11"
+  },
+  "creadoEl": "01/10/2020",
+  "tipoDoc": "SD",
+  "documento": "9BQHQ3RISRIJ3",
+  "nombre1": "DENNYS",
+  "nombre2": "ELOISA ",
+  "apellido1": "PEREZ",
+  "apellido2": "GARCIA",
+  "nacimiento": "04/04/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7744eb6ab4300017407861"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "SD",
+  "documento": "7Y7UXMO51HN2R",
+  "nombre1": "NANCY",
+  "nombre2": "ELIZABEHT",
+  "apellido1": "QUINTERO",
+  "apellido2": "",
+  "nacimiento": "29/05/1952",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7747eef055ea0017188a0c"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "SD",
+  "documento": "MWPFK86EXLAT0",
+  "nombre1": "ROCENDA ",
+  "nombre2": "EVANGELISTA",
+  "apellido1": "BARRIOS",
+  "apellido2": "",
+  "nacimiento": "02/02/1974",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f774ae0f055ea0017188a10"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1052964121",
+  "nombre1": "MARCELA",
+  "nombre2": "PAOLA",
+  "apellido1": "MEDINA",
+  "apellido2": "BOHORQUEZ",
+  "nacimiento": "19/06/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f774ba0f055ea0017188a13"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143992154",
+  "nombre1": "JESSICA",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "CORTES",
+  "apellido2": "CASTAÑO",
+  "nacimiento": "08/03/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f774e98f055ea0017188a17"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1006038223",
+  "nombre1": "HANNA",
+  "nombre2": "GISELLE",
+  "apellido1": "GARCIA",
+  "apellido2": "JURADO",
+  "nacimiento": "07/08/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f77599df055ea0017188a1b"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1059067343",
+  "nombre1": "DARLI",
+  "nombre2": "VANESSA",
+  "apellido1": "LOAIZA",
+  "apellido2": "VELEZ",
+  "nacimiento": "28/07/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7762edf055ea0017188a1f"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31151143",
+  "nombre1": "BLANCA",
+  "nombre2": "MARIA",
+  "apellido1": "BASTIDAS",
+  "apellido2": "",
+  "nacimiento": "25/08/1957",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f776a1153c16200171a895a"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "67031214",
+  "nombre1": "MARIA",
+  "nombre2": "FERNANDA",
+  "apellido1": "HERRERA",
+  "apellido2": "LOAIZA",
+  "nacimiento": "07/07/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f777e26d67a0a00179dbc68"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1006103113",
+  "nombre1": "JENNIN",
+  "nombre2": "ALEXANDRA",
+  "apellido1": "MESA",
+  "apellido2": "HERRERA",
+  "nacimiento": "03/08/2003",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f779406d67a0a00179dbc6d"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66911606",
+  "nombre1": "LIBIA ",
+  "nombre2": "IDALIA ",
+  "apellido1": "PORTILLA ",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "27/11/1980",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab791607da200178b3a17"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7794cbd67a0a00179dbc71"
+  },
+  "creadoEl": "02/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1114736652",
+  "nombre1": "LAURA",
+  "nombre2": "LIZETH",
+  "apellido1": "PAREDES",
+  "apellido2": "TORRES",
+  "nacimiento": "02/03/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab791607da200178b3a17"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f789becf6ef790017d47cd0"
+  },
+  "creadoEl": "03/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1005943891",
+  "nombre1": "ENITH",
+  "nombre2": "GERALDINE",
+  "apellido1": "TORRES",
+  "apellido2": "TORO",
+  "nacimiento": "12/11/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f791c26b9b15500177e1f98"
+  },
+  "creadoEl": "03/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1088971276",
+  "nombre1": "MARLY",
+  "nombre2": "YULEI",
+  "apellido1": "MUÑOZ",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "11/08/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7924f9b9b15500177e1f9c"
+  },
+  "creadoEl": "03/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1038385723",
+  "nombre1": "MARLEYI",
+  "nombre2": "",
+  "apellido1": "BENAVIDEZ",
+  "apellido2": "TORO",
+  "nacimiento": "21/12/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b5a0208fb8800177b4300"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "38665456",
+  "nombre1": "AMANDA",
+  "nombre2": "",
+  "apellido1": "BELALCAZAR",
+  "apellido2": "",
+  "nacimiento": "12/11/1977",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b5c1a08fb8800177b4304"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "25684524",
+  "nombre1": "AGUSTINA",
+  "nombre2": null,
+  "apellido1": "PEÑA",
+  "apellido2": "POSCUE",
+  "nacimiento": "20/07/1944",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b5fab08fb8800177b4308"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "SD",
+  "documento": "44JULW6HUWTXJ",
+  "nombre1": "JANY",
+  "nombre2": "DUBRASKA",
+  "apellido1": "ESCALONA",
+  "apellido2": "ESCALONA",
+  "nacimiento": "01/02/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7ba42ef00c350017a6c092"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "34340737",
+  "nombre1": "MARIA",
+  "nombre2": "ARACELI",
+  "apellido1": "DELGADO",
+  "apellido2": "MIRANDA",
+  "nacimiento": "03/10/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7ba697f00c350017a6c095"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31973727",
+  "nombre1": "ROSA",
+  "nombre2": "BEIBY",
+  "apellido1": "HURTADO",
+  "apellido2": "QUIÑONEZ",
+  "nacimiento": "22/11/1961",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7bb8c3f9081600172c8801"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1114732603",
+  "nombre1": "TANIA",
+  "nombre2": "",
+  "apellido1": "CAMACHO",
+  "apellido2": "MINA",
+  "nacimiento": "08/07/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7bcea79f8cc90017ba0a8b"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "31529381",
+  "nombre1": "LUZ",
+  "nombre2": "MARINA",
+  "apellido1": "CARDONA",
+  "apellido2": "OROZCO",
+  "nacimiento": "14/01/1947",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7be7c784aae100173d5300"
+  },
+  "creadoEl": "05/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143836055",
+  "nombre1": "LEIDY",
+  "nombre2": "TATIANA",
+  "apellido1": "MESIAS",
+  "apellido2": "TENORIO",
+  "nacimiento": "20/02/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7cc3256b70010017e84337"
+  },
+  "creadoEl": "06/10/2020",
+  "tipoDoc": "CC",
+  "documento": "66999063",
+  "nombre1": "AYDALIA",
+  "nombre2": "MARIA",
+  "apellido1": "AYALA",
+  "apellido2": "HURTADO",
+  "nacimiento": "27/11/1975",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7ded976290f700174f58f9"
+  },
+  "creadoEl": "07/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1107045605",
+  "nombre1": "KAROL",
+  "nombre2": "YULIETH",
+  "apellido1": "DAGUA",
+  "apellido2": "",
+  "nacimiento": "16/03/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7cb607da200178b3a1a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f887be5b51f7b0017a280bc"
+  },
+  "creadoEl": "13/10/2020",
+  "tipoDoc": "TI",
+  "documento": "1193215220",
+  "nombre1": "KATHERIN",
+  "nombre2": "DAYANNA",
+  "apellido1": "RESTREPO",
+  "apellido2": "PALOMINO",
+  "nacimiento": "18/08/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f887c77b51f7b0017a280c1"
+  },
+  "creadoEl": "15/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1143831606",
+  "nombre1": "LUZ",
+  "nombre2": "MAGNOLIA",
+  "apellido1": "MELANJE",
+  "apellido2": "MELANJE",
+  "nacimiento": "07/08/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f889262abca1b00175d4093"
+  },
+  "creadoEl": "13/10/2020",
+  "tipoDoc": "CC",
+  "documento": "1067812544",
+  "nombre1": "ANYI",
+  "nombre2": "CAROLINA",
+  "apellido1": "MENESES",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "13/11/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa09ee16a5e8d0017737d6a"
+  },
+  "creadoEl": "02/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1002982078",
+  "nombre1": "DAMARIS ",
+  "nombre2": null,
+  "apellido1": "DORADO ",
+  "apellido2": "HOYOS ",
+  "nacimiento": "24/08/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0a0c56a5e8d0017737d6d"
+  },
+  "creadoEl": "02/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107090472",
+  "nombre1": "ESTEFANIA",
+  "nombre2": "",
+  "apellido1": "CALVO",
+  "apellido2": "MANSO",
+  "nacimiento": "28/07/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0a1756a5e8d0017737d70"
+  },
+  "creadoEl": "02/11/2020",
+  "tipoDoc": "TI",
+  "documento": "1087115693",
+  "nombre1": "KAREN",
+  "nombre2": "MAYERLI",
+  "apellido1": "CAMBINO",
+  "apellido2": "VALENCIA ",
+  "nacimiento": "28/02/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa0d53d28c26b00178ffb5e"
+  },
+  "creadoEl": "02/11/2020",
+  "tipoDoc": "CC",
+  "documento": "25708105",
+  "nombre1": "ANA",
+  "nombre2": "RUTH",
+  "apellido1": "ANACONA",
+  "apellido2": "",
+  "nacimiento": "25/09/1980",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa15afd216c480017bb65c1"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1005866131",
+  "nombre1": "MAIRA",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "HERNANDEZ",
+  "apellido2": "MOSQUERA",
+  "nacimiento": "15/10/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa15e0f216c480017bb65c5"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107518229",
+  "nombre1": "DORY",
+  "nombre2": "GISELA",
+  "apellido1": "RIVERA",
+  "apellido2": "CASTRO",
+  "nacimiento": "02/06/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1671d216c480017bb65c9"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143830108",
+  "nombre1": "NAYIBE",
+  "nombre2": "FERNANDA",
+  "apellido1": "LOPEZ",
+  "apellido2": "ERAZO",
+  "nacimiento": "30/12/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa16d90216c480017bb65ce"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "SD",
+  "documento": "9HD8FRN5NLQ3PV4",
+  "nombre1": "NORKIS",
+  "nombre2": "DANIELA",
+  "apellido1": "LAROCHE",
+  "apellido2": "CHIRINOS",
+  "nacimiento": "11/11/2004",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa16f40216c480017bb65d1"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1006166181",
+  "nombre1": "GABRIELA",
+  "nombre2": null,
+  "apellido1": "BURITICA",
+  "apellido2": "SEGURA",
+  "nacimiento": "07/12/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17259216c480017bb65d6"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1082687555",
+  "nombre1": "LUZ",
+  "nombre2": "DARY",
+  "apellido1": "PONCE",
+  "apellido2": "ANGULO",
+  "nacimiento": "12/05/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17437216c480017bb65de"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1006431956",
+  "nombre1": "ANYELI",
+  "nombre2": "PATRICIA",
+  "apellido1": "CORDOBA",
+  "apellido2": "NIETO",
+  "nacimiento": "22/06/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2123f8b74a001712a378"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17d90216c480017bb65e2"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "TI",
+  "documento": "1193074187",
+  "nombre1": "SHARON",
+  "nombre2": "ANDREA",
+  "apellido1": "HENAO",
+  "apellido2": "ROJAS",
+  "nacimiento": "27/07/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17e54216c480017bb65e6"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "67021651",
+  "nombre1": "LUZ",
+  "nombre2": "DARY",
+  "apellido1": "ESCARRAGA",
+  "apellido2": "GOMEZ",
+  "nacimiento": "20/04/1984",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17f17216c480017bb65eb"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107521596",
+  "nombre1": "LUZ",
+  "nombre2": "CLARA",
+  "apellido1": "RODRIGUEZ",
+  "apellido2": "",
+  "nacimiento": "27/10/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b40a134b929e8b7cfcc"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa17fa9216c480017bb65f0"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1058965470",
+  "nombre1": "ANA",
+  "nombre2": "ELCY",
+  "apellido1": "UNI",
+  "apellido2": "ZUÑIGA",
+  "nacimiento": "03/03/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab835607da200178b3a1f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1812f216c480017bb65f4"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "SD",
+  "documento": "SD-IZ53OI59H31W9XE",
+  "nombre1": "YASMELIS",
+  "nombre2": "CAROLINA ",
+  "apellido1": "CAMACHO",
+  "apellido2": "MEJIA ",
+  "nacimiento": "01/07/1988",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa18209216c480017bb65f8"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144071856",
+  "nombre1": "LEIDI",
+  "nombre2": "TATIANA",
+  "apellido1": "CAMILO",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "20/07/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa18519216c480017bb65fb"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114734657",
+  "nombre1": "SHIRLEY",
+  "nombre2": "JOHANNA",
+  "apellido1": "HINESTROZA",
+  "apellido2": "OREJUELA",
+  "nacimiento": "25/04/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa186dc216c480017bb6600"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "25395045",
+  "nombre1": "ALBA ",
+  "nombre2": "TERESA",
+  "apellido1": "MENESES",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "28/11/1965",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa18d67216c480017bb6604"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114731514",
+  "nombre1": "ESTER",
+  "nombre2": "",
+  "apellido1": "PAYAN",
+  "apellido2": "CALDERON",
+  "nacimiento": "09/09/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7a4607da200178b3a18"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa18def216c480017bb6609"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1193529645",
+  "nombre1": "ROSA",
+  "nombre2": "ELVY",
+  "apellido1": "GALLEGO",
+  "apellido2": "MUNOZ",
+  "nacimiento": "25/01/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab835607da200178b3a1f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa19afb216c480017bb6620"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66980329",
+  "nombre1": "FLOR",
+  "nombre2": "MIRIAM",
+  "apellido1": "VIDAL",
+  "apellido2": "GARCES",
+  "nacimiento": "05/09/1976",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a336216c480017bb662e"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1031531677",
+  "nombre1": "FLOR",
+  "nombre2": "MARIA",
+  "apellido1": "BLANDON",
+  "apellido2": null,
+  "nacimiento": "11/07/1971",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a47a216c480017bb6634"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1005976047",
+  "nombre1": "LAURA",
+  "nombre2": "VALENTINA",
+  "apellido1": "GOMEZ",
+  "apellido2": "REAL",
+  "nacimiento": "24/10/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a641216c480017bb663d"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "SD",
+  "documento": "TAX7IRF01P",
+  "nombre1": "LISBRTH",
+  "nombre2": "CAROLINA",
+  "apellido1": "GOMEZ",
+  "apellido2": "SANGRONIS",
+  "nacimiento": "20/04/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a6de216c480017bb6642"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "29112946",
+  "nombre1": "CLAUDIA ",
+  "nombre2": "ROSA ",
+  "apellido1": "GONZALEZ ",
+  "apellido2": "BASTIDAS ",
+  "nacimiento": "10/11/1977",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a789216c480017bb6648"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1112493418",
+  "nombre1": "MARIA",
+  "nombre2": "ANGELICA",
+  "apellido1": "MOSQUERA",
+  "apellido2": "PADUA",
+  "nacimiento": "14/11/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2123f8b74a001712a378"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a803216c480017bb664c"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "SD",
+  "documento": "22818C11PO",
+  "nombre1": "LEONOL",
+  "nombre2": "DEL CARMEN",
+  "apellido1": "GONZALEZ",
+  "apellido2": "GONZALEZ",
+  "nacimiento": "27/09/1984",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1aac5216c480017bb6650"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31997671",
+  "nombre1": "YINETH",
+  "nombre2": null,
+  "apellido1": "PEREZ",
+  "apellido2": null,
+  "nacimiento": "16/07/1969",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1ae5d216c480017bb6661"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "SD",
+  "documento": "3J1UV5XLF1",
+  "nombre1": "ANDREA",
+  "nombre2": "CECILIA",
+  "apellido1": "RODRIGUEZ",
+  "apellido2": "BAEZ",
+  "nacimiento": "18/07/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b0aa216c480017bb6665"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114736619",
+  "nombre1": "MARLLy",
+  "nombre2": "GISSEl",
+  "apellido1": "HOYOs",
+  "apellido2": "PORTILLA ",
+  "nacimiento": "14/02/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7a4607da200178b3a18"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b137216c480017bb6668"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144078395",
+  "nombre1": "CAROLINA",
+  "nombre2": "",
+  "apellido1": "ORDOÑEZ",
+  "apellido2": "RESTREPO",
+  "nacimiento": "25/11/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b144216c480017bb666c"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31581795",
+  "nombre1": "ANDREA",
+  "nombre2": null,
+  "apellido1": "GONZALEZ",
+  "apellido2": "NORUEGA",
+  "nacimiento": "03/03/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b248216c480017bb6670"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114736890",
+  "nombre1": "ALEJANDRA",
+  "nombre2": "",
+  "apellido1": "GONZALEZ",
+  "apellido2": "VILLARREAL",
+  "nacimiento": "27/07/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1b83b216c480017bb6676"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1006234109",
+  "nombre1": "EVELIN",
+  "nombre2": "TATIANA",
+  "apellido1": "MOTATO",
+  "apellido2": "BELALCAZAR",
+  "nacimiento": "09/07/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1bac2216c480017bb6679"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31942336",
+  "nombre1": "MARIA",
+  "nombre2": "EUGENIA",
+  "apellido1": "MANZANO",
+  "apellido2": "GOMEZ",
+  "nacimiento": "04/03/1966",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1d46e216c480017bb667c"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1193382494",
+  "nombre1": "KAREN",
+  "nombre2": "LIZETH",
+  "apellido1": "MORALES",
+  "apellido2": "FORERO",
+  "nacimiento": "13/07/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1d93f216c480017bb6680"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1010086118",
+  "nombre1": "PAOLA ",
+  "nombre2": "ANREA ",
+  "apellido1": "MEJIA ",
+  "apellido2": "OSORIO",
+  "nacimiento": "22/10/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1daa6216c480017bb6684"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31570011",
+  "nombre1": "FARIDE",
+  "nombre2": null,
+  "apellido1": "ARANGO",
+  "apellido2": "COTE",
+  "nacimiento": "08/01/1979",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1dba2216c480017bb6687"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144213028",
+  "nombre1": "ISABEL",
+  "nombre2": "CRISTINA",
+  "apellido1": "MUÑOZ",
+  "apellido2": "RESTREPO",
+  "nacimiento": "05/11/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1dc50216c480017bb668c"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143862208",
+  "nombre1": "ROCIO",
+  "nombre2": "",
+  "apellido1": "NARVAEZ",
+  "apellido2": "CARABALI",
+  "nacimiento": "22/06/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1e123216c480017bb6693"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66855372",
+  "nombre1": "MARIELA",
+  "nombre2": null,
+  "apellido1": "ANDRADES",
+  "apellido2": "GOMEZ",
+  "nacimiento": "25/07/1969",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1e2a4216c480017bb6697"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144075135",
+  "nombre1": "KAROL",
+  "nombre2": "DANIELA",
+  "apellido1": "GARZON",
+  "apellido2": "DIAZ",
+  "nacimiento": "14/11/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa20267216c480017bb669b"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1010055906",
+  "nombre1": "MARILIN",
+  "nombre2": "JHULIET",
+  "apellido1": "ERASO",
+  "apellido2": "MONTILLA",
+  "nacimiento": "22/04/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2032d216c480017bb669f"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1116254989",
+  "nombre1": "DAYAN",
+  "nombre2": "KATHERIN",
+  "apellido1": "ARANGO",
+  "apellido2": "MORENO",
+  "nacimiento": "03/07/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa20d77216c480017bb66a7"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114732391",
+  "nombre1": "ERICA",
+  "nombre2": "FERNANDA",
+  "apellido1": "LABRADA",
+  "apellido2": "ZAPATA",
+  "nacimiento": "16/04/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa21ed2de5efb0017f724b7"
+  },
+  "creadoEl": "03/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66980398",
+  "nombre1": "YAMILETH",
+  "nombre2": null,
+  "apellido1": "HERMANN",
+  "apellido2": "ECHEVERRY",
+  "nacimiento": "27/04/1974",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2b95c6966e10017e3c0bb"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66832872",
+  "nombre1": "MARIA ",
+  "nombre2": "AMANDA ",
+  "apellido1": "CAICEDO ",
+  "apellido2": "MOLINA ",
+  "nacimiento": "02/07/1971",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2bba66966e10017e3c0be"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66836461",
+  "nombre1": "EDILMA ",
+  "nombre2": null,
+  "apellido1": "MONTILLA",
+  "apellido2": null,
+  "nacimiento": "03/03/1963",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2c5f46966e10017e3c0c4"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31884654",
+  "nombre1": "LUZ",
+  "nombre2": "MARINA",
+  "apellido1": "MUÑOZ",
+  "apellido2": "CHAVEZ",
+  "nacimiento": "24/09/1957",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2c9396966e10017e3c0c9"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "SD",
+  "documento": "7WGNQW97ABVKE",
+  "nombre1": "DARIENNYS",
+  "nombre2": "DE JESUS",
+  "apellido1": "TORREALBA",
+  "apellido2": "PEREZ",
+  "nacimiento": "02/09/2003",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2cb566966e10017e3c0cc"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143843627",
+  "nombre1": "YULEY",
+  "nombre2": "",
+  "apellido1": "LOPEZ",
+  "apellido2": "RAMIREZ",
+  "nacimiento": "17/07/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e5676966e10017e3c0df"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143855527",
+  "nombre1": "ANGIE",
+  "nombre2": "JHOANA",
+  "apellido1": "VILLANO",
+  "apellido2": "URIBE",
+  "nacimiento": "19/04/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2e9516966e10017e3c0e4"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107525591",
+  "nombre1": "ESTEPHANIA",
+  "nombre2": null,
+  "apellido1": "JIMENEZ",
+  "apellido2": "VIDAL",
+  "nacimiento": "04/05/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2ee166966e10017e3c0e8"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143970377",
+  "nombre1": "LEYDY",
+  "nombre2": "YAZMIN",
+  "apellido1": "QUIROGA",
+  "apellido2": "SERRANO",
+  "nacimiento": "03/11/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa301acc01bc80017a25586"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107077431",
+  "nombre1": "DIANA",
+  "nombre2": "MARCELA",
+  "apellido1": "ROMERO",
+  "apellido2": "ACOSTA",
+  "nacimiento": "20/03/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa3131ac01bc80017a25598"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "38611063",
+  "nombre1": "ENELIA",
+  "nombre2": "",
+  "apellido1": "PETINS",
+  "apellido2": "",
+  "nacimiento": "09/02/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa321dcc01bc80017a2559c"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1107088889",
+  "nombre1": "MARLYN",
+  "nombre2": "DAYANA",
+  "apellido1": "RIASCOS",
+  "apellido2": "RENGIFO",
+  "nacimiento": "07/06/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa34816e85a930017893034"
+  },
+  "creadoEl": "04/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1007690048",
+  "nombre1": "DANNA",
+  "nombre2": "MARAY",
+  "apellido1": "SANCHEZ",
+  "apellido2": "GRISALES",
+  "nacimiento": "18/04/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa42613aa2a77001798d99a"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66899823",
+  "nombre1": "LUCRECIA",
+  "nombre2": "",
+  "apellido1": "MUÑOZ",
+  "apellido2": "",
+  "nacimiento": "24/05/1970",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa429f7aa2a77001798d99e"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "31567534",
+  "nombre1": "MARLENY",
+  "nombre2": "",
+  "apellido1": "MANRIQUE ",
+  "apellido2": null,
+  "nacimiento": "20/05/1980",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa42cc3aa2a77001798d9a1"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "38670649",
+  "nombre1": "LEIDY",
+  "nombre2": "FERNANDA",
+  "apellido1": "GIRALDO",
+  "apellido2": "ESPINOZA",
+  "nacimiento": "14/02/1985",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa42f85aa2a77001798d9a5"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "27436389",
+  "nombre1": "MARIA",
+  "nombre2": "LEONISA",
+  "apellido1": "TUTISTAN",
+  "apellido2": "ANGANOY",
+  "nacimiento": "11/02/1960",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa435e9aa2a77001798d9a9"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144131192",
+  "nombre1": "LEIDY",
+  "nombre2": "YULIETH",
+  "apellido1": "RUBIO",
+  "apellido2": "MOSQUERA",
+  "nacimiento": "29/10/2020",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43aa2aa2a77001798d9b8"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "67024465",
+  "nombre1": "CLAUDIA",
+  "nombre2": "FERNANDA",
+  "apellido1": "IMBACHI",
+  "apellido2": "PERAFAN",
+  "nacimiento": "23/08/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa43edfaa2a77001798d9bc"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "SD",
+  "documento": "812CQFFBPA",
+  "nombre1": "PIERINA",
+  "nombre2": "DE LOS ANGELES",
+  "apellido1": "AVILA",
+  "apellido2": "GOMEZ",
+  "nacimiento": "29/02/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa44212aa2a77001798d9c0"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1005974694",
+  "nombre1": "NATHALIA ",
+  "nombre2": null,
+  "apellido1": "QUEZADA ",
+  "apellido2": "VICTORIA",
+  "nacimiento": "20/07/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4440eaa2a77001798d9c5"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "TI",
+  "documento": "1107034202",
+  "nombre1": "MARIA",
+  "nombre2": "LILIANA",
+  "apellido1": "NARVAEZ",
+  "apellido2": "JIMENEZ",
+  "nacimiento": "07/12/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa47bb1aa2a77001798d9dd"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1113068424",
+  "nombre1": "JESSICa",
+  "nombre2": "MARIa",
+  "apellido1": "ANGULo",
+  "apellido2": "MARTINEz",
+  "nacimiento": "31/08/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa48020aa2a77001798d9df"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114734016",
+  "nombre1": "LEIDY",
+  "nombre2": "JHOANA",
+  "apellido1": "QUINTERO",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "13/03/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4a36e5af5150017a5f00d"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1004062089",
+  "nombre1": "ZULLY",
+  "nombre2": "LORENA",
+  "apellido1": "LOPEZ",
+  "apellido2": "MANRIQUE",
+  "nacimiento": "06/07/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7cb607da200178b3a1a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4b5d55af5150017a5f011"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1059603019",
+  "nombre1": "EYDI",
+  "nombre2": null,
+  "apellido1": "QUINTANA ",
+  "apellido2": "ZAMBRANO",
+  "nacimiento": "27/01/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4b65d5af5150017a5f015"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "SD",
+  "documento": "M2WA66PSSR",
+  "nombre1": "YELIMAR",
+  "nombre2": null,
+  "apellido1": "ARTEAGA",
+  "apellido2": "PALMAR",
+  "nacimiento": "15/12/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4bcd05af5150017a5f019"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1010100938",
+  "nombre1": "NICOL",
+  "nombre2": "TATIANA",
+  "apellido1": "MOSQUERA",
+  "apellido2": "VALENCIA",
+  "nacimiento": "28/01/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4c1365af5150017a5f01d"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1005829564",
+  "nombre1": "SARITA",
+  "nombre2": "VANESSA",
+  "apellido1": "NARVAEZ",
+  "apellido2": "LOPEZ",
+  "nacimiento": "29/07/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4c5425af5150017a5f021"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "SD",
+  "documento": "N7ZQ5HN8RELCZJV",
+  "nombre1": "YELITZA",
+  "nombre2": "MERCEDES",
+  "apellido1": "RODRIGUEZ",
+  "apellido2": "SILVA",
+  "nacimiento": "17/11/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa4cc565af5150017a5f026"
+  },
+  "creadoEl": "05/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143827568",
+  "nombre1": "JESSICA",
+  "nombre2": "YURANY",
+  "apellido1": "GARCIA",
+  "apellido2": "SALDARRIAGA",
+  "nacimiento": "19/01/1989",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa54df9cb6a850017897952"
+  },
+  "creadoEl": "06/11/2020",
+  "tipoDoc": "SD",
+  "documento": "PO23LSYS8B",
+  "nombre1": "ARIANNY",
+  "nombre2": "CAROLINA",
+  "apellido1": "MAITAN",
+  "apellido2": null,
+  "nacimiento": "08/01/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa596ed5e553a0017e5b51d"
+  },
+  "creadoEl": "06/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1144056907",
+  "nombre1": "DEICY",
+  "nombre2": "YAMILE",
+  "apellido1": "MERA",
+  "apellido2": "MARTINEZ",
+  "nacimiento": "04/11/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa6a31d5477f60017620401"
+  },
+  "creadoEl": "07/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1143837772",
+  "nombre1": "LEIDY",
+  "nombre2": "JOHANA",
+  "apellido1": "ZUÑIGA",
+  "apellido2": "BARONA",
+  "nacimiento": "07/09/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa6dbfc42bda60017769a02"
+  },
+  "creadoEl": "07/11/2020",
+  "tipoDoc": "CC",
+  "documento": "66.912.165",
+  "nombre1": "MARIA",
+  "nombre2": "JAMILETH",
+  "apellido1": "GUSTIN",
+  "apellido2": "PORTILLA",
+  "nacimiento": "27/12/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa9f30723f07900173fc95b"
+  },
+  "creadoEl": "09/11/2020",
+  "tipoDoc": "CC",
+  "documento": "28656802",
+  "nombre1": "FLOR",
+  "nombre2": "ALBA",
+  "apellido1": "ACERO",
+  "apellido2": "ROJAS",
+  "nacimiento": "22/02/1963",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa9ffba23f07900173fc95f"
+  },
+  "creadoEl": "09/11/2020",
+  "tipoDoc": "CC",
+  "documento": "38563704",
+  "nombre1": "SANDRA",
+  "nombre2": "PATRICIA",
+  "apellido1": "OSMA",
+  "apellido2": "RIAZCOS",
+  "nacimiento": "08/11/1981",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faa03fe23f07900173fc963"
+  },
+  "creadoEl": "09/11/2020",
+  "tipoDoc": "CC",
+  "documento": "38602263",
+  "nombre1": "ZOILA",
+  "nombre2": "MILENA",
+  "apellido1": "VELEZ",
+  "apellido2": "CEBALLOS",
+  "nacimiento": "20/09/1982",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5faa06a223f07900173fc966"
+  },
+  "creadoEl": "09/11/2020",
+  "tipoDoc": "CC",
+  "documento": "67021233",
+  "nombre1": "LEIDY",
+  "nombre2": "VIVIANA",
+  "apellido1": "DIAZ",
+  "apellido2": "LEGARDA",
+  "nacimiento": "16/11/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fab124d7ceeda0017de3097"
+  },
+  "creadoEl": "10/11/2020",
+  "tipoDoc": "CC",
+  "documento": "1114733290",
+  "nombre1": "CAROL",
+  "nombre2": "FERNANDA",
+  "apellido1": "GUTIERREZ",
+  "apellido2": "ACOSTA",
+  "nacimiento": "31/01/1994",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7cb607da200178b3a1a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64107529c77001730218f"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107078660",
+  "nombre1": "JULY",
+  "nombre2": "ESTEFANI",
+  "apellido1": "OROZCO",
+  "apellido2": "MONTES",
+  "nacimiento": "08/09/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64427529c770017302193"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": " 38669740 ",
+  "nombre1": "MARISOl",
+  "nombre2": "",
+  "apellido1": "CARABALi",
+  "apellido2": "OCORo",
+  "nacimiento": "11/12/1982",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bb0a134b929e8b7cfd0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc646e9529c770017302198"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143864413",
+  "nombre1": "LESLY",
+  "nombre2": "TATIANA",
+  "apellido1": "SALAZAR",
+  "apellido2": "BETANCOURTH",
+  "nacimiento": "17/11/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab7a4607da200178b3a18"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64764529c77001730219c"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "31938083",
+  "nombre1": "MARTHA",
+  "nombre2": "CECILIA",
+  "apellido1": "CUERO",
+  "apellido2": null,
+  "nacimiento": "27/08/1965",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca96f27e2b0d0c6dc41a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64aa7529c77001730219f"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1114729985",
+  "nombre1": "ROCIO",
+  "nombre2": "CONSUELO",
+  "apellido1": "ORTIZ",
+  "apellido2": "SEPULVEDA",
+  "nacimiento": "12/04/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64cbc529c7700173021a4"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "SD",
+  "documento": "OFDJ8M9MJ4",
+  "nombre1": "ANA ",
+  "nombre2": "KARINA ",
+  "apellido1": "MOLINA ",
+  "apellido2": "PAEZ",
+  "nacimiento": "09/01/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc64e37529c7700173021a9"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143861890",
+  "nombre1": "BRENDA",
+  "nombre2": "PAOLA",
+  "apellido1": "SUAZA",
+  "apellido2": "CAMPO",
+  "nacimiento": "05/05/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6507d529c7700173021ad"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143870961",
+  "nombre1": "NATHALIA",
+  "nombre2": "ANDREA",
+  "apellido1": "MICOLTA",
+  "apellido2": "GARCIA",
+  "nacimiento": "07/11/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc65284529c7700173021b1"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143870143",
+  "nombre1": "YULIANA",
+  "nombre2": "ANDREA",
+  "apellido1": "ZABALA",
+  "apellido2": "ARCOS ",
+  "nacimiento": "08/01/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc65417529c7700173021b5"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1080834862",
+  "nombre1": "NURIS ",
+  "nombre2": "VICTORIANA ",
+  "apellido1": "CABEZAS",
+  "apellido2": "QUIÑONES",
+  "nacimiento": "10/11/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc65417529c7700173021b7"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143861585",
+  "nombre1": "MARLEn",
+  "nombre2": "ANDREa",
+  "apellido1": "OROZCO ",
+  "apellido2": "MUÑOZ ",
+  "nacimiento": "10/06/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc65715529c7700173021bc"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "38667229",
+  "nombre1": "PAOLA ",
+  "nombre2": "ANDREA",
+  "apellido1": "HERNANDEZ ",
+  "apellido2": "MEJIA ",
+  "nacimiento": "13/08/1983",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc65ae6529c7700173021c0"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1005864539",
+  "nombre1": "DALIER",
+  "nombre2": "PAMELA",
+  "apellido1": "ARAUJO",
+  "apellido2": null,
+  "nacimiento": "03/02/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc66096529c7700173021c3"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1193455739",
+  "nombre1": "GERALDINE",
+  "nombre2": null,
+  "apellido1": "LABRADA",
+  "apellido2": "LOPEZ",
+  "nacimiento": "07/01/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6791f529c7700173021c7"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107098231",
+  "nombre1": "LISBETH",
+  "nombre2": "STELLA",
+  "apellido1": "PECILLO",
+  "apellido2": "CASTRO",
+  "nacimiento": "21/05/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc67a62529c7700173021cb"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143844659",
+  "nombre1": "KATHERIN",
+  "nombre2": "JOHANA",
+  "apellido1": "ABAD",
+  "apellido2": "AVILA",
+  "nacimiento": "29/09/1992",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc67b89529c7700173021cf"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1130588445",
+  "nombre1": "SANDRA",
+  "nombre2": "MILENA",
+  "apellido1": "JIMENEZ",
+  "apellido2": "LUNA",
+  "nacimiento": "06/11/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc67c5f529c7700173021d3"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107514265",
+  "nombre1": "GISSEL",
+  "nombre2": "TATIANA",
+  "apellido1": "LOPEZ",
+  "apellido2": "GARZON",
+  "nacimiento": "04/12/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc68106529c7700173021d7"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1144103129",
+  "nombre1": "ERIKA",
+  "nombre2": "LORENA",
+  "apellido1": "CHICANGANA",
+  "apellido2": "MACA",
+  "nacimiento": "10/06/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6844b529c7700173021db"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1059600423",
+  "nombre1": "ROSA",
+  "nombre2": "MARY",
+  "apellido1": "VIVAS",
+  "apellido2": "PILCUE",
+  "nacimiento": "19/01/1991",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6a653ea11710017b7783d"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "TI",
+  "documento": "1006359426",
+  "nombre1": "KATHERINE",
+  "nombre2": "",
+  "apellido1": "GUEVARA",
+  "apellido2": "AGUDELO",
+  "nacimiento": "10/11/2002",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6abf7ea11710017b77841"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1114736968",
+  "nombre1": "KAREN",
+  "nombre2": "LIZETH",
+  "apellido1": "CIFUENTES",
+  "apellido2": "GARCIA",
+  "nacimiento": "16/09/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc6ba34ea11710017b77845"
+  },
+  "creadoEl": "01/12/2020",
+  "tipoDoc": "SD",
+  "documento": "3Z1BRRHXCT",
+  "nombre1": "MARIA",
+  "nombre2": "JOSE",
+  "apellido1": "LUGO",
+  "apellido2": "HERNANDEZ",
+  "nacimiento": "22/03/2001",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7914537d7ce0017a0ef03"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143868693",
+  "nombre1": "MARLYN",
+  "nombre2": "GISELLE",
+  "apellido1": "MUÑOZ",
+  "apellido2": "BERMUDEZ",
+  "nacimiento": "16/10/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7aa0954f47800179683c7"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1109543985",
+  "nombre1": "NICOLE",
+  "nombre2": "ANDREA",
+  "apellido1": "CASTRO",
+  "apellido2": "GOMEZ",
+  "nacimiento": "18/11/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5efb8b40a134b929e8b7cfcc"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7aa2654f47800179683cc"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107511832",
+  "nombre1": "KAREN ",
+  "nombre2": "LORENA",
+  "apellido1": "OCHOA",
+  "apellido2": "MOLINA",
+  "nacimiento": "09/03/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7ae8654f47800179683cf"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "66853812",
+  "nombre1": "MARIA",
+  "nombre2": "DEL CARMEN",
+  "apellido1": "ARCOS",
+  "apellido2": "SAENZ",
+  "nacimiento": "05/12/1972",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7af9654f47800179683d3"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1151963095",
+  "nombre1": "ANDREA",
+  "nombre2": "XIMENA",
+  "apellido1": "TORO",
+  "apellido2": "RAMOS",
+  "nacimiento": "09/11/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7c3b954f47800179683d9"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107078134",
+  "nombre1": "MARIA",
+  "nombre2": "ALEJANDRA",
+  "apellido1": "IPIA",
+  "apellido2": "CUMBE",
+  "nacimiento": "03/06/1993",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7cd6354f47800179683dc"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1006097480",
+  "nombre1": "VERONICA",
+  "nombre2": null,
+  "apellido1": "BEDOYA",
+  "apellido2": "AGUIRRE",
+  "nacimiento": "28/11/1999",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc7f0716562c6001760c307"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1005862032",
+  "nombre1": "NAYIVER",
+  "nombre2": null,
+  "apellido1": "SALGADO",
+  "apellido2": "MOLINA",
+  "nacimiento": "15/04/2000",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21cdf8b74a001712a37e"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc8ff48520f260017caa631"
+  },
+  "creadoEl": "03/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1130655929",
+  "nombre1": "AMANDA",
+  "nombre2": "ROCIO",
+  "apellido1": "ESTUPIÑAN",
+  "apellido2": "FLOREZ",
+  "nacimiento": "30/08/1987",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc91acc2fa1ae00177ac742"
+  },
+  "creadoEl": "02/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1086132661",
+  "nombre1": "MARIA",
+  "nombre2": "DEL ROSARIO",
+  "apellido1": "BOTINA",
+  "apellido2": "TUTISTAR",
+  "nacimiento": "16/07/1986",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fca968b92e2da00170c90a9"
+  },
+  "creadoEl": "04/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1193555413",
+  "nombre1": "ANGIE",
+  "nombre2": "PAOLa",
+  "apellido1": "VALENCIA ",
+  "apellido2": "FRANCo",
+  "nacimiento": "25/12/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21cdf8b74a001712a37e"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fcaae5a92e2da00170c90ad"
+  },
+  "creadoEl": "04/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1130603214",
+  "nombre1": "BESSY",
+  "nombre2": "JEANNIN",
+  "apellido1": "SOLARTE",
+  "apellido2": "MUÑOZ",
+  "nacimiento": "04/08/1988",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce3bbf675b3500178aed13"
+  },
+  "creadoEl": "07/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1143831802",
+  "nombre1": "DIANA",
+  "nombre2": "MARCELA",
+  "apellido1": "SUAREZ",
+  "apellido2": "",
+  "nacimiento": "15/03/1990",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce7a5b179a6700176c879e"
+  },
+  "creadoEl": "07/12/2020",
+  "tipoDoc": "SD",
+  "documento": "8QE1BW7BTOUZCY4",
+  "nombre1": "ROSELIN",
+  "nombre2": "CAROLINA",
+  "apellido1": "VARGAS",
+  "apellido2": "DIAZ",
+  "nacimiento": "31/08/1996",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce8751179a6700176c87a3"
+  },
+  "creadoEl": "07/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1114734386",
+  "nombre1": "MARIA",
+  "nombre2": "ANYIBE",
+  "apellido1": "LOPEZ",
+  "apellido2": "MOSQUERA",
+  "nacimiento": "28/10/1995",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0fa51abc3040017afb3ea"
+  },
+  "creadoEl": "09/12/2020",
+  "tipoDoc": "SD",
+  "documento": "D9TS1XGW90",
+  "nombre1": "ASTRID",
+  "nombre2": "SCARLET",
+  "apellido1": "GOMEZ",
+  "apellido2": "BERMUDEZ",
+  "nacimiento": "19/04/1997",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd3c1404260600017039c56"
+  },
+  "creadoEl": "11/12/2020",
+  "tipoDoc": "CC",
+  "documento": "1107520982",
+  "nombre1": "LIZETH",
+  "nombre2": "DAYAN",
+  "apellido1": "LORZA",
+  "apellido2": "GUTIERREZ",
+  "nacimiento": "01/10/1998",
+  "sexo": "Mujer",
+  "creadoPor": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "__v": 0
+}]

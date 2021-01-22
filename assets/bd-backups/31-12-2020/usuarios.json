@@ -1,0 +1,2306 @@
+[{
+  "_id": {
+    "$oid": "5ee006ce99caf5119cfc29bc"
+  },
+  "rol": "ADMIN",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    },
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    },
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    },
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    },
+    {
+      "$oid": "5ee02c24c048ed12ccdef1dd"
+    },
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    },
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": true,
+  "nombre": "Administrador",
+  "documento": 1995,
+  "correo": "admin@admin.com",
+  "password": "$2b$10$R8jK3yueBD16kkWfyBMoyexkSM0ZgVjr/Dt5/rwUr5hU3VDVbfUte",
+  "__v": 26,
+  "img": "",
+  "telefono": "3115071561"
+},{
+  "_id": {
+    "$oid": "5efb894aa134b929e8b7cfc4"
+  },
+  "rol": "ADMIN",
+  "img": "",
+  "telefono": "3115071561",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    },
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    },
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    },
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    },
+    {
+      "$oid": "5ee02c24c048ed12ccdef1dd"
+    },
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    },
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    },
+    {
+      "$oid": "5f0e263ef8b74a001712a38c"
+    },
+    {
+      "$oid": "5f0e25f3f8b74a001712a38a"
+    },
+    {
+      "$oid": "5f0e25b3f8b74a001712a388"
+    },
+    {
+      "$oid": "5f0e24e6f8b74a001712a386"
+    },
+    {
+      "$oid": "5f0e24c8f8b74a001712a385"
+    },
+    {
+      "$oid": "5f0e2554f8b74a001712a387"
+    },
+    {
+      "$oid": "5f0e25d9f8b74a001712a389"
+    },
+    {
+      "$oid": "5f0e261cf8b74a001712a38b"
+    },
+    {
+      "$oid": "5f18d6ae19dedb24f078a581"
+    },
+    {
+      "$oid": "5f18d74f19dedb24f078a585"
+    },
+    {
+      "$oid": "5f18d6d219dedb24f078a582"
+    },
+    {
+      "$oid": "5f18d6f119dedb24f078a583"
+    },
+    {
+      "$oid": "5f18d71c19dedb24f078a584"
+    },
+    {
+      "$oid": "5f18d78019dedb24f078a586"
+    },
+    {
+      "$oid": "5f18d79419dedb24f078a587"
+    },
+    {
+      "$oid": "5f2abdea607da200178b3a2d"
+    },
+    {
+      "$oid": "5f2abe0c607da200178b3a2e"
+    },
+    {
+      "$oid": "5f2abe53607da200178b3a2f"
+    },
+    {
+      "$oid": "5f2abe89607da200178b3a30"
+    },
+    {
+      "$oid": "5f2abe9f607da200178b3a31"
+    },
+    {
+      "$oid": "5f2abec0607da200178b3a32"
+    },
+    {
+      "$oid": "5f2abee1607da200178b3a33"
+    },
+    {
+      "$oid": "5f2abf1e607da200178b3a34"
+    },
+    {
+      "$oid": "5f2abf3b607da200178b3a35"
+    },
+    {
+      "$oid": "5f2abf5c607da200178b3a36"
+    },
+    {
+      "$oid": "5f2abf7a607da200178b3a37"
+    },
+    {
+      "$oid": "5f2acc17f27e2b0d0c6dc420"
+    },
+    {
+      "$oid": "5f2acc3df27e2b0d0c6dc421"
+    },
+    {
+      "$oid": "5f2acc59f27e2b0d0c6dc422"
+    },
+    {
+      "$oid": "5f2acc76f27e2b0d0c6dc423"
+    },
+    {
+      "$oid": "5f2acc8ff27e2b0d0c6dc424"
+    },
+    {
+      "$oid": "5f2accaaf27e2b0d0c6dc425"
+    },
+    {
+      "$oid": "5f2accd0f27e2b0d0c6dc426"
+    },
+    {
+      "$oid": "5f2acceef27e2b0d0c6dc427"
+    },
+    {
+      "$oid": "5f2acd26f27e2b0d0c6dc428"
+    },
+    {
+      "$oid": "5f2acd4df27e2b0d0c6dc429"
+    },
+    {
+      "$oid": "5f2acd76f27e2b0d0c6dc42a"
+    },
+    {
+      "$oid": "5f2acd8ff27e2b0d0c6dc42b"
+    },
+    {
+      "$oid": "5f2acdd9f27e2b0d0c6dc42c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": true,
+  "activo": true,
+  "nombre": "Brayan Devia",
+  "correo": "bdevia95@gmail.com",
+  "documento": 1110556333,
+  "password": "$2b$10$14dedkbsfWmAbpEzoHVjJ.qUp30SivGOi98R56HKcI2F5oRtvJXWa",
+  "__v": 47
+},{
+  "_id": {
+    "$oid": "5efb8a0da134b929e8b7cfc5"
+  },
+  "rol": "COORDINADOR",
+  "img": "",
+  "telefono": "3174933453",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    },
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    },
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    },
+    {
+      "$oid": "5ee02c24c048ed12ccdef1dd"
+    },
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    },
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    },
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": true,
+  "nombre": "Martha Lucia Zuñiga Fernandez",
+  "documento": 66979684,
+  "correo": "marluci1976@hotmail.com",
+  "password": "$2b$10$0DnylH1momaopSXrPRJy5.CxmIkQtbFAhyBDFFWaDnpA.hVQBqHae",
+  "__v": 9
+},{
+  "_id": {
+    "$oid": "5efb8a5ba134b929e8b7cfc6"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3104251507",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ELIZABETH LABRADA GASCA",
+  "documento": 67034072,
+  "correo": "elizabeth.labrada1622@hotmail.com",
+  "password": "$2b$10$AEl0XcoEK.odWI37kWTjjeh.kOCSUjVnJb5.yPkMo8dsFqBgCkX52",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5efb8a87a134b929e8b7cfc7"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3136183441",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "CLAUDIA XIMENA LOPEZ SANCHEZ",
+  "documento": 29182510,
+  "correo": "asociacionpueblojoven@hotmail.com",
+  "password": "$2b$10$N4yw6DxCgqX/k8XGub2gQuCc8F5Tr5FIIOQ/ANp2XbWpYVbRhNVO6",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8aa1a134b929e8b7cfc8"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3185028843",
+  "contratos": [],
+  "uds": [
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "EVA DOLLY AGREDO IDROBO",
+  "documento": 29121679,
+  "correo": "dolly.agredo@gmail.com",
+  "password": "$2b$10$FJIT94gZChvHfw7okB9YIOnwnYhbgskOG92wRFwT9XDkge0mJ6bze",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8ac2a134b929e8b7cfc9"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3206458891",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LAURA JADELLI IBARGUEN",
+  "documento": 67041014,
+  "correo": "lailajade1221@hotmail.com",
+  "password": "$2b$10$NU3QdsaqM.gzS00yFRWg6eKOfKUX7SoqwiJKmwzvF90kK2P3bZD0O",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5efb8ae5a134b929e8b7cfca"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3145323331",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "YULIETH ALEJANDRA TRUJILLO VILLANO",
+  "documento": 1060803736,
+  "correo": "alejita.1610@hotmail.com",
+  "password": "$2b$10$F238TrKzUiXP.EvmECz/..3iSN5bi67zEJ3QlvXja6OO9S8hYsMKe",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8afca134b929e8b7cfcb"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3158502684",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ANGELA MARIA TUNJACIPA SABOGAL",
+  "documento": 31581925,
+  "correo": "angelatunjazipa@gmail.com",
+  "password": "$2b$10$BxVx3MGs0nKPeG5g7MTU3Ok8zixF.Cwplkgq9XipdfFoGUacP5oaK",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8b40a134b929e8b7cfcc"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3188382095",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LINA MARCELA GRAJALES ARANGO",
+  "documento": 1144142609,
+  "correo": "linams17@hotmail.com",
+  "password": "$2b$10$C.MoX1CqNbkBUQ68ib7kR.I.EWZTHK1RdinC6KT9OllgatqFMMYVi",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8b5ea134b929e8b7cfcd"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3108370507",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c24c048ed12ccdef1dd"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DIANA CAROLINA MEJÍA QUINTERO",
+  "documento": 1143844974,
+  "correo": "k-arolina16@hotmail.com",
+  "password": "$2b$10$8964ELWOExweI3SjIY.r2O/ZUlZdRABF0HZDiOzTzxpH7chh/Nl4e",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5efb8b82a134b929e8b7cfce"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3116824651",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "NELLY DEL CARMEN YANGANA ANACONA",
+  "documento": 31252958,
+  "correo": "nellyangana53@gmail.com",
+  "password": "$2b$10$25VG.5CoAI9Cxy1la8bEU.hOOIiaUtF4c4Dkx4UHRkAIco8F.xpUq",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8b98a134b929e8b7cfcf"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3164901622",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LADY GUAPACHA DIAZ",
+  "documento": 67027087,
+  "correo": "lady-0430@hotmail.com",
+  "password": "$2b$10$smdKpIMofy6cSdZI5pAgrupMp0Advc/HMMqAhAIe/qkf3.LQwGxzG",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8bb0a134b929e8b7cfd0"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3022828239",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DIANA MARITZA BURBANO MADROÑERO",
+  "documento": 31578541,
+  "correo": "dmburbano@gmail.com",
+  "password": "$2b$10$7KWSvysBZFERPQlEmFK0geZ1r6JWBmSwl6wXixf1G1lATXLNStuC2",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8bc2a134b929e8b7cfd1"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3193200471",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ALESSANDRA CASTRO CHAUX",
+  "documento": 66951950,
+  "correo": "alyeshua1@gmail.com",
+  "password": "$2b$10$HeN6K6YFRVhp0ZWu6YYcC.LtrM6vW8X9ItOVAk6eifxnNBrYdJgm2",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8be1a134b929e8b7cfd2"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3128219053",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARY LUZ JIMENEZ VALENCIA",
+  "documento": 41958644,
+  "correo": "mary_luz2606@hotmail.com",
+  "password": "$2b$10$MpAc6FQOL3odeVYnqHg7MOn.vWPflhOnMNkJ/uKsmw3vLqtHcaOEm",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5efb8bf7a134b929e8b7cfd3"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3137850106",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    },
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARGOTH OVIEDO ANGULO",
+  "documento": 66842313,
+  "correo": "margothoviedoangulo@gmail.com",
+  "password": "$2b$10$fhPP5dBv5rDT.Siy1Dk3feuCKm4uNdNm1Pqtij8do9tlQsQVP2xHu",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f0e2028f8b74a001712a375"
+  },
+  "rol": "COORDINADOR",
+  "img": "",
+  "telefono": "3164901513",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e263ef8b74a001712a38c"
+    },
+    {
+      "$oid": "5f0e25b3f8b74a001712a388"
+    },
+    {
+      "$oid": "5f0e24e6f8b74a001712a386"
+    },
+    {
+      "$oid": "5f0e24c8f8b74a001712a385"
+    },
+    {
+      "$oid": "5f0e2554f8b74a001712a387"
+    },
+    {
+      "$oid": "5f0e25d9f8b74a001712a389"
+    },
+    {
+      "$oid": "5f0e261cf8b74a001712a38b"
+    },
+    {
+      "$oid": "5f0e25f3f8b74a001712a38a"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Flor Lili Medina Jimenez",
+  "documento": 31481588,
+  "correo": "florlilimj2@gmail.com",
+  "password": "$2b$10$HE5V6SficGuQsVXaxEmUC.ijI3yeHHaE/TfoLMLv99oIVpt8JK/1S",
+  "__v": 9
+},{
+  "_id": {
+    "$oid": "5f0e209df8b74a001712a376"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3117000835",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e263ef8b74a001712a38c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARITZA AIDEE CERON ORDOÑEZ",
+  "documento": 27451546,
+  "correo": "naco.28@hotmail.com",
+  "password": "$2b$10$m2FMa13aJ3RfwozxbCj6y.Z/Pn9QwbjDnh9ugH/wQmKpU398FpAhq",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e20d5f8b74a001712a377"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3153576832",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e263ef8b74a001712a38c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "FLOR OBEIDA MORENO MARULANDA",
+  "documento": 31949361,
+  "correo": "obeidamoreno@hotmail.com",
+  "password": "$2b$10$gWjFZxOck1LSLbI7kB5cBeM1gMvUXl6sNIG3g9hwUbThgV.8hXiye",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2123f8b74a001712a378"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3152651635",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25d9f8b74a001712a389"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARTHALUCIAORDOÑEZMARTINEZ",
+  "documento": 38558755,
+  "correo": "famimalu@hotmail.com",
+  "password": "$2b$10$ydSHOZxzOJRDn4pO90gZE.Jq1gy03NxO5zfc4Qlq60.2p3Sn9QupS",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2141f8b74a001712a379"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3105277626",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e24e6f8b74a001712a386"
+    },
+    {
+      "$oid": "5f0e24c8f8b74a001712a385"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARIA FERNANDA ZETTY PUTI",
+  "documento": 1144139612,
+  "correo": "mafer-zetty@hotmail.com",
+  "password": "$2b$10$71yKzN1lytU1OMDcT7y8WurlFqTtY6vhceqkMCq4T8MVmfCb1CMEm",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f0e215cf8b74a001712a37a"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3178783088",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e261cf8b74a001712a38b"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ENEIDA GOMEZ GAVIRIA",
+  "documento": 29116735,
+  "correo": "eneygo@hotmail.com",
+  "password": "$2b$10$GTHHmEpfYgJ26xP4hkJH6.r5tSfVHJD1/CwRoX/4uGYgEPtGCnmPW",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2179f8b74a001712a37b"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3225773915",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e2554f8b74a001712a387"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "YENNI ASTUDILLO MOPAN",
+  "documento": 66995109,
+  "correo": "yenni1911@hotmail.com",
+  "password": "$2b$10$Nhksj8xdaNn4so9KlwC1iONzJlttM4cFsvVjL6Ki16Ext66SofVMO",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2192f8b74a001712a37c"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3104226095",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25b3f8b74a001712a388"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DIANA PATRICIA SANCHEZ TORO",
+  "documento": 38601956,
+  "correo": "diana.patriciasachz@gmail.com",
+  "password": "$2b$10$Uss07b6u6cYY2vR9Of5eTuJusrY2MV9I/S0ivIXYQ5e9I7EQeikMS",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e21adf8b74a001712a37d"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3148604553",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25f3f8b74a001712a38a"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "YENIVED PERDOMO",
+  "documento": 66978573,
+  "correo": "yenivedperdomo19@hotmail.com",
+  "password": "$2b$10$a75GADb8fCivWVz7MEIChOszQGfXivGrnacoo8OIOEQJP7Bgk8YVm",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e21cdf8b74a001712a37e"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3184188273",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e2554f8b74a001712a387"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ANA LUCIA RAMIREZ",
+  "documento": 66980490,
+  "correo": "ramirez.solangel@gmail.com",
+  "password": "$2b$10$Un7SRE87NNThcc9.auOBP.poIyoBpaaFLd6sYUBrKpe/U3A4ExWg2",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e21eaf8b74a001712a37f"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3165355499",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25d9f8b74a001712a389"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DAMARIS DIAZ ARARAT",
+  "documento": 38669664,
+  "correo": "damarisita.diaz@hotmail.com",
+  "password": "$2b$10$sq4EOwT0NYvj7BCLQt2C3eh8cDe9cKVgYt1dnCGFFfAk8qg4gHvRO",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2209f8b74a001712a380"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3225270594",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LEIDY SUSANA VILLA MANRIQUEZ",
+  "documento": 1130647366,
+  "correo": "susy25feb@gmail.com",
+  "password": "$2b$10$SgypKX8YiD2tyIXfRmMd4uZF6z3gv2AhDUcOrJaFXTsEhmGwZqL2W",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0e2229f8b74a001712a381"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3157813038",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25b3f8b74a001712a388"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARIA ISABEL HERRERA GARCIA",
+  "documento": 1114733687,
+  "correo": "isabel199468@hotmail.com",
+  "password": "$2b$10$gHM8TqYQ98e40oMsOyJIT.LcFkK/ION66IL5wfbu5J0gqbZ9paci.",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f0e2243f8b74a001712a382"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3113224615",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e25f3f8b74a001712a38a"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ANGELICA CORTES MOSQUERA",
+  "documento": 1134142178,
+  "correo": "ancomo18@hotmail.es",
+  "password": "$2b$10$sKkIPM7LLHQZmkMi/Tf77u8WiiaHqa/0bDzNtFuIr0XH.f8sqBqAu",
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "5f0e225ff8b74a001712a383"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3147601787",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e24e6f8b74a001712a386"
+    },
+    {
+      "$oid": "5f0e24c8f8b74a001712a385"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "MARIA FERNANDA OSPINA MARIN",
+  "documento": 66783250,
+  "correo": "mafeospina7659@gmail.com",
+  "password": "$2b$10$4U.s4/0avEyoI69d2CwheuEXjQNkuWNtgraj.9eEcMqCEMw1ggsbO",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f0e22a0f8b74a001712a384"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3233052892",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f0e261cf8b74a001712a38b"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ERICA SULEYNER SAENZ SAMBONI",
+  "documento": 1143861764,
+  "correo": "erikaasaenz@gmail.com",
+  "password": "$2b$10$P2vRVfLu7C7CkntJm2dceuN8mfYRFNPp53B/C/EEB1lOz.xocLKqq",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18c8938356fd1f74653cfe"
+  },
+  "rol": "COORDINADOR",
+  "img": "",
+  "telefono": "3157390388",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6ae19dedb24f078a581"
+    },
+    {
+      "$oid": "5f18d74f19dedb24f078a585"
+    },
+    {
+      "$oid": "5f18d6d219dedb24f078a582"
+    },
+    {
+      "$oid": "5f18d71c19dedb24f078a584"
+    },
+    {
+      "$oid": "5f18d78019dedb24f078a586"
+    },
+    {
+      "$oid": "5f18d79419dedb24f078a587"
+    },
+    {
+      "$oid": "5f18d6f119dedb24f078a583"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Jhon Jairo Piedrahita",
+  "documento": 94469113,
+  "correo": "johpi2008@hotmail.com",
+  "password": "$2b$10$kzxcnoyl13YEMNTuMTleI.IrDR.SGSppBg.URz.1zhP2BQRwvRsne",
+  "__v": 8
+},{
+  "_id": {
+    "$oid": "5f18d48f19dedb24f078a574"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3103671894",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DIANA MARCELA ASTAIZA",
+  "documento": 1151958332,
+  "correo": "marce_1147@hotmailcom",
+  "password": "$2b$10$hg3O80qIvOGd5qBEZhwP5OMF4HqGp0iQA1Aw31BIxk5okYt1Kw1Fa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f18d4b319dedb24f078a575"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3116707189",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6ae19dedb24f078a581"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LINA MARÍA PERDOMO NOSCUE",
+  "documento": 1144049874,
+  "correo": "lina.perdomo@correounivalle.edu.co",
+  "password": "$2b$10$wFujrCWTS1mkDJ0sURBwAOEY5EFEgFYTC5xem5gKQVXQarMxQ4miG",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d4ce19dedb24f078a576"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3104555203",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6ae19dedb24f078a581"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LEIDY VILLINI ARBOLEDA",
+  "documento": 38604749,
+  "correo": "leidy.21arboleda@hotmail.com",
+  "password": "$2b$10$Igds4eDvyHp8AJf/T66nI.e5R7qH9dCBFUMs5w1qdPHhjXhLhQMtS",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d4e319dedb24f078a577"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3207951014",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d74f19dedb24f078a585"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "SANDRA PEREZ",
+  "documento": 31446763,
+  "correo": "sandra3041@hotmail.com",
+  "password": "$2b$10$BfAsbDHGPEOdAeOHb.JVkuJE5EwDMlD.bEx1J9rj1U4HRTITuFZAS",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d50719dedb24f078a578"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3233974814",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d78019dedb24f078a586"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "ANGELA MARIA QUIÑONEZ HENAO",
+  "documento": 38595267,
+  "correo": "angelamariahenao07@hotmail.com",
+  "password": "$2b$10$VRARM2.P4hmyAp3sS/uWNePOXcAqhx.wme1I4.pEEnx67RtJsV4hy",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f18d51c19dedb24f078a579"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3108344632",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d71c19dedb24f078a584"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "NEIDU CAROLINA TORRIJOS",
+  "documento": 38666221,
+  "correo": "klinatorrijosmon@gmail.com",
+  "password": "$2b$10$kXPxBbqvBC34vid7pIVDuusn3RJIGB1hYMac9omb52WvnXF7eHJUq",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d53219dedb24f078a57a"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3184731287",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d74f19dedb24f078a585"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DURLEY HURTADO",
+  "documento": 29816872,
+  "correo": "durleyhurtado@hotmail.com",
+  "password": "$2b$10$b0.xZxItNeCFqeMIUe1tlO3oSTVf.SKC6nBTDMD2fuyVDHtxAwJ6u",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f18d54419dedb24f078a57b"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3117152855",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d71c19dedb24f078a584"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "LINA MARCELA RODRIGUEZ",
+  "documento": 1143960106,
+  "correo": "linamro1993@gmail.com",
+  "password": "$2b$10$uN7giNczSHQp0VpBrIKyKexmGxmZmkJNlM53F0cey.03Jsb8JMQpG",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f18d55919dedb24f078a57c"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3174922272",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d79419dedb24f078a587"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "FRANCIA CAICEDO",
+  "documento": 66983520,
+  "correo": "franciac112@hotmail.com",
+  "password": "$2b$10$r3b2Gk4Xau7r8L4e6LNxKOmvUzOS70kLjtbXvPexlApNKanzCtt2O",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d57319dedb24f078a57d"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3175894207",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6d219dedb24f078a582"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "KATERINE SALDAÑA",
+  "documento": 1112470727,
+  "correo": "january2315@hotmail.com",
+  "password": "$2b$10$ziVx8LJDF4Qrp7xEgLhJQe/H5ZpOrM2AVbDVuiBHedFR4Dhz3EQVO",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d58819dedb24f078a57e"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3014531522",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6d219dedb24f078a582"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "GLORIA ISAURA GOMEZ",
+  "documento": 31861237,
+  "correo": "gloriaisaura1953@gmail.com",
+  "password": "$2b$10$lWmvH3SHSDZpZN19GPfqPeUZAVJle7EVGlk/gP68eSAUPKSoX.asO",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d5a119dedb24f078a57f"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3113073970",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6f119dedb24f078a583"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "EMILIANA GARCES",
+  "documento": 27505462,
+  "correo": "miplaneta@outlook.es",
+  "password": "$2b$10$P.N5Xwh5G/ArSiJYysZdWu2dKNEYNN/9eEMLZDmYZxP3NOSKfpIpq",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f18d5c019dedb24f078a580"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3217356600",
+  "contratos": [
+    "5ee02b43c048ed12ccdef1d7"
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d6f119dedb24f078a583"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "DEYA LUCERO NUPAN",
+  "documento": 1061706447,
+  "correo": "luceronr17@hotmail.com",
+  "password": "$2b$10$FAwfV/YZOY.Y5CMNLhwUsub48pTf.QtLnmuNcqfG1gk2/fsOrSNWi",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f20d8a804c2e10017549786"
+  },
+  "rol": "VISITANTE",
+  "img": "",
+  "telefono": "3165315246",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Maria Fernanda Medina",
+  "documento": 38554611,
+  "correo": "coordinador.tecnico.solyvida@gmail.com",
+  "password": "$2b$10$g22OMm/9MmsQ/Whh.9iF2.w16f3nVWwbqpjGRcEnQ/rQ0aEolkBrW",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2ab701607da200178b3a13"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3192774694",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf5c607da200178b3a36"
+    },
+    {
+      "$oid": "5f2abf7a607da200178b3a37"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Yanina Maribel Cabrera Ortiz",
+  "documento": 1114730681,
+  "correo": "yaninamco@hotmail.es",
+  "password": "$2b$10$wPGpi3.Ii6u9UJDl6j.fd.qsxcM9IClZ1UeupiC72Thrd0MS77kUO",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab716607da200178b3a14"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3167551540",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf5c607da200178b3a36"
+    },
+    {
+      "$oid": "5f2abf7a607da200178b3a37"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Anyi Joanna Orozco Orozco",
+  "documento": 29583921,
+  "correo": "dangirus18@hotmail.com",
+  "password": "$2b$10$4bABY5Gs66gVYoGAJzDddOc16FleeJ8RstCjQLtD09oEwWNtBy7rW",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab72f607da200178b3a15"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3234034901",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abec0607da200178b3a32"
+    },
+    {
+      "$oid": "5f2abee1607da200178b3a33"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Yenny Mancilla Arboleda",
+  "documento": 1114730313,
+  "correo": "jenni.1950@hotmail.com",
+  "password": "$2b$10$Em9ljKYXJUdPAPEKT4kz7.no7wepW84AM6UZ0puHfQwG8sIrgxh9G",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab751607da200178b3a16"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3186256659",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abec0607da200178b3a32"
+    },
+    {
+      "$oid": "5f2abee1607da200178b3a33"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Nelly Esperanza Lopez Anaya",
+  "documento": 1114729773,
+  "correo": "nela8912@hotmail.com",
+  "password": "$2b$10$XHkM2LDxsTLC/VWYRhy5FeBaZx62wN3hT5mFdhrFF81AzAjTsaTPy",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab791607da200178b3a17"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3195721019",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf1e607da200178b3a34"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "María Fernanda Molano Gomez",
+  "documento": 1114727808,
+  "correo": "mariananda46@hotmail.com",
+  "password": "$2b$10$vKuPjfv7w3incXw9gURzTuFNPPix2a.jy3OUzQSDETvdnCoHQiiS6",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab7a4607da200178b3a18"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3128896365",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf1e607da200178b3a34"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Yadira Rocio Portilla Martinez",
+  "documento": 66912175,
+  "correo": "yaroxmar@hotmail.es",
+  "password": "$2b$10$poZyyFPQzG6PDM/PAOLrEeu6AL8dUP8/N4LczoSOfC57gUTr7tlGO",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab7b6607da200178b3a19"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3023128965",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abdea607da200178b3a2d"
+    },
+    {
+      "$oid": "5f2abe53607da200178b3a2f"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Ingrid Johanna Ocampo Sambony",
+  "documento": 1114731650,
+  "correo": "johannaocampo1226@gmail.com",
+  "password": "$2b$10$YZVyC4VNnAZA2muzeNJ4KOumhO4wIK2stjlt.g7rWNKvK5GGGxlky",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab7cb607da200178b3a1a"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3116126131",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abdea607da200178b3a2d"
+    },
+    {
+      "$oid": "5f2abe53607da200178b3a2f"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Karen Viviana Karen Viviana",
+  "documento": 1114734055,
+  "correo": "k-vi_1306@hotmail.com",
+  "password": "$2b$10$yr8et4TFqUQkyhNqVtw5xed7d9TCx4n82.hHte/wUXKiqlHYBQ66y",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab7e1607da200178b3a1b"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3182148017",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf3b607da200178b3a35"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Natalia Balcazar Villalobos",
+  "documento": 1193449352,
+  "correo": "nataliabalcazar54@gmail.com",
+  "password": "$2b$10$JBla.3tETmfolJ780AnxCu0rM/ILoYMZ9zBE6p4lN02eAIpV3idj2",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab7f4607da200178b3a1c"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3116069715",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abf3b607da200178b3a35"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Oscar Arbey Ortiz Ramos",
+  "documento": 14575263,
+  "correo": "sago0702@hotmail.com",
+  "password": "$2b$10$xCGnzyz8rObeRkxxZ1ev/ulYCME7dXbAEjaPxD2JM5QDGEIg9bo/S",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab806607da200178b3a1d"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3134617616",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abe89607da200178b3a30"
+    },
+    {
+      "$oid": "5f2abe9f607da200178b3a31"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Leidy Jhoanna Palomeque Ocoro",
+  "documento": 1114731072,
+  "correo": "palito1991@hotmail.com",
+  "password": "$2b$10$NtvfpDexP9zQz4yDc/9xe.GpES8MZQrsCBwem6nH2CBzL7ifXv.M6",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab81b607da200178b3a1e"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": null,
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abe89607da200178b3a30"
+    },
+    {
+      "$oid": "5f2abe9f607da200178b3a31"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Leidy Johanna Alomia Jaramillo",
+  "documento": 66911710,
+  "correo": "Lady_1308@hotmail.com",
+  "password": "$2b$10$bDDgY33Dg8UGNTvCtHtPi.BiQwCBVKywRx20eckEui5BKs0XUa8T2",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2ab835607da200178b3a1f"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3122128491",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abe0c607da200178b3a2e"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Victoria Eugenia Llanos ",
+  "documento": 1114727484,
+  "correo": "llanosvicky@hotmail.com",
+  "password": "$2b$10$3XdshUTqNNayxHifE/wqf.f0w3QbJPPhWXrPpfA0DkNByj08LDBoS",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab84a607da200178b3a20"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3113162575",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abe0c607da200178b3a2e"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Carolina Ídarraga Minota",
+  "documento": 66912276,
+  "correo": "kroidarraga@hotmail.com",
+  "password": "$2b$10$ybbQns1R.WTTgOd5O3QveevlKSOMcTwKU3YjlLa5KmL2of8WI.s2m",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f2ab864607da200178b3a21"
+  },
+  "rol": "COORDINADOR",
+  "img": "",
+  "telefono": "3128795125",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2abdea607da200178b3a2d"
+    },
+    {
+      "$oid": "5f2abe0c607da200178b3a2e"
+    },
+    {
+      "$oid": "5f2abe53607da200178b3a2f"
+    },
+    {
+      "$oid": "5f2abe89607da200178b3a30"
+    },
+    {
+      "$oid": "5f2abe9f607da200178b3a31"
+    },
+    {
+      "$oid": "5f2abec0607da200178b3a32"
+    },
+    {
+      "$oid": "5f2abee1607da200178b3a33"
+    },
+    {
+      "$oid": "5f2abf1e607da200178b3a34"
+    },
+    {
+      "$oid": "5f2abf3b607da200178b3a35"
+    },
+    {
+      "$oid": "5f2abf5c607da200178b3a36"
+    },
+    {
+      "$oid": "5f2abf7a607da200178b3a37"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Emilsi Yudany Rosero Cabrera",
+  "documento": 66912773,
+  "correo": "rocey2083@hotmail.com",
+  "password": "$2b$10$2zIub.5R/NMLJXizgRaycOckih9/nKEx.EV9xBzbSy5I00/yUw/0.",
+  "__v": 11
+},{
+  "_id": {
+    "$oid": "5f2aca20f27e2b0d0c6dc413"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3205568001",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc8ff27e2b0d0c6dc424"
+    },
+    {
+      "$oid": "5f2accaaf27e2b0d0c6dc425"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Yadira Mancilla Arboleda",
+  "documento": 1114733572,
+  "correo": "ya-di1508@hotmail.com",
+  "password": "$2b$10$Ctb6nT5vVuibOnMuQ1XiJ.YFFRZ6086Zwfvz6hlj3A66vHY8Ub/XS",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2aca33f27e2b0d0c6dc414"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3205195412",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc8ff27e2b0d0c6dc424"
+    },
+    {
+      "$oid": "5f2accaaf27e2b0d0c6dc425"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Lizette Karime Santuario Enriquez",
+  "documento": 1114729566,
+  "correo": "andreita_2618@hotmail.com",
+  "password": "$2b$10$dsvIXLoxnMV0lJnRxM2Y..GyRGeZiyzf8fpsiYCXKnlBY4u.JjjCe",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2aca45f27e2b0d0c6dc415"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3147123755",
+  "contratos": null,
+  "uds": [
+    {
+      "$oid": "5f2acd4df27e2b0d0c6dc429"
+    },
+    {
+      "$oid": "5f2acd76f27e2b0d0c6dc42a"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Kelly Johana Montoya Guerrero",
+  "documento": 1114731717,
+  "correo": "kjmg0409@hotmail.com",
+  "password": "$2b$10$3hkHfsMPiC7K.QPn63mBiuPzW/r/6Ji7iRlrW6m/xmUJqoFsrnyZC",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2aca55f27e2b0d0c6dc416"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3126026660",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acd4df27e2b0d0c6dc429"
+    },
+    {
+      "$oid": "5f2acd76f27e2b0d0c6dc42a"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Jaqueline Benitez Cruz",
+  "documento": 1114728509,
+  "correo": "pekis2229@hotmail.com",
+  "password": "$2b$10$yIxnASPdBwV616zjyC6T0.lyTEidnuMLcb.4Y8Uwdaw1MZwRYnLr6",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2aca66f27e2b0d0c6dc417"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3136280018",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2accd0f27e2b0d0c6dc426"
+    },
+    {
+      "$oid": "5f2acceef27e2b0d0c6dc427"
+    },
+    {
+      "$oid": "5f2acd26f27e2b0d0c6dc428"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Martha Lucia Gomez Ruiz",
+  "documento": 66909147,
+  "correo": "marta952011@hotmail.com",
+  "password": "$2b$10$O3GC.CorBMyf1KgVSIH82epVUOR2bWPS3H/9B9VdeSqSkEPRzhzwe",
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "5f2aca78f27e2b0d0c6dc418"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3164081822",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2accd0f27e2b0d0c6dc426"
+    },
+    {
+      "$oid": "5f2acceef27e2b0d0c6dc427"
+    },
+    {
+      "$oid": "5f2acd26f27e2b0d0c6dc428"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Deysi Juliana Martinez Bahoz",
+  "documento": 1114730302,
+  "correo": "julianabahoz1990@hotmail.com",
+  "password": "$2b$10$8yHvof9tD5SzXyBznkkN7OSyrQrXxJp9tdfPsdIDyt3j43vwrXRFq",
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "5f2aca87f27e2b0d0c6dc419"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3148963883",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc59f27e2b0d0c6dc422"
+    },
+    {
+      "$oid": "5f2acc76f27e2b0d0c6dc423"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Sujeidy Quintana Tobar",
+  "documento": 1114735517,
+  "correo": "sujequintana@gmail.com",
+  "password": "$2b$10$dbZV2ZudHyeYDoZFE.iQpuSOFOedpl8NcD1fJGbxrABLOIWuFRj12",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2aca96f27e2b0d0c6dc41a"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3126324946",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc59f27e2b0d0c6dc422"
+    },
+    {
+      "$oid": "5f2acc76f27e2b0d0c6dc423"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Lady Johanna Murillo Parra",
+  "documento": 1114340508,
+  "correo": "ladymurillo0410@gmail.com",
+  "password": "$2b$10$KnO0QGaA5IxdpUYnYXoV5.8GCsE1J2UMjMV6ftNy/Uo/HdwDq4fdG",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2acaa5f27e2b0d0c6dc41b"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3013125770",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc3df27e2b0d0c6dc421"
+    },
+    {
+      "$oid": "5f2acdd9f27e2b0d0c6dc42c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Adriana María Quintero",
+  "documento": 1114726984,
+  "correo": "nanita-2206@hotmail.com",
+  "password": "$2b$10$KjnZHkgD924IXwdO1G08fuuWhMXdS66kXBpHwRoGx03RjCtBc.0Fa",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2acab5f27e2b0d0c6dc41c"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3113318238",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc3df27e2b0d0c6dc421"
+    },
+    {
+      "$oid": "5f2acdd9f27e2b0d0c6dc42c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Johanna Idarraga Minota",
+  "documento": 66913084,
+  "correo": "johannaidarraga@hotmail.com",
+  "password": "$2b$10$07L485MYFmPC3DSVxsq5/OSICg8a4jGtL8.w//dS.i8SKi9QNTycW",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2acac5f27e2b0d0c6dc41d"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3117314352",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc17f27e2b0d0c6dc420"
+    },
+    {
+      "$oid": "5f2acd8ff27e2b0d0c6dc42b"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Mariela Patiño González",
+  "documento": 29400996,
+  "correo": "marielap50@gmail.com",
+  "password": "$2b$10$X7.UdgE3xuvaHIP/Ne2u/efD.A.gk2ZY0lbV38OR7XFmeqIY.W9F6",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2acad5f27e2b0d0c6dc41e"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3128492053",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc17f27e2b0d0c6dc420"
+    },
+    {
+      "$oid": "5f2acd8ff27e2b0d0c6dc42b"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Faysuly Zambrano Diaz",
+  "documento": 1010105573,
+  "correo": "faysuryzambrano@gmail.com",
+  "password": "$2b$10$MlUrXuIvLO7EFLS0n7TvAOvq10r89rR5SEAzfOizoZQsuTDNYwZ4a",
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5f2acae8f27e2b0d0c6dc41f"
+  },
+  "rol": "COORDINADOR",
+  "img": "",
+  "telefono": "3116013328",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f2acc17f27e2b0d0c6dc420"
+    },
+    {
+      "$oid": "5f2acc3df27e2b0d0c6dc421"
+    },
+    {
+      "$oid": "5f2acc59f27e2b0d0c6dc422"
+    },
+    {
+      "$oid": "5f2acc76f27e2b0d0c6dc423"
+    },
+    {
+      "$oid": "5f2acc8ff27e2b0d0c6dc424"
+    },
+    {
+      "$oid": "5f2accaaf27e2b0d0c6dc425"
+    },
+    {
+      "$oid": "5f2accd0f27e2b0d0c6dc426"
+    },
+    {
+      "$oid": "5f2acceef27e2b0d0c6dc427"
+    },
+    {
+      "$oid": "5f2acd26f27e2b0d0c6dc428"
+    },
+    {
+      "$oid": "5f2acd4df27e2b0d0c6dc429"
+    },
+    {
+      "$oid": "5f2acd76f27e2b0d0c6dc42a"
+    },
+    {
+      "$oid": "5f2acd8ff27e2b0d0c6dc42b"
+    },
+    {
+      "$oid": "5f2acdd9f27e2b0d0c6dc42c"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Yudy Olave Ramos",
+  "documento": 66912581,
+  "correo": "yudyolaveramos@gmail.com",
+  "password": "$2b$10$epl5ujDJ9UvNK86RtHFdFuxqxWTRwRV4a.Dum/5mxEqojFvG5IsdS",
+  "__v": 13
+},{
+  "_id": {
+    "$oid": "5f4f14ef0eb38c001710e641"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3168722152",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d78019dedb24f078a586"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Claudia Fernanda Mena Morales",
+  "documento": 1143842099,
+  "correo": "fer.menamorales@gmail.com",
+  "password": "$2b$10$mQ34pUoLO9YY4CULeYACYu0hrEqpy0ZEWDjP1CraPV/LP7CvHpVcm",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f5663bc2dbdd9001776f2ad"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "",
+  "contratos": [],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": true,
+  "activo": false,
+  "nombre": "Karen Viviana Ramos",
+  "correo": "karenvivianaramos@gmail.com",
+  "documento": 74005,
+  "password": "VRIC-Password",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f651a24c44fda00175680d4"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "3218927308",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [
+    {
+      "$oid": "5f18d79419dedb24f078a587"
+    }
+  ],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "JOHANNA PAYAN",
+  "documento": 29742748,
+  "correo": "jhoana_payan@hotmail.com",
+  "password": "$2b$10$imYoWwbB72t8HOR1w0d6M.43TCyisV1ion3Z6hgqzTbQQmbzchcym",
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5f734e061c607c0017f9b4ad"
+  },
+  "rol": "DOCENTE",
+  "img": "",
+  "telefono": "",
+  "contratos": [],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": true,
+  "activo": false,
+  "nombre": "Sandra Perez",
+  "correo": "samipega2018@gmail.com",
+  "documento": 55377,
+  "password": "VRIC-Password",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f8f30f3eb38a300179d444a"
+  },
+  "rol": "VISITANTE",
+  "img": "",
+  "telefono": "3002377051",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": false,
+  "nombre": "Valery Dominguez",
+  "documento": 1143856141,
+  "correo": "vale_mora_0807@hotmail.com",
+  "password": "$2b$10$bUqssAnis6S9ZJuML0Qh3eD0yIJguyIHwqqqLyGclr1Mneq7ZmIrq",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5c0b45e553a0017e5b539"
+  },
+  "rol": "VISITANTE",
+  "img": "",
+  "telefono": "",
+  "contratos": [
+    {
+      "$oid": "5ee02b43c048ed12ccdef1d7"
+    }
+  ],
+  "uds": [],
+  "creadoEl": "08/05/2020",
+  "google": false,
+  "activo": true,
+  "nombre": "demo",
+  "documento": "0000",
+  "correo": "demo@demo.com",
+  "password": "$2b$10$TvpaobJdWJYa5M82nP5GwufX5biCsvnnUTtMvuNMb1Q6r7bpKtwjq",
+  "__v": 0
+}]

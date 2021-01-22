@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "5ee02b43c048ed12ccdef1d7"
+  },
+  "cupos": 1688,
+  "eas": "FUDESOPAC SOL Y VIDA",
+  "nit": "90028451-4",
+  "creadoEl": "09/06/2020",
+  "uds": [
+    {
+      "$oid": "5f2acdd9f27e2b0d0c6dc42c"
+    },
+    {
+      "$oid": "5f2abe0c607da200178b3a2e"
+    },
+    {
+      "$oid": "5f2abf7a607da200178b3a37"
+    },
+    {
+      "$oid": "5f2abf5c607da200178b3a36"
+    },
+    {
+      "$oid": "5f2acd8ff27e2b0d0c6dc42b"
+    },
+    {
+      "$oid": "5f2acc17f27e2b0d0c6dc420"
+    },
+    {
+      "$oid": "5f2abf3b607da200178b3a35"
+    },
+    {
+      "$oid": "5f2abf1e607da200178b3a34"
+    },
+    {
+      "$oid": "5f2abee1607da200178b3a33"
+    },
+    {
+      "$oid": "5f2acd76f27e2b0d0c6dc42a"
+    },
+    {
+      "$oid": "5f2acd4df27e2b0d0c6dc429"
+    },
+    {
+      "$oid": "5f2abec0607da200178b3a32"
+    },
+    {
+      "$oid": "5f2acd26f27e2b0d0c6dc428"
+    },
+    {
+      "$oid": "5f2acceef27e2b0d0c6dc427"
+    },
+    {
+      "$oid": "5f2accd0f27e2b0d0c6dc426"
+    },
+    {
+      "$oid": "5f2abe9f607da200178b3a31"
+    },
+    {
+      "$oid": "5f2abe89607da200178b3a30"
+    },
+    {
+      "$oid": "5f2accaaf27e2b0d0c6dc425"
+    },
+    {
+      "$oid": "5f2acc8ff27e2b0d0c6dc424"
+    },
+    {
+      "$oid": "5f2acc76f27e2b0d0c6dc423"
+    },
+    {
+      "$oid": "5f2acc59f27e2b0d0c6dc422"
+    },
+    {
+      "$oid": "5f2acc3df27e2b0d0c6dc421"
+    },
+    {
+      "$oid": "5f2abe53607da200178b3a2f"
+    },
+    {
+      "$oid": "5f2abdea607da200178b3a2d"
+    },
+    {
+      "$oid": "5ee02bd0c048ed12ccdef1d9"
+    },
+    {
+      "$oid": "5ee02be7c048ed12ccdef1da"
+    },
+    {
+      "$oid": "5ee02bf8c048ed12ccdef1db"
+    },
+    {
+      "$oid": "5ee02c13c048ed12ccdef1dc"
+    },
+    {
+      "$oid": "5ee02c24c048ed12ccdef1dd"
+    },
+    {
+      "$oid": "5ee02c31c048ed12ccdef1de"
+    },
+    {
+      "$oid": "5ee02c3cc048ed12ccdef1df"
+    },
+    {
+      "$oid": "5f0e24c8f8b74a001712a385"
+    },
+    {
+      "$oid": "5f0e24e6f8b74a001712a386"
+    },
+    {
+      "$oid": "5f0e2554f8b74a001712a387"
+    },
+    {
+      "$oid": "5f0e25b3f8b74a001712a388"
+    },
+    {
+      "$oid": "5f0e25d9f8b74a001712a389"
+    },
+    {
+      "$oid": "5f0e25f3f8b74a001712a38a"
+    },
+    {
+      "$oid": "5f0e261cf8b74a001712a38b"
+    },
+    {
+      "$oid": "5f0e263ef8b74a001712a38c"
+    },
+    {
+      "$oid": "5f18d6ae19dedb24f078a581"
+    },
+    {
+      "$oid": "5f18d6d219dedb24f078a582"
+    },
+    {
+      "$oid": "5f18d6f119dedb24f078a583"
+    },
+    {
+      "$oid": "5f18d71c19dedb24f078a584"
+    },
+    {
+      "$oid": "5f18d74f19dedb24f078a585"
+    },
+    {
+      "$oid": "5f18d78019dedb24f078a586"
+    },
+    {
+      "$oid": "5f18d79419dedb24f078a587"
+    }
+  ],
+  "activo": true,
+  "codigo": 296,
+  "regional": "Valle del Cauca",
+  "cz": "Ladera",
+  "creadoPor": {
+    "$oid": "5ee006ce99caf5119cfc29bc"
+  },
+  "__v": 6
+}]
