@@ -67,7 +67,7 @@ const appVersion = require('./routes/app-version.route');
 
 // Conexión BD
 mongoose.connect(
-  process.env.DB_URI_LOCAL,
+  process.env.DB_URI,
   { useNewUrlParser: true },
   (error, resp) => {
     if (error) throw error;
