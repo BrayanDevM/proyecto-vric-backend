@@ -19,11 +19,7 @@ const controller = {
     const discapacidad = req.query.discapacidad;
     const uds = req.query.uds;
     const valorDiscapacidad = () => {
-      if (req.query.discapacidad === 'no') {
-        return false;
-      } else {
-        return true;
-      }
+      return req.query.discapacidad === 'no' ? false : true;
     };
     // Si se envía más de un criterio se agrega c/u al arreglo como objeto
     let criterioBusqueda = new Object();
@@ -422,13 +418,14 @@ const controller = {
       });
   },
   actualizarBeneficiario: (req, res) => {
-    var id = null;
-    if (!req.params.id) {
-      id = req.params.id;
-    } else {
-      id = req.body._id;
-    }
-    var body = req.body;
+    const id = req.params.id ? req.params._id : req.body.id;
+    // var id = null;
+    // if (!req.params.id) {
+    //   id = req.params.id;
+    // } else {
+    //   id = req.body._id;
+    // }
+    const body = req.body;
     Beneficiarios.findById(id).exec((error, beneficiario) => {
       if (error) {
         return res.status(500).json({
@@ -486,6 +483,28 @@ const controller = {
           });
         });
     });
+  },
+  actualizarTodosLosBeneficiarios: async (req, res) => {
+    try {
+      const filtro = {};
+      req.query.estado ? (filtro.estado = req.query.estado) : null;
+      req.query.ingreso ? (filtro.ingreso = req.query.ingreso) : null;
+      // console.log('filtro: ', filtro);
+      // console.log('actualización: ', req.body);
+
+      const response = await Beneficiarios.updateMany(filtro, req.body);
+      return res.status(200).json({
+        ok: true,
+        response,
+      });
+    } catch (error) {
+      console.log(error);
+      return res.status(500).json({
+        ok: false,
+        mensaje: 'Error al actualizar beneficiarios',
+        error,
+      });
+    }
   },
   eliminarBeneficiario: (req, res) => {
     var id = req.params.id;

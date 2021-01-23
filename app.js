@@ -62,6 +62,7 @@ const archivos = require('./routes/archivos.route');
 const madres = require('./routes/madres.route');
 const padres = require('./routes/padres.route');
 const notificaciones = require('./routes/notificaciones.route');
+const dashboard = require('./routes/dashboard.route');
 const appVersion = require('./routes/app-version.route');
 
 // Conexión BD
@@ -91,6 +92,7 @@ app.use('/', archivos);
 app.use('/', madres);
 app.use('/', padres);
 app.use('/', notificaciones);
+app.use('/', dashboard);
 app.use('/', appVersion);
 
 // IO = comunicación del back-end

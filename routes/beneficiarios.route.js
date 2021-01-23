@@ -38,6 +38,11 @@ ruta.put(
   authMiddleware.verificarToken,
   beneficiariosController.actualizarBeneficiario
 );
+ruta.put(
+  '/beneficiarios',
+  authMiddleware.verificarToken,
+  beneficiariosController.actualizarTodosLosBeneficiarios
+);
 ruta.delete(
   '/beneficiarios/:id',
   authMiddleware.verificarToken,
